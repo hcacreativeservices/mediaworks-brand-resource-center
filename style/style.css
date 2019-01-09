@@ -3,7 +3,10 @@
 }
 
 .hero-item {
+    color: #fff;
     cursor: pointer;
+    display: flex;
+    align-items: center;
     height: 500px;
     width: 25%;
 }
@@ -27,4 +30,8 @@
 .hero-item:nth-of-type(3) {
     background-color: #54575A;
     transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .55s,width .5s;
+}
+
+.hero-item a {
+    color: #fff;
 }
