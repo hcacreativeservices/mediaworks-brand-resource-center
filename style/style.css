@@ -1,5 +1,26 @@
+@font-face {
+    font-family: 'MarkHeavy';
+    src: url('../fonts/mark-heavy.woff');
+}
+
+@font-face {
+    font-family: 'MarkBook';
+    src: url('../fonts/mark-book.woff');
+}
+
+@font-face {
+    font-family: 'MarkBold';
+    src: url('../fonts/mark-bold.woff');
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .home-hero {
     display: flex;
+    overflow: hidden;
 }
 
 .hero-item {
@@ -8,7 +29,19 @@
     display: flex;
     align-items: center;
     height: 500px;
+    position: relative;
     width: 25%;
+}
+
+.hero-item img {
+    height: 100%;
+    width: 50vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
 }
 
 .hero-item.active {
@@ -34,4 +67,30 @@
 
 .hero-item a {
     color: #fff;
+}
+
+.hero-item h1 {
+    font-family: 'MarkHeavy', sans-serif;
+}
+
+.hero-item p {
+    font-family: 'MarkBook', sans-serif;
+}
+
+.hero-item-content {
+    padding-left: 50px;
+    position: absolute;
+    width: 375px;
+}
+
+@media (min-width: 992px) {
+    .hero-item-content {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-item-content {
+        width: 450px;
+    }
 }
