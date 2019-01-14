@@ -17,17 +17,63 @@ a {
     font-family: 'MarkBold', sans-serif;
 }
 
-h1 {
+h1,
+h2,
+.footer,
+.page-content .sidebar-content p {
     font-family: 'MarkHeavy', sans-serif;
+}
+
+h2 {
+    margin: 0;
 }
 
 ul {
     list-style: none;
 }
 
+.col-3 {
+    flex-basis: 30%;
+}
+
+.col-7 {
+    flex-basis: 70%;
+}
+
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.footer {
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    height: 115px;
+    padding: 0 60px;
+}
+
+.footer p {
+    color: #54575A;
+}
+
+.footer a {
+    color: #E05929;
+}
+
+.footer-content {
+    flex-basis: 50%;
+}
+
+.footer-logo {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+}
+
+.footer-logo img {
+    height: 60px;
+    width: auto;
 }
 
 .header h1 {
@@ -84,6 +130,11 @@ ul {
 .hero-item a {
     color: #fff;
     font-size: 12px;
+    transition: all .3s ease-in-out;
+}
+
+.hero-item a:hover {
+    color: #E0582A;
 }
 
 .hero-item h1 {
@@ -91,8 +142,13 @@ ul {
     margin: 0 0 20px;
 }
 
-.hero-item p {
+.hero-item p,
+.page-content p,
+.page-content a {
     font-family: 'MarkBook', sans-serif;
+}
+
+.hero-item p {
     font-size: 20px;
     margin: 0;
 }
@@ -130,6 +186,60 @@ ul {
     padding: 0;
 }
 
+.page-content {
+    display: flex;
+    padding-top: 60px;
+}
+
+.page-content h2 {
+    color: #E05929;
+    font-size: 32px;
+    max-width: 530px;
+}
+
+.page-content p {
+    color: #54575A;
+    max-width: 540px;
+}
+
+.page-content a {
+    color: #54575A;
+    transition: all .3s ease-in-out;
+}
+
+.page-content a:hover {
+    color: #E0582A;
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.sidebar-item {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.sidebar-item img {
+    height: 60px;
+    margin-right: 20px;
+    width: auto;
+}
+
+.sidebar-content p {
+    color: #E0582A;
+    font-size: 24px;
+    margin: 0;
+}
+
+.sidebar-content a {
+    color: #75767A;
+}
+
 @media (min-width: 992px) {
     .hero-item h1 {
         font-size: 38px;
@@ -143,6 +253,14 @@ ul {
         margin-left: 80px;
         padding-top: 180px;
         width: 250px;
+    }
+
+    .page-content h2 {
+        font-size: 34px;
+    }
+
+    .sidebar {
+        padding-left: 100px;
     }
 }
 
@@ -158,5 +276,18 @@ ul {
     .hero-item-content {
         padding-top: 170px;
         width: 270px;
+    }
+
+    .page-content h2 {
+        font-size: 36px;
+        max-width: 540px;
+    }
+
+    .page-content p {
+        max-width: 700px;
+    }
+
+    .sidebar {
+        padding-left: 200px;
     }
 }
