@@ -13,9 +13,26 @@
     src: url('../fonts/mark-bold.woff');
 }
 
+a {
+    font-family: 'MarkBold', sans-serif;
+}
+
+h1 {
+    font-family: 'MarkHeavy', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
 .container {
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.header h1 {
+    color: #E05929;
+    font-size: 42px;
 }
 
 .home-hero {
@@ -66,12 +83,10 @@
 
 .hero-item a {
     color: #fff;
-    font-family: 'MarkBold', sans-serif;
     font-size: 12px;
 }
 
 .hero-item h1 {
-    font-family: 'MarkHeavy', sans-serif;
     font-size: 36px;
     margin: 0 0 20px;
 }
@@ -91,6 +106,28 @@
     padding-top: 185px;
     position: absolute;
     width: 240px;
+}
+
+.nav {
+    border-top: 2px solid #75767A;
+}
+
+.nav a {
+    color: #75767A;
+    font-size: 14px;
+    padding-right: 50px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.nav a.active,
+.nav a:hover {
+    color: #E05929;
+}
+
+.nav ul {
+    display: flex;
+    padding: 0;
 }
 
 @media (min-width: 992px) {
