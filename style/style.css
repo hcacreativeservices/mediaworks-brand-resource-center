@@ -13,7 +13,8 @@
     src: url('../fonts/mark-bold.woff');
 }
 
-a {
+a,
+.nav li:first-child a {
     font-family: 'MarkBold', sans-serif;
 }
 
@@ -144,7 +145,8 @@ ul {
 
 .hero-item p,
 .page-content p,
-.page-content a {
+.page-content a,
+.nav .dropdown a {
     font-family: 'MarkBook', sans-serif;
 }
 
@@ -166,6 +168,8 @@ ul {
 
 .nav {
     border-top: 2px solid #75767A;
+    display: flex;
+    padding: 20px 0;
 }
 
 .nav a {
@@ -181,14 +185,44 @@ ul {
     color: #E05929;
 }
 
+.nav-item {
+    position: relative;
+}
+
+.nav-item:hover .dropdown {
+    display: flex;
+}
+
+.nav .dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+    transform: translateX(-30%);
+    left: 50%;
+}
+
+.nav .dropdown a {
+    font-size: 12px;
+    color: #898B8E;
+}
+
 .nav ul {
     display: flex;
+    flex-direction: column;
+    min-width: 150px;
     padding: 0;
+}
+
+.nav li {
+    padding-bottom: 15px;
 }
 
 .page-content {
     display: flex;
-    padding-top: 60px;
+    padding: 60px 0;
 }
 
 .page-content h2 {
