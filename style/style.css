@@ -13,16 +13,25 @@
     src: url('../fonts/mark-bold.woff');
 }
 
+/* Global */
+
 a,
 .nav li:first-child a {
     font-family: 'MarkBold', sans-serif;
 }
 
-h1,
+.bs-override h1,
 h2,
 .footer,
 .page-content .sidebar-content p {
     font-family: 'MarkHeavy', sans-serif;
+}
+
+.hero-item p,
+.page-content p,
+.page-content a,
+.nav .dropdown a {
+    font-family: 'MarkBook', sans-serif;
 }
 
 h2 {
@@ -81,6 +90,62 @@ ul {
     color: #E05929;
     font-size: 42px;
 }
+
+.nav {
+    border-top: 2px solid #75767A;
+    display: flex;
+    padding: 20px 0;
+}
+
+.nav a {
+    color: #75767A;
+    font-size: 14px;
+    padding-right: 50px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.nav a.active,
+.nav a:hover {
+    color: #E05929;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item:hover .dropdown {
+    display: flex;
+}
+
+.nav .dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+    transform: translateX(-30%);
+    left: 50%;
+}
+
+.nav .dropdown a {
+    font-size: 12px;
+    color: #898B8E;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    padding: 0;
+}
+
+.nav li {
+    padding-bottom: 15px;
+}
+
+/* Home */
 
 .home-hero {
     display: flex;
@@ -143,13 +208,6 @@ ul {
     margin: 0 0 20px;
 }
 
-.hero-item p,
-.page-content p,
-.page-content a,
-.nav .dropdown a {
-    font-family: 'MarkBook', sans-serif;
-}
-
 .hero-item p {
     font-size: 20px;
     margin: 0;
@@ -164,60 +222,6 @@ ul {
     padding-top: 185px;
     position: absolute;
     width: 240px;
-}
-
-.nav {
-    border-top: 2px solid #75767A;
-    display: flex;
-    padding: 20px 0;
-}
-
-.nav a {
-    color: #75767A;
-    font-size: 14px;
-    padding-right: 50px;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
-}
-
-.nav a.active,
-.nav a:hover {
-    color: #E05929;
-}
-
-.nav-item {
-    position: relative;
-}
-
-.nav-item:hover .dropdown {
-    display: flex;
-}
-
-.nav .dropdown {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    background-color: white;
-    padding: 10px 20px;
-    transition: all .3s ease-in-out;
-    transform: translateX(-30%);
-    left: 50%;
-}
-
-.nav .dropdown a {
-    font-size: 12px;
-    color: #898B8E;
-}
-
-.nav ul {
-    display: flex;
-    flex-direction: column;
-    min-width: 150px;
-    padding: 0;
-}
-
-.nav li {
-    padding-bottom: 15px;
 }
 
 .page-content {
@@ -272,6 +276,27 @@ ul {
 
 .sidebar-content a {
     color: #75767A;
+}
+
+/* Toolkit */
+.featured-img {
+    width: 100%;
+}
+
+.page-right {
+    width: 75%;
+}
+
+.sidebar-left {
+    width: 25%;
+}
+
+.toolkit-items {
+    display: flex;
+}
+
+.toolkit-item {
+    display: flex;
 }
 
 @media (min-width: 992px) {

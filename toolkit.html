@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brand Resource Center</title>
     <link rel="stylesheet" href="style/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
     <script src="script/main.js"></script>
 </head>
-<body>
+<body class="bs-override">
     <div class="container">
         <div class="header">
-            <h1>Brand Resource Center</h1>
+            <h1>Our Toolkit</h1>
             <div class="nav">
                 <div class="nav-item">
                     <a href="index.html" class="nav-primary active">Home</a>
@@ -133,64 +136,86 @@
             </div>
         </div> <!-- Header -->
 
-        <div class="home-hero">
-            <div class="hero-item active">
-                <img src="img/hero-img1.png">
-                <div class="hero-item-content">
-                    <h1>New unified brand meets new purpose.</h1>
-                    <p>This is our brand.</p>
-                    <p>Let’s own it.</p>
-                    <a href="#">Learn More +</a>
-                </div>
-            </div>
-            <div class="hero-item">
-                <img src="img/hero-img2.png">
-                <div class="hero-item-content">
-                    <h1>You’re on the front lines.</h1>
-                    <p>This is our brand.</p>
-                    <p>Let’s own it.</p>
-                    <a href="#">Learn More +</a>
-                </div>
-            </div>
-            <div class="hero-item">
-                <img src="img/hero-img3.png">
-                <div class="hero-item-content">
-                    <h1>Committed to a healthier tomorrow.</h1>
-                    <p>This is our brand.</p>
-                    <p>Let’s own it.</p>
-                    <a href="#">Learn More +</a>
-                </div>
-            </div>
-        </div> <!-- Home Hero -->
-
         <div class="page-content">
-            <div class="col-7 page-info">
-                <h2>Strengthening our purpose through our new, unified brand.</h2>
-                <p>The Brand Resource Center is your destination for all things brand. It’s where you’ll find everything you need to consistently maintain our new <a href="#">brand identity</a> and connect our 250,000 colleagues.</p>
-                <p>Because when we know how to speak in a unified way about HCA Healthcare, we can better communicate our brand promise to improve more lives in more ways. Being a brand advocate will and help us raise the bar higher for patient experience, quality of care and positive outcomes.</p>
-                <p>As we evolve, this is where you’ll find essential updates and information: Everything from <a href="#">guidelines</a> and <a href="#">logos</a> to <a href="#">design elements</a>, <a href="#">templates</a> and <a href="#">tools</a>. This site should answer most of your questions out the gate—but if not, please don’t hesitate to <a href="#">contact us</a>.</p>
-                <p> So, bookmark this page and visit often.</p>
-            </div>
-            <div class="col-3 sidebar">
-                <div class="sidebar-item">
-                    <img src="img/brand-book-icon.png" alt="Brand Book Icon" class="icon">
-                    <div class="sidebar-content">
-                        <p class="sidebar-title">Brand Book</p>
-                        <a href="#">Download PDF</a>
+            <div class="sidebar-left">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <button class="btn btn-link active" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Stationery
+                        </button>
+                    
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <ul>
+                                <li><a href="#">Business Cards</a></li>
+                                <li><a href="#">Envelopes</a></li>
+                                <li><a href="#">Letterhead</a></li>
+                                <li><a href="#">Notecards</a></li>
+                                <li><a href="#">Folders</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="sidebar-item">
-                    <img src="img/company-store-icon.png" alt="Company Store Icon" class="icon">
-                    <div class="sidebar-content">
-                        <p class="sidebar-title">Company Store</p>
-                        <a href="#">Visit Now</a>
+
+                    <div class="card">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Digital Templates
+                        </button>
+
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <ul>
+                                <li><a href="#">Word</a></li>
+                                <li><a href="#">Powerpoint</a></li>
+                                <li><a href="#">Email Signature</a></li>
+                                <li><a href="#">Email Newsletter</a></li>
+                            </ul>
+                        </div>
                     </div>
+
+                    <div class="card">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Print Templates
+                        </button>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <ul>
+                                <li><a href="#">Posters</a></li>
+                                <li><a href="#">Flyers</a></li>
+                                <li><a href="#">One Pagers</a></li>
+                                <li><a href="#">Rack Cards</a></li>
+                                <li><a href="#">Table Tents</a></li>
+                                <li><a href="#">Postcards</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        HCA Resources
+                        </button>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <ul>
+                                <li><a href="#">Pocket Guide</a></li>
+                                <li><a href="#">Map Facility Posters</a></li>
+                                <li><a href="#">Fact Sheet</a></li>
+                                <li><a href="#">Brand Book</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="sidebar-item">
-                    <img src="img/toolkit-icon.png" alt="Toolkit Icon" class="icon">
-                    <div class="sidebar-content">
-                        <p class="sidebar-title">Our Toolkit</p>
-                        <a href="#">Visit Now</a>
+            </div> <!-- Sidebar -->
+
+            <div class="page-right">
+                <h1>Stationery</h1>
+                <img src="img/stationery-hero.png" alt="" class="featured-img">
+                <p>Connect with colleagues using our new HCA Healthcare branded assets.</p>
+
+                <div class="toolkit-items">
+                    <div class="toolkit-item">
+                        <img src="img/businesscards.png" alt="">
+                        <div class="toolkit-item-content">
+                            <p class="toolkit-item-title">Business Cards</p>
+                            <p>Building trusted relationships helps us deliver the highest level of care. Our business cards not only tell each colleague’s story, but the story of who we are as HCA Healthcare.</p>
+                            <a href="#">> Go to Business Cards</a>
+                        </div>
                     </div>
                 </div>
             </div>
