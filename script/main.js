@@ -18,7 +18,6 @@ $(document).ready(function(e) {
     var sidebarPosition = $('.toolkit .sidebar-left').position();
     $( window ).scroll(function() {
         if ($(window).scrollTop() > sidebarPosition.top) {
-            console.log('hey');
             $('.toolkit .accordion').addClass("fixed");
           } else {
             $('.toolkit .accordion').removeClass("fixed");
