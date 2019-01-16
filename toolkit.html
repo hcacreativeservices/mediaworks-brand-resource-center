@@ -13,7 +13,7 @@
     <script src="script/main.js"></script>
 </head>
 <body class="bs-override">
-    <div class="container">
+    <div class="container toolkit">
         <div class="header">
             <h1>Our Toolkit</h1>
             <div class="nav">
@@ -138,13 +138,13 @@
 
         <div class="page-content">
             <div class="sidebar-left">
-                <div class="accordion" id="accordionExample">
-                    <div class="card">
-                        <button class="btn btn-link active" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div class="accordion" id="sidebarAccordion">
+                    <div class="sidebar-category">
+                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Stationery
                         </button>
                     
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="#">Business Cards</a></li>
                                 <li><a href="#">Envelopes</a></li>
@@ -155,12 +155,12 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="sidebar-category">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Digital Templates
                         </button>
 
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="#">Word</a></li>
                                 <li><a href="#">Powerpoint</a></li>
@@ -170,11 +170,11 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="sidebar-category">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Print Templates
                         </button>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="#">Posters</a></li>
                                 <li><a href="#">Flyers</a></li>
@@ -186,11 +186,11 @@
                         </div>
                     </div>
 
-                    <div class="card">
+                    <div class="sidebar-category">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         HCA Resources
                         </button>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="#">Pocket Guide</a></li>
                                 <li><a href="#">Map Facility Posters</a></li>
@@ -215,6 +215,33 @@
                             <p class="toolkit-item-title">Business Cards</p>
                             <p>Building trusted relationships helps us deliver the highest level of care. Our business cards not only tell each colleague’s story, but the story of who we are as HCA Healthcare.</p>
                             <a href="#">> Go to Business Cards</a>
+                        </div>
+                    </div>
+
+                    <div class="toolkit-item">
+                        <img src="img/envelopes.png" alt="">
+                        <div class="toolkit-item-content">
+                            <p class="toolkit-item-title">Envelopes</p>
+                            <p>Our envelopes are often the first opportunity to make a first impression.</p>
+                            <a href="#">> Go to Envelopes</a>
+                        </div>
+                    </div>
+
+                    <div class="toolkit-item">
+                        <img src="img/letterhead.png" alt="">
+                        <div class="toolkit-item-content">
+                            <p class="toolkit-item-title">Letterheads</p>
+                            <p>Our new HCA Healthcare letterhead is available in two versions (bleed or non-bleed) to fit your business needs.</p>
+                            <a href="#">> Go to Letterheads</a>
+                        </div>
+                    </div>
+
+                    <div class="toolkit-item">
+                        <img src="img/notecard.png" alt="">
+                        <div class="toolkit-item-content">
+                            <p class="toolkit-item-title">Notecards</p>
+                            <p>You work alongside smart, talented people who continually raise the bar for patients and colleagues. So, we’ve made it easy to share your gratitude with a handwritten, professional message.</p>
+                            <a href="#">> Go to Notecards</a>
                         </div>
                     </div>
                 </div>

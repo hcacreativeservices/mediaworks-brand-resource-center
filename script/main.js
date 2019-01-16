@@ -5,5 +5,14 @@ $(document).ready(function(e) {
             $(this).addClass('active');
         } 
     });
+
+    $(".sidebar-left button").click( function(e) {
+        if(!$(this).hasClass('open')) {
+            $(".sidebar-left button").removeClass("open");
+            $(this).addClass("open");
+        } else {
+            $(".sidebar-left button").removeClass("open");
+        }
+    });
 })
 
