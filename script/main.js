@@ -14,5 +14,15 @@ $(document).ready(function(e) {
             $(".sidebar-left button").removeClass("open");
         }
     });
-})
+    
+    var sidebarPosition = $('.toolkit .sidebar-left').position();
+    $( window ).scroll(function() {
+        if ($(window).scrollTop() > sidebarPosition.top) {
+            console.log('hey');
+            $('.toolkit .accordion').addClass("fixed");
+          } else {
+            $('.toolkit .accordion').removeClass("fixed");
+          }
+    });
+});
 

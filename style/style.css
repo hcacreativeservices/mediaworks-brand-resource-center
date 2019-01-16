@@ -381,6 +381,12 @@ ul {
     border-bottom: 2px solid #75767A;
 }
 
+.toolkit .accordion.fixed {
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+}
+
 @media (min-width: 992px) {
     .hero-item h1 {
         font-size: 38px;
