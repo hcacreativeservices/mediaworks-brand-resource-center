@@ -1,0 +1,23 @@
+.designs-block {
+    display: flex;
+}
+
+.designs-block-text {
+    padding-right: 50px;
+}
+
+.designs-block-img {
+    text-align: center;
+}
+
+.designs-block-img img {
+    padding-bottom: 10px;
+}
+
+.designs-block-title {
+    font-size: 22px;
+}
+
+.designs .download-fonts {
+    color: #E05929;
+}

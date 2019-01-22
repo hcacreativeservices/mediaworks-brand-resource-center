@@ -1,6 +1,6 @@
 $(document).ready(function(e) {
     // Toggle Active Class on Hero Items
-    
+
     $('.hero-item').click(function() {
         if(!$(this).hasClass('active')) {
             $('.hero-item.active').removeClass('active');
@@ -21,12 +21,12 @@ $(document).ready(function(e) {
     
     // Make Sidebar Nav sticky when top of window reaches it 
 
-    var sidebarPosition = $('.toolkit .sidebar-left').position();
+    var sidebarPosition = $('.sidebar-left').position();
     $( window ).scroll(function() {
         if ($(window).scrollTop() > sidebarPosition.top) {
-            $('.toolkit .accordion').addClass("fixed");
+            $('.accordion').addClass("fixed");
           } else {
-            $('.toolkit .accordion').removeClass("fixed");
+            $('.accordion').removeClass("fixed");
           }
     });
 });

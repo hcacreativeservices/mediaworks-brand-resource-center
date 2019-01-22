@@ -19,7 +19,8 @@ a,
 .nav li:first-child a,
 .sidebar-left button,
 .sidebar-left a:hover,
-.toolkit-item .toolkit-item-content a {
+.toolkit-item .toolkit-item-content a,
+.designs .download-fonts {
     font-family: 'MarkBold', sans-serif;
 }
 
@@ -28,7 +29,8 @@ h1,
 h2,
 .footer,
 .page-content .sidebar-content p,
-.toolkit-item-content .toolkit-item-title {
+.toolkit-item-content .toolkit-item-title,
+.designs .designs-block-title {
     font-family: 'MarkHeavy', sans-serif;
 }
 
@@ -47,9 +49,19 @@ ul {
     list-style: none;
 }
 
+.accordion.fixed {
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.featured-img {
+    width: 100%;
 }
 
 .footer {
@@ -159,4 +171,62 @@ ul {
 
 .page-content a:hover {
     color: #E0582A;
+}
+
+.page-right {
+    width: 75%;
+}
+
+.page-right h1 {
+    color: #54575A;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.page-right .featured-img {
+    margin-bottom: 30px;
+}
+
+.sidebar-category {
+    border: 0;
+}
+
+.sidebar-left {
+    width: 25%;
+}
+
+.sidebar-left a:hover {
+    color: #54575A;
+    text-decoration: none;
+}
+
+.sidebar-left button {
+    color: #54575A;
+    text-align: left;
+}
+
+.sidebar-left button.active,
+.sidebar-left button:hover {
+    color: #E05929;
+}
+
+.sidebar-left button:focus,
+.sidebar-left button:hover {
+    text-decoration: none;
+}
+
+.sidebar-left button:before{
+    content: '+';
+  }
+  
+.sidebar-left button.open:before{
+    content: '-';
+}
+
+.sidebar-left li {
+    padding: 5px 0;
+}
+
+.sidebar-left ul {
+    margin: 15px 0;
 }
