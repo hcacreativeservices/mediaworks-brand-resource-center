@@ -20,7 +20,8 @@ a,
 .sidebar-left button,
 .sidebar-left a:hover,
 .toolkit-item .toolkit-item-content a,
-.designs .download-fonts {
+.designs .download-fonts,
+.logos .logo-download {
     font-family: 'MarkBold', sans-serif;
 }
 
