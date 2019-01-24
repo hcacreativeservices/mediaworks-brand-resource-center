@@ -31,7 +31,8 @@ h2,
 .footer,
 .page-content .sidebar-content p,
 .toolkit-item-content .toolkit-item-title,
-.designs .designs-block-title {
+.designs .designs-block-title,
+.page-content .sidebar-page-title {
     font-family: 'MarkHeavy', sans-serif;
 }
 
@@ -203,6 +204,7 @@ ul {
 
 .sidebar-left button {
     color: #54575A;
+    padding-left: 0;
     text-align: left;
 }
 
@@ -230,4 +232,8 @@ ul {
 
 .sidebar-left ul {
     margin: 15px 0;
+}
+
+.sidebar-left .sidebar-page-title {
+    color: #E05929;
 }
