@@ -41,7 +41,7 @@ h2,
 .page-content p,
 .page-content a,
 .nav .dropdown a,
-.sidebar-category .collapse a {
+.sidebar-left .sidebar-category li a {
     font-family: 'MarkBook', sans-serif;
 }
 

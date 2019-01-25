@@ -1,3 +1,8 @@
+.color-palette.featured-img {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
 .designs-block {
     display: flex;
 }
@@ -18,6 +23,7 @@
     font-size: 22px;
 }
 
-.designs .download-fonts {
+.designs .download-fonts,
+.sidebar-category .active {
     color: #E05929;
 }
