@@ -22,7 +22,8 @@ a,
 .toolkit-item .toolkit-item-content a,
 .designs .download-fonts,
 .logos .logo-download,
-.sidebar-left .sidebar-category a {
+.sidebar-left .sidebar-category a,
+.page-content .map-link {
     font-family: 'MarkBold', sans-serif;
 }
 
@@ -37,6 +38,7 @@ h2,
     font-family: 'MarkHeavy', sans-serif;
 }
 
+*,
 .hero-item p,
 .page-content p,
 .page-content a,
