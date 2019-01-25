@@ -21,7 +21,8 @@ a,
 .sidebar-left a:hover,
 .toolkit-item .toolkit-item-content a,
 .designs .download-fonts,
-.logos .logo-download {
+.logos .logo-download,
+.sidebar-left .sidebar-category a {
     font-family: 'MarkBold', sans-serif;
 }
 
@@ -39,7 +40,8 @@ h2,
 .hero-item p,
 .page-content p,
 .page-content a,
-.nav .dropdown a {
+.nav .dropdown a,
+.sidebar-category .collapse a {
     font-family: 'MarkBook', sans-serif;
 }
 
@@ -171,7 +173,8 @@ ul {
     transition: all .3s ease-in-out;
 }
 
-.page-content a:hover {
+.page-content a:hover,
+.sidebar-category a:hover {
     color: #E0582A;
 }
 
@@ -191,6 +194,7 @@ ul {
 
 .sidebar-category {
     border: 0;
+    padding: 6px 0;
 }
 
 .sidebar-left {
@@ -198,13 +202,12 @@ ul {
 }
 
 .sidebar-left a:hover {
-    color: #54575A;
     text-decoration: none;
 }
 
 .sidebar-left button {
     color: #54575A;
-    padding-left: 0;
+    padding: 0;
     text-align: left;
 }
 
