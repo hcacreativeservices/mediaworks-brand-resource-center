@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brand Resource Center</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/toolkits.css">
+    <link rel="stylesheet" href="style/designs.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -14,9 +14,9 @@
     <script src="script/main.js"></script>
 </head>
 <body class="bs-override">
-    <div class="container toolkit">
+    <div class="container designs">
         <div class="header">
-            <h1>Our Toolkit</h1>
+            <h1>Our Design Elements</h1>
             <div class="nav">
                 <div class="nav-item">
                     <a href="index.html" class="nav-primary">Home</a>
@@ -48,7 +48,7 @@
                 </div> <!-- Nav Item -->
 
                 <div class="nav-item">
-                    <a href="designs.html" class="nav-primary">Our Design Elements</a>
+                    <a href="designs.html" class="nav-primary active">Our Design Elements</a>
                     <div class="dropdown">
                         <ul>
                             <li><a href="#">Fonts</a></li>
@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="nav-item">
-                    <a href="toolkit.html" class="nav-primary active">Our Toolkit</a>
+                    <a href="toolkit.html" class="nav-primary">Our Toolkit</a>
                     <div class="dropdown">
                         <ul>
                             <li><a href="#">Stationary</a></li>
@@ -142,64 +142,71 @@
         <div class="page-content">
             <div class="sidebar-left">
                 <div class="accordion" id="sidebarAccordion">
-                    <p class="sidebar-page-title">Our Toolkit</p>
+                    <p class="sidebar-page-title">Our Design Elements</p>
                     <div class="sidebar-category">
-                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Stationery
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Fonts
                         </button>
                     
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#sidebarAccordion">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#sidebarAccordion">
                             <ul>
-                                <li><a href="#">Business Cards</a></li>
-                                <li><a href="#">Envelopes</a></li>
-                                <li><a href="#">Letterhead</a></li>
-                                <li><a href="#">Notecards</a></li>
-                                <li><a href="#">Folders</a></li>
+                                <li><a href="#">Download Mark for HCA</a></li>
+                                <li><a href="#">Download Georgia Pro</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Digital Templates
-                        </button>
+                        <a href="designs-colors.html">Color Swatches</a>
+                    </div>
 
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#sidebarAccordion">
+                    <div class="sidebar-category">
+                        <a href="patterns.html">Patterns</a>
+                    </div>
+
+                    <div class="sidebar-category">
+                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        Maps
+                        </button>
+                        <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
                             <ul>
-                                <li><a href="#">Word</a></li>
-                                <li><a href="#">Powerpoint</a></li>
-                                <li><a href="#">Email Signature</a></li>
-                                <li><a href="#">Email Newsletter</a></li>
+                                <li><a href="maps.html">National Division</a></li>
+                                <li><a href="maps-market.html">Market</a></li>
+                                <li><a href="maps-facility.html" class="active">Facility</a></li>
+                                <li><a href="#">Access Point</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Print Templates
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Photos
                         </button>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#sidebarAccordion">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#sidebarAccordion">
                             <ul>
-                                <li><a href="#">Posters</a></li>
-                                <li><a href="#">Flyers</a></li>
-                                <li><a href="#">One Pagers</a></li>
-                                <li><a href="#">Rack Cards</a></li>
-                                <li><a href="#">Table Tents</a></li>
-                                <li><a href="#">Postcards</a></li>
+                                <li><a href="#">MediaWorks Link</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        HCA Resources
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Icons
                         </button>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#sidebarAccordion">
                             <ul>
-                                <li><a href="#">Pocket Guide</a></li>
-                                <li><a href="#">Map Facility Posters</a></li>
-                                <li><a href="#">Fact Sheet</a></li>
-                                <li><a href="#">Brand Book</a></li>
+                                <li><a href="#">MediaWorks Link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-category">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Videos
+                        </button>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#sidebarAccordion">
+                            <ul>
+                                <li><a href="#">MediaWorks Link</a></li>
                             </ul>
                         </div>
                     </div>
@@ -208,48 +215,25 @@
             </div> <!-- Sidebar -->
 
             <div class="page-right">
-                <h1>Stationery</h1>
-                <img src="img/stationery-hero.png" alt="" class="featured-img">
-                <p>Connect with colleagues using our new HCA Healthcare branded assets.</p>
-
-                <div class="toolkit-items">
-                    <div class="toolkit-item">
-                        <img src="img/businesscards.png" alt="">
-                        <div class="toolkit-item-content">
-                            <p class="toolkit-item-title">Business Cards</p>
-                            <p>Building trusted relationships helps us deliver the highest level of care. Our business cards not only tell each colleague’s story, but the story of who we are as HCA Healthcare.</p>
-                            <a href="#">> Go to Business Cards</a>
-                        </div>
+                <h1>Maps</h1>
+                <div class="designs-block">
+                    <div class="designs-block-text">
+                        <p class="designs-block-title">Facility</p>
+                        <p>Facility maps gives context to locations using color and specific design elements. For example:</p>
+                        <ul>
+                            <li>Light blue is used to symbolize bodies of water</li>
+                            <li>Green is used to symbolize parks, greenbelts and other natural open spaces</li>
+                            <li>A facility is indicated using a dot with the name placed nearby</li>
+                            <li>A facility footprint is shown using a ghosted outline of a building (optional)</li>
+                            <li>Parking garage locations are mapped using familiar icons that use our accent color palette</li>
+                        </ul>
                     </div>
+                </div> <!-- Designs Block -->
 
-                    <div class="toolkit-item">
-                        <img src="img/envelopes.png" alt="">
-                        <div class="toolkit-item-content">
-                            <p class="toolkit-item-title">Envelopes</p>
-                            <p>Our envelopes are often the first opportunity to make a first impression.</p>
-                            <a href="#">> Go to Envelopes</a>
-                        </div>
-                    </div>
+                <img src="img/facility-map.png" alt="" class="featured-img">
 
-                    <div class="toolkit-item">
-                        <img src="img/letterhead.png" alt="">
-                        <div class="toolkit-item-content">
-                            <p class="toolkit-item-title">Letterheads</p>
-                            <p>Our new HCA Healthcare letterhead is available in two versions (bleed or non-bleed) to fit your business needs.</p>
-                            <a href="#">> Go to Letterheads</a>
-                        </div>
-                    </div>
-
-                    <div class="toolkit-item">
-                        <img src="img/notecard.png" alt="">
-                        <div class="toolkit-item-content">
-                            <p class="toolkit-item-title">Notecards</p>
-                            <p>You work alongside smart, talented people who continually raise the bar for patients and colleagues. So, we’ve made it easy to share your gratitude with a handwritten, professional message.</p>
-                            <a href="#">> Go to Notecards</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <a href="#" class="map-link">> Go to Facility Maps</a>
+            </div> <!-- Page Right -->
         </div>
 
         <div class="footer">
