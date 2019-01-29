@@ -23,7 +23,8 @@ a,
 .designs .download-fonts,
 .logos .logo-download,
 .sidebar-left .sidebar-category a,
-.page-content .map-link {
+.page-content .map-link,
+.page-right .photos-content a {
     font-family: 'MarkBold', sans-serif;
 }
 
@@ -34,7 +35,8 @@ h2,
 .page-content .sidebar-content p,
 .toolkit-item-content .toolkit-item-title,
 .designs .designs-block-title,
-.page-content .sidebar-page-title {
+.page-content .sidebar-page-title,
+.photos-content p.strong {
     font-family: 'MarkHeavy', sans-serif;
 }
 
