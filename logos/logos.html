@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brand Resource Center</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/designs.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/logos.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
-    <script src="script/main.js"></script>
+    <script src="../script/main.js"></script>
 </head>
 <body class="bs-override">
-    <div class="container designs">
+    <div class="container">
         <div class="header">
-            <h1>Our Design Elements</h1>
+            <h1>Our Logos</h1>
             <div class="nav">
                 <div class="nav-item">
-                    <a href="index.html" class="nav-primary">Home</a>
+                    <a href="../index.html" class="nav-primary">Home</a>
                 </div>
                 <div class="nav-item">
-                    <a href="logos.html" class="nav-primary">Our Logos</a>
+                    <a href="logos.html" class="nav-primary active">Our Logos</a>
                     <div class="dropdown">
                         <ul>
                             <li><a href="#">HCA Logos</a></li>
@@ -48,38 +48,38 @@
                 </div> <!-- Nav Item -->
 
                 <div class="nav-item">
-                    <a href="designs.html" class="nav-primary active">Our Design Elements</a>
+                    <a href="../our-designs/designs.html" class="nav-primary">Our Design Elements</a>
                     <div class="dropdown">
                         <ul>
-                            <li><a href="#">Fonts</a></li>
+                            <li><a href="../our-designs/designs.html">Fonts</a></li>
                             <li><a href="#">Download Mark for HCA</a></li>
                             <li><a href="#">Download Georgia Pro</a></li>
                         </ul>
 
                         <ul>
-                            <li><a href="designs-colors.html">Color Swatches</a></li>
+                            <li><a href="../our-designs/designs-colors.html">Color Swatches</a></li>
                         </ul>
 
                         <ul>
-                            <li><a href="patterns.html">Patterns</a></li>
+                            <li><a href="../our-designs/patterns.html">Patterns</a></li>
                         </ul>
 
                         <ul>
-                            <li><a href="maps.html">Maps</a></li>
-                            <li><a href="maps.html">National Division</a></li>
-                            <li><a href="maps-market.html">Market</a></li>
-                            <li><a href="maps-facility.html">Facility</a></li>
-                            <li><a href="maps-accesspoints.html">Access Point</a></li>
+                            <li><a href="../our-designs/maps.html">Maps</a></li>
+                            <li><a href="../our-designs/maps.html">National Division</a></li>
+                            <li><a href="../our-designs/maps-market.html">Market</a></li>
+                            <li><a href="../our-designs/maps-facility.html">Facility</a></li>
+                            <li><a href="../our-designs/maps-accesspoints.html">Access Point</a></li>
                         </ul>
 
                         <ul>
-                            <li><a href="photos.html">Photos</a></li>
+                            <li><a href="../our-designs/photos.html">Photos</a></li>
                             <li><a href="#">Lifestyle</a></li>
                             <li><a href="#">Clinical</a></li>
                         </ul>
 
                         <ul>
-                            <li><a href="#">Icons</a></li>
+                            <li><a href="../our-designs/icons.html">Icons</a></li>
                             <li><a href="#">Mediaworks Link</a></li>
                         </ul>
 
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="nav-item">
-                    <a href="toolkit.html" class="nav-primary">Our Toolkit</a>
+                    <a href="../toolkit/toolkit.html" class="nav-primary">Our Toolkit</a>
                     <div class="dropdown">
                         <ul>
                             <li><a href="#">Stationary</a></li>
@@ -140,62 +140,30 @@
             </div>
         </div> <!-- Header -->
 
-        <div class="page-content">
+        <div class="page-content logos">
             <div class="sidebar-left">
                 <div class="accordion" id="sidebarAccordion">
-                    <p class="sidebar-page-title">Our Design Elements</p>
+                    <p class="sidebar-page-title">Our Logos</p>
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Fonts
+                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        HCA Logo
                         </button>
                     
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#sidebarAccordion">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#sidebarAccordion">
                             <ul>
-                                <li><a href="#">Download Mark for HCA</a></li>
-                                <li><a href="#">Download Georgia Pro</a></li>
+                                <li><a href="#">About our Logo</a></li>
+                                <li><a href="#">Using our Logo</a></li>
+                                <li><a href="#">Logo Download</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="sidebar-category">
-                        <a href="designs-colors.html">Color Swatches</a>
-                    </div>
-
-                    <div class="sidebar-category">
-                        <a href="patterns.html">Patterns</a>
-                    </div>
-
-                    <div class="sidebar-category">
-                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                        Maps
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Group Logos
                         </button>
-                        <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
-                            <ul>
-                                <li><a href="maps.html" class="active">National Division</a></li>
-                                <li><a href="maps-market.html">Market</a></li>
-                                <li><a href="maps-facility.html">Facility</a></li>
-                                <li><a href="maps-accesspoints.html">Access Point</a></li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        Photos
-                        </button>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#sidebarAccordion">
-                            <ul>
-                                <li><a href="photos.html">Lifestyle</a></li>
-                                <li><a href="#">Clinical</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        Icons
-                        </button>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#sidebarAccordion">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="#">MediaWorks Link</a></li>
                             </ul>
@@ -203,10 +171,21 @@
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        Videos
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Program Logos
                         </button>
-                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#sidebarAccordion">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#sidebarAccordion">
+                            <ul>
+                                <li><a href="#">MediaWorks Link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-category">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Award Logos
+                        </button>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="#">MediaWorks Link</a></li>
                             </ul>
@@ -217,35 +196,16 @@
             </div> <!-- Sidebar -->
 
             <div class="page-right">
-                <h1>Maps</h1>
-                <div class="designs-block">
-                    <div class="designs-block-text">
-                        <p class="designs-block-title">National</p>
-                        <p>Our national map offers an impressive view of our national and global footprint. Its modern, clean design style features HCA Orange dots to clearly show current areas of business focus and future opportunity.</p>
-                    </div>
-                </div> <!-- Designs Block -->
-
-                <img src="img/national-map.png" alt="National Map" class="featured-img map">
-
-                <a href="#" class="map-link">> Go to National Maps</a>
-
-                <div class="designs-block">
-                    <div class="designs-block-text">
-                        <p class="designs-block-title">Division</p>
-                        <p>In this division map, each division is indicated using a spoke and wheel icon. Each spoke represents a facility. In addition, remember that:</p>
-                        <ul>
-                            <li>Colors are utilized from the primary color palette</li>
-                            <li>The center of the wheel should include the number of facilities within a division</li>
-                            <li>Each spoke should be a 0.5 px. stroke and lead from the wheel’s center to the facility location</li>
-                            <li>You’ll need to spell out the division name and place it next to the wheel icon</li>
-                        </ul>
-                    </div>
-                </div> <!-- Designs Block -->
-
-                <img src="img/division-map.png" alt="Division Map" class="featured-img map">
-
-                <a href="#" class="map-link">> Go to Division Maps</a>
-            </div> <!-- Page Right -->
+                <h1>Our Past. Our Future. Our Logo.</h1>
+                <img src="../img/logos/logo-page.png" alt="HCA Logo" class="featured-img">
+                <p>Building a legacy worth looking back on takes a lot of looking forward. For 50 years, we've focused on providing exceptional care today, while innovating the care of the future.</p>
+                <p>Our new logo respects our rich history and illustrates our long-held vision of building a healthier tomorrow. It’s an iconic representation of our core care commitments and our duty to serve our patients.</p>
+                <a href="#" class="logo-download">> Download HCA Healthcare Logo</a>
+                <h1>Making Our Mark</h1>
+                <img src="../img/logos/our-mark.png" alt="" class="featured-img">
+                <p>The Diamond Plus mark is a new element of the HCA Healthcare logo. And it has unique significance.</p>
+                <p>Diamonds represent a life-long commitment and are most valuable when clear—much like HCA Healthcare has clarity in its commitment to provide patients the care they deserve. In fact, the diamond in the center represents the patients we serve.</p>
+            </div>
         </div>
 
         <div class="footer">
@@ -254,7 +214,7 @@
             </div>
             
             <div class="footer-logo">
-                <img src="img/logo.png" alt="HCA Logo">
+                <img src="../img/logo.png" alt="HCA Logo">
             </div>
         </div>
     </div> <!-- Container -->

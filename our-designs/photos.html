@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brand Resource Center</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/designs.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/designs.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
-    <script src="script/main.js"></script>
+    <script src="../script/main.js"></script>
 </head>
 <body class="bs-override">
     <div class="container designs">
@@ -19,10 +19,10 @@
             <h1>Our Design Elements</h1>
             <div class="nav">
                 <div class="nav-item">
-                    <a href="index.html" class="nav-primary">Home</a>
+                    <a href="../index.html" class="nav-primary">Home</a>
                 </div>
                 <div class="nav-item">
-                    <a href="logos.html" class="nav-primary">Our Logos</a>
+                    <a href="../logos/logos.html" class="nav-primary">Our Logos</a>
                     <div class="dropdown">
                         <ul>
                             <li><a href="#">HCA Logos</a></li>
@@ -79,7 +79,7 @@
                         </ul>
 
                         <ul>
-                            <li><a href="#">Icons</a></li>
+                            <li><a href="icons.html">Icons</a></li>
                             <li><a href="#">Mediaworks Link</a></li>
                         </ul>
 
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="nav-item">
-                    <a href="toolkit.html" class="nav-primary">Our Toolkit</a>
+                    <a href="../toolkit/toolkit.html../" class="nav-primary">Our Toolkit</a>
                     <div class="dropdown">
                         <ul>
                             <li><a href="#">Stationary</a></li>
@@ -166,24 +166,24 @@
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Maps
                         </button>
-                        <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="maps.html">National Division</a></li>
                                 <li><a href="maps-market.html">Market</a></li>
-                                <li><a href="maps-facility.html" class="active">Facility</a></li>
+                                <li><a href="maps-facility.html">Facility</a></li>
                                 <li><a href="maps-accesspoints.html">Access Point</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                         Photos
                         </button>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#sidebarAccordion">
+                        <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="photos.html">Lifestyle</a></li>
                                 <li><a href="#">Clinical</a></li>
@@ -192,14 +192,7 @@
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        Icons
-                        </button>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#sidebarAccordion">
-                            <ul>
-                                <li><a href="#">MediaWorks Link</a></li>
-                            </ul>
-                        </div>
+                        <a href="icons.html" class="active">Icons</a>
                     </div>
 
                     <div class="sidebar-category">
@@ -217,24 +210,130 @@
             </div> <!-- Sidebar -->
 
             <div class="page-right">
-                <h1>Maps</h1>
-                <div class="designs-block">
-                    <div class="designs-block-text">
-                        <p class="designs-block-title">Facility</p>
-                        <p>Facility maps gives context to locations using color and specific design elements. For example:</p>
-                        <ul>
-                            <li>Light blue is used to symbolize bodies of water</li>
-                            <li>Green is used to symbolize parks, greenbelts and other natural open spaces</li>
-                            <li>A facility is indicated using a dot with the name placed nearby</li>
-                            <li>A facility footprint is shown using a ghosted outline of a building (optional)</li>
-                            <li>Parking garage locations are mapped using familiar icons that use our accent color palette</li>
-                        </ul>
-                    </div>
-                </div> <!-- Designs Block -->
+                <h1>Photos</h1>
 
-                <img src="img/facility-map.png" alt="" class="featured-img">
+                <div class="photos-content">
+                    <img src="../img/designs/photos/photos1.png" alt="" class="featured-img">
 
-                <a href="#" class="map-link">> Go to Facility Maps</a>
+                    <p>Photography is one of our most widely used and influential brand assets. It’s essential all photos, whether stock or custom, meet our brand style and standards. With an emphasis on lifestyle imagery, photos should be expressive, warm, story-driven and authentic, reflecting our commitment to the whole health of the individual, in our facilities and in their lives.</p>
+                    <p>Photographs should persuasively convey the message it’s supporting, while representing the diversity of both our patients and our colleagues.</p>
+
+                    <a href="#">> Visit the Image Repository to search approved images in our photo library.</a>
+
+                    <p class="designs-block-title">Lifestyle Photos</p>
+
+                    <p class="strong">Examples that meet our brand standards for lifestyle photos</p>
+                    <p>Representative photographs should feel natural and authentic, capturing real moments. They should have a clear focal point, with warm tones and evident emotions.</p>
+
+                    <p class="strong">Examples that do not meet our brand standards for lifestyle photos</p>
+                    <p>Representative photographs should not be artificially staged, be dramatically sterile or contain added graphical elements.</p>
+
+                    <div class="photo-grid">
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-story.png" alt="">
+                            <p class="caption">Focused on story</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-natural.png" alt="">
+                            <p class="caption">Natural and warm</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-inventive.png" alt="">
+                            <p class="caption">Inventive and upbeat</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-authentic.png" alt="">
+                            <p class="caption">Authentic and relevant</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-emotion.png" alt="">
+                            <p class="caption">Loaded with emotion</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-genuine.png" alt="">
+                            <p class="caption">Genuine interactions</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-staged.png" alt="">
+                            <p class="caption">Staged and phony poses</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-contrived.png" alt="">
+                            <p class="caption">Contrived situations</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/lifestyle-graphics.png" alt="">
+                            <p class="caption">Added graphic elements</p>
+                        </div>
+                    </div> <!-- Photo Grid -->
+
+                    <a href="#">> Visit the Image Repository to search approved lifestyle images in our photo library.</a>
+
+                    <p class="designs-block-title">Clinical Photos</p>
+
+                    <p class="strong">Examples that meet our brand standards for clinical photos</p>
+                    <p>Representative photographs should focus less on the technical elements of healthcare and more on the human interactions. They too should be warm, authentic, driven by story and filled with emotion and meaning.</p>
+
+                    <p class="strong">Examples that do not meet our brand standards for clinical photos</p>
+                    <p>Here again, representative photographs should not be overly posed or contrived and should not contain added graphics. Clinical photographs must avoid medically inappropriate elements, such as colleagues having stethoscopes around the neck or not being bare below the elbows in surgical situations. Note: When in doubt about the accuracy of clinical photos, consult with an HCA Healthcare-employed clinician.</p>
+
+                    <div class="photo-grid">
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/clinical-story.png" alt="">
+                            <p class="caption">Focused on story</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/clinical-natural.png" alt="">
+                            <p class="caption">Natural and warm</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/clinical-inventive.png" alt="">
+                            <p class="caption">Inventive and upbeat</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/clinical-authentic.png" alt="">
+                            <p class="caption">Authentic and relevant</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/clinical-emotion.png" alt="">
+                            <p class="caption">Loaded with emotion</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/clinical-genuine.png" alt="">
+                            <p class="caption">Genuine interactions</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/cllinical-staged.png" alt="">
+                            <p class="caption">Staged and phony poses</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/clinical-contrived.png" alt="">
+                            <p class="caption">Contrived situations</p>
+                        </div>
+
+                        <div class="photo-grid-item">
+                            <img src="../img/designs/photos/clinical-graphics.png" alt="">
+                            <p class="caption">Added graphic elements</p>
+                        </div>
+                    </div> <!-- Photo Grid -->
+
+                    <a href="#">> Visit the Image Repository to search approved clinical images in our photo library.</a>
+                </div> <!-- Photos Content -->
             </div> <!-- Page Right -->
         </div>
 
@@ -244,7 +343,7 @@
             </div>
             
             <div class="footer-logo">
-                <img src="img/logo.png" alt="HCA Logo">
+                <img src="../img/logo.png" alt="HCA Logo">
             </div>
         </div>
     </div> <!-- Container -->
