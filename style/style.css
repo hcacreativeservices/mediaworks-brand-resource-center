@@ -20,11 +20,9 @@ a,
 .sidebar-left button,
 .sidebar-left a:hover,
 .toolkit-item .toolkit-item-content a,
-.designs .download-fonts,
 .logos .logo-download,
 .sidebar-left .sidebar-category a,
-.page-content .map-link,
-.page-right .photos-content a {
+.page-content .link-orange {
     font-family: 'MarkBold', sans-serif;
 }
 
