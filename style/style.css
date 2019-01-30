@@ -82,7 +82,8 @@ ul {
     color: #54575A;
 }
 
-.footer a {
+.footer a,
+.sidebar-category .active {
     color: #E05929;
 }
 
