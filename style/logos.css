@@ -17,3 +17,15 @@
 .logos .poor-use-examples {
     margin-top: 40px;
 }
+
+.logos .section {
+    margin: 40px 0;
+}
+
+.logos .section-title {
+    font-size: 20px;
+}
+
+.logos .section .featured-img {
+    margin: 20px 0;
+}

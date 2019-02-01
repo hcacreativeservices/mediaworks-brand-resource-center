@@ -16,13 +16,15 @@
 /* Global */
 
 a,
+.nav li:first-child,
 .nav li:first-child a,
 .sidebar-left button,
 .sidebar-left a:hover,
 .toolkit-item .toolkit-item-content a,
 .logos .logo-download,
 .sidebar-left .sidebar-category a,
-.page-content .link-orange {
+.page-content .link-orange,
+.sidebar-left .sidebar-category .active {
     font-family: 'MarkBold', sans-serif;
 }
 
@@ -34,7 +36,8 @@ h2,
 .toolkit-item-content .toolkit-item-title,
 .designs .designs-block-title,
 .page-content .sidebar-page-title,
-.photos-content p.strong {
+.photos-content p.strong,
+.page-content .mark-heavy {
     font-family: 'MarkHeavy', sans-serif;
 }
 
@@ -83,7 +86,7 @@ ul {
 }
 
 .footer a,
-.sidebar-category .active {
+.page-content .link-orange {
     color: #E05929;
 }
 
@@ -146,7 +149,8 @@ ul {
     left: 50%;
 }
 
-.nav .dropdown a {
+.nav .dropdown a,
+.nav .dropdown li {
     font-size: 12px;
     color: #898B8E;
 }
