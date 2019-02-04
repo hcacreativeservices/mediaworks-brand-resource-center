@@ -111,6 +111,11 @@ ul {
     margin: 25px 0;
 }
 
+.link-margin-bottom {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 .nav {
     border-top: 2px solid #75767A;
     display: flex;
