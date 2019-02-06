@@ -24,7 +24,8 @@ a,
 .logos .logo-download,
 .sidebar-left .sidebar-category a,
 .page-content .link-orange,
-.sidebar-left .sidebar-category .active {
+.sidebar-left .sidebar-category .active,
+.nav .dropdown .dropdown-category a {
     font-family: 'MarkBold', sans-serif;
 }
 
@@ -82,7 +83,7 @@ ul {
 }
 
 .footer p {
-    color: #54575A;
+    color: #58595B;
 }
 
 .footer a,
@@ -125,13 +126,13 @@ ul {
 .nav a {
     color: #75767A;
     font-size: 14px;
-    padding-right: 50px;
     text-decoration: none;
     transition: all .3s ease-in-out;
 }
 
 .nav a.active,
-.nav a:hover {
+.nav a:hover,
+.nav .dropdown a:hover {
     color: #E05929;
 }
 
@@ -148,10 +149,9 @@ ul {
     position: absolute;
     z-index: 1;
     background-color: white;
-    padding: 10px 20px;
+    padding: 10px 0 0 40px;
     transition: all .3s ease-in-out;
     transform: translateX(-30%);
-    left: 50%;
 }
 
 .nav .dropdown a,
@@ -171,17 +171,21 @@ ul {
     padding-bottom: 15px;
 }
 
+.nav-primary {
+    padding-right: 50px;
+}
+
 .page-content {
     display: flex;
     padding: 60px 0;
 }
 
 .page-content p {
-    color: #54575A;
+    color: #58595B;
 }
 
 .page-content a {
-    color: #54575A;
+    color: #58595B;
     transition: all .3s ease-in-out;
 }
 
@@ -195,7 +199,7 @@ ul {
 }
 
 .page-right h1 {
-    color: #54575A;
+    color: #58595B;
     font-size: 34px;
     margin-bottom: 20px;
 }
@@ -210,6 +214,7 @@ ul {
 }
 
 .sidebar-left {
+    font-size: 14px;
     width: 25%;
 }
 
@@ -218,7 +223,8 @@ ul {
 }
 
 .sidebar-left button {
-    color: #54575A;
+    color: #58595B;
+    font-size: 14px;
     padding: 0;
     text-align: left;
 }
