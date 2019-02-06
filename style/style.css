@@ -149,9 +149,13 @@ ul {
     position: absolute;
     z-index: 1;
     background-color: white;
-    padding: 10px 0 0 40px;
+    padding: 10px 0 0 30px;
     transition: all .3s ease-in-out;
-    transform: translateX(-30%);
+    transform: translateX(-15%);
+}
+
+.nav .toolkit-dropdown.dropdown {
+    transform: translateX(-40%);
 }
 
 .nav .dropdown a,
