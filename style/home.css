@@ -44,11 +44,11 @@
 
 .hero-item:nth-of-type(1) .color-overlay,
 .hero-item:nth-of-type(2) .color-overlay {
-    background-color: rgba(224, 88, 42, .67)
+    background-color: rgba(224, 88, 42, .67);
 }
 
 .hero-item:nth-of-type(3) .color-overlay {
-    background-color: rgba(3, 23, 62, .67)
+    background-color: rgba(3, 23, 62, .67);
 }
 
 .hero-item.active .color-overlay {
