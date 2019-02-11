@@ -8,13 +8,14 @@
     cursor: pointer;
     display: flex;
     height: 500px;
+    overflow: hidden;
     position: relative;
-    width: 25%;
+    width: 28%;
 }
 
 .hero-item img {
     height: 100%;
-    width: 50vw;
+    width: 44vw;
     position: absolute;
     top: 0;
     right: 0;
@@ -25,29 +26,47 @@
 
 .hero-item.active {
     cursor: default;
-    width: 50%;
+    width: 44%;
     transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .35s,width .5s;
 }
 
 .hero-item:nth-of-type(1) {
-    background-color: #E0582A;
     transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .45s,width .5s;
 }
 
 .hero-item:nth-of-type(2) {
-    background-color: #75767A;
     transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .35s,width .5s;
 }
 
 .hero-item:nth-of-type(3) {
-    background-color: #54575A;
     transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .55s,width .5s;
+}
+
+.hero-item:nth-of-type(1) .color-overlay,
+.hero-item:nth-of-type(2) .color-overlay {
+    background-color: rgba(224, 88, 42, .67)
+}
+
+.hero-item:nth-of-type(3) .color-overlay {
+    background-color: rgba(3, 23, 62, .67)
+}
+
+.hero-item.active .color-overlay {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 .hero-item a {
     color: #fff;
     font-size: 12px;
     transition: all .3s ease-in-out;
+}
+
+.hero-item.active a {
+    color: #54575A;
 }
 
 .hero-item a:hover {
@@ -59,6 +78,10 @@
     margin: 0 0 20px;
 }
 
+.hero-item.active h1 {
+    color: #03173E;
+}
+
 .hero-item p {
     font-size: 20px;
     margin: 0;
@@ -68,11 +91,27 @@
     margin-bottom: 20px;
 }
 
+.hero-item .color-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
 .hero-item-content {
-    margin-left: 70px;
+    margin-left: 25px;
     padding-top: 185px;
     position: absolute;
+    transition: all .25s ease-in-out;
     width: 240px;
+    z-index: 2;
+}
+
+.hero-item.active .hero-item-content {
+    margin-left: 70px;
 }
 
 .page-content h2 {
@@ -129,9 +168,12 @@
     }
 
     .hero-item-content {
-        margin-left: 80px;
         padding-top: 180px;
-        width: 250px;
+        width: 255px;
+    }
+
+    .hero-item.active .hero-item-content {
+        margin-left: 80px;
     }
 
     .page-content h2 {
@@ -155,6 +197,10 @@
     .hero-item-content {
         padding-top: 170px;
         width: 270px;
+    }
+
+    .hero-item:nth-of-type(2) .hero-item-content {
+        width: 255px;
     }
 
     .page-content h2 {
