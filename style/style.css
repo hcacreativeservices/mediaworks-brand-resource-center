@@ -121,6 +121,8 @@ ul {
     border-top: 2px solid #75767A;
     display: flex;
     padding: 20px 0;
+    position: relative;
+    z-index: 3;
 }
 
 .nav a {
