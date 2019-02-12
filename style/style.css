@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'MarkHeavy';
-    src: url('../fonts/mark-heavy.woff');
+    src: url('fonts/mark-heavy.woff');
 }
 
 @font-face {
     font-family: 'MarkBook';
-    src: url('../fonts/mark-book.woff');
+    src: url('fonts/mark-book.woff');
 }
 
 @font-face {
     font-family: 'MarkBold';
-    src: url('../fonts/mark-bold.woff');
+    src: url('fonts/mark-bold.woff');
 }
 
 /* Global */

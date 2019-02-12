@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brand Resource Center</title>
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/designs.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="designs.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
-    <script src="../script/sidebar.js"></script>
+    <script src="../../script/sidebar.js"></script>
 </head>
 <body class="bs-override">
     <div class="container designs">
@@ -19,7 +19,7 @@
             <h1>Our Design Elements</h1>
             <div class="nav">
                 <div class="nav-item">
-                    <a href="../index.html" class="nav-primary">Home</a>
+                    <a href="../../index.html" class="nav-primary">Home</a>
                 </div>
                 <div class="nav-item">
                     <a href="../logos/logos.html" class="nav-primary">Our Logos</a>
@@ -47,11 +47,11 @@
                 </div> <!-- Nav Item -->
 
                 <div class="nav-item">
-                    <a href="#" class="nav-primary">Our Messaging</a>
+                    <a href="../messaging/our-messaging.html" class="nav-primary">Our Messaging</a>
                 </div>
 
                 <div class="nav-item">
-                    <a href="../toolkit/toolkit.html" class="nav-primary">Our Toolkit</a>
+                    <a href="toolkit.html" class="nav-primary">Our Toolkit</a>
                     <div class="dropdown toolkit-dropdown">
                         <ul>
                             <li><a href="#">Stationary</a></li>
@@ -91,7 +91,7 @@
                 </div> <!-- Nav Item -->
 
                 <div class="nav-item">
-                    <a href="#" class="nav-primary">FAQ</a>
+                    <a href="../faqs/faqs.html" class="nav-primary">FAQ</a>
                 </div>
             </div>
         </div> <!-- Header -->
@@ -123,12 +123,12 @@
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Maps
                         </button>
-                        <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
                             <ul>
-                                <li><a href="maps.html" class="active">National Division</a></li>
+                                <li><a href="maps.html">National Division</a></li>
                                 <li><a href="maps-market.html">Market</a></li>
                                 <li><a href="maps-facility.html">Facility</a></li>
                                 <li><a href="maps-accesspoints.html">Access Point</a></li>
@@ -153,39 +153,16 @@
                     </div>
 
                     <div class="sidebar-category">
-                        <a href="videos.html">Videos</a>
+                        <a href="videos.html" class="active">Videos</a>
                     </div>
 
                 </div>
             </div> <!-- Sidebar -->
 
             <div class="page-right">
-                <h1>Maps</h1>
-                <div class="designs-block">
-                    <div class="designs-block-text">
-                        <p class="designs-block-title">National</p>
-                        <a href="#" class="map-link link-orange">> Go to National Maps</a>
-                        <p>Our national map offers an impressive view of our national and global footprint. Its modern, clean design style features HCA Orange dots to clearly show current areas of business focus and future opportunity.</p>
-                    </div>
-                </div> <!-- Designs Block -->
+                <h1>Videos</h1>
 
-                <img src="../img/maps/national-map.png" alt="National Map" class="featured-img map">
-
-                <div class="designs-block">
-                    <div class="designs-block-text">
-                        <p class="designs-block-title">Division</p>
-                        <a href="#" class="map-link link-orange">> Go to Division Maps</a>
-                        <p>In this division map, each division is indicated using a spoke and wheel icon. Each spoke represents a facility. In addition, remember that:</p>
-                        <ul>
-                            <li>Colors are utilized from the primary color palette</li>
-                            <li>The center of the wheel should include the number of facilities within a division</li>
-                            <li>Each spoke should be a 0.5 px. stroke and lead from the wheel’s center to the facility location</li>
-                            <li>You’ll need to spell out the division name and place it next to the wheel icon</li>
-                        </ul>
-                    </div>
-                </div> <!-- Designs Block -->
-
-                <img src="../img/maps/division-map.png" alt="Division Map" class="featured-img map">
+                <p>Coming Soon</p>
 
             </div> <!-- Page Right -->
         </div>
@@ -196,7 +173,7 @@
             </div>
             
             <div class="footer-logo">
-                <img src="../img/logo.png" alt="HCA Logo">
+                <img src="../../img/logo.png" alt="HCA Logo">
             </div>
         </div>
     </div> <!-- Container -->

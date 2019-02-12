@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brand Resource Center</title>
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/designs.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="designs.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script>
-    <script src="../script/sidebar.js"></script>
+    <script src="../../script/sidebar.js"></script>
 </head>
 <body class="bs-override">
     <div class="container designs">
@@ -19,28 +19,15 @@
             <h1>Our Design Elements</h1>
             <div class="nav">
                 <div class="nav-item">
-                    <a href="../index.html" class="nav-primary">Home</a>
+                    <a href="../../index.html" class="nav-primary">Home</a>
                 </div>
                 <div class="nav-item">
                     <a href="../logos/logos.html" class="nav-primary">Our Logos</a>
                     <div class="dropdown">
                         <ul>
-                            <li><a href="../logos/logos.html">HCA Logos</a></li>
-                            <li><a href="#">About Our Logo</a></li>
-                            <li><a href="../logos/using-our-logo.html">Using Our Logo</a></li>
+                            <li class="dropdown-category"><a href="../logos/logos.html">HCA Logos</a></li>
+                            <li class="dropdown-category"><a href="../logos/supporting-logos-about.html">Supporting Logos</a></li>
                         </ul>
-
-                        <ul>
-                            <li>Supporting Logos</li>
-                            <li><a href="../logos/supporting-logos-about.html">About</a></li>
-                            <li><a href="../logos/supporting-logos-groups.html">Groups</a></li>
-                            <li><a href="../logos/supporting-logos-divisions.html">Divisions</a></li>
-                            <li><a href="../logos/supporting-logos-departments.html">Departments</a></li>
-                            <li><a href="../logos/supporting-logos-service-line.html">Service Line</a></li>
-                            <li><a href="../logos/supporting-logos-resources.html">Resources</a></li>
-                            <li><a href="../logos/supporting-logos-programs.html">Programs</a></li>
-                        </ul>
-
                     </div>
                 </div> <!-- Nav Item -->
 
@@ -48,52 +35,24 @@
                     <a href="designs.html" class="nav-primary active">Our Design Elements</a>
                     <div class="dropdown">
                         <ul>
-                            <li><a href="designs.html">Fonts</a></li>
-                            <li><a href="#">Download Mark for HCA</a></li>
-                            <li><a href="#">Download Georgia Pro</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a href="designs-colors.html">Color Swatches</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a href="patterns.html">Patterns</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a href="maps.html">Maps</a></li>
-                            <li><a href="maps.html">National Division</a></li>
-                            <li><a href="maps-market.html">Market</a></li>
-                            <li><a href="maps-facility.html">Facility</a></li>
-                            <li><a href="maps-accesspoints.html">Access Point</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a href="photos.html">Photos</a></li>
-                            <li><a href="#">Lifestyle</a></li>
-                            <li><a href="#">Clinical</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a href="icons.html">Icons</a></li>
-                            <li><a href="#">Mediaworks Link</a></li>
-                        </ul>
-
-                        <ul>
-                            <li><a href="videos.html">Videos</a></li>
-                            <li><a href="#">Mediaworks Link</a></li>
+                            <li class="dropdown-category"><a href="designs.html">Fonts</a></li>
+                            <li class="dropdown-category"><a href="designs-colors.html">Color Swatches</a></li>
+                            <li class="dropdown-category"><a href="patterns.html">Patterns</a></li>
+                            <li class="dropdown-category"><a href="maps.html">Maps</a></li>
+                            <li class="dropdown-category"><a href="photos.html">Photos</a></li>
+                            <li class="dropdown-category"><a href="icons.html">Icons</a></li>
+                            <li class="dropdown-category"><a href="videos.html">Videos</a></li>
                         </ul>
                     </div>
                 </div> <!-- Nav Item -->
 
                 <div class="nav-item">
-                    <a href="#" class="nav-primary">Our Messaging</a>
+                    <a href="../messaging/our-messaging.html" class="nav-primary">Our Messaging</a>
                 </div>
 
                 <div class="nav-item">
                     <a href="../toolkit/toolkit.html" class="nav-primary">Our Toolkit</a>
-                    <div class="dropdown">
+                    <div class="dropdown toolkit-dropdown">
                         <ul>
                             <li><a href="#">Stationary</a></li>
                             <li><a href="#">Business Cards</a></li>
@@ -132,7 +91,7 @@
                 </div> <!-- Nav Item -->
 
                 <div class="nav-item">
-                    <a href="#" class="nav-primary">FAQ</a>
+                    <a href="../faqs/faqs.html" class="nav-primary">FAQ</a>
                 </div>
             </div>
         </div> <!-- Header -->
@@ -142,13 +101,13 @@
                 <div class="accordion" id="sidebarAccordion">
                     <p class="sidebar-page-title">Our Design Elements</p>
                     <div class="sidebar-category">
-                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Fonts
                         </button>
                     
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#sidebarAccordion">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#sidebarAccordion">
                             <ul>
-                                <li><a href="designs.html" class="active">Our Brand Fonts</a></li>
+                                <li><a href="designs.html">Our Brand Fonts</a></li>
                                 <li><a href="#">Download Mark for HCA</a></li>
                                 <li><a href="#">Download Georgia Pro</a></li>
                             </ul>
@@ -164,15 +123,15 @@
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                         Maps
                         </button>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
+                        <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#sidebarAccordion">
                             <ul>
                                 <li><a href="maps.html">National Division</a></li>
                                 <li><a href="maps-market.html">Market</a></li>
                                 <li><a href="maps-facility.html">Facility</a></li>
-                                <li><a href="maps-accesspoints.html">Access Point</a></li>
+                                <li><a href="maps-accesspoints.html" class="active">Access Point</a></li>
                             </ul>
                         </div>
                     </div>
@@ -201,37 +160,21 @@
             </div> <!-- Sidebar -->
 
             <div class="page-right">
-                <h1>Our Brand Fonts</h1>
-                <a href="#" class="link-orange link-margin-bottom">> Download fonts here</a>
+                <h1>Maps</h1>
+                <a href="#" class="map-link link-orange">> Go to Access Point Maps</a>
 
                 <div class="designs-block">
                     <div class="designs-block-text">
-                        <p class="designs-block-title">Mark for HCA</p>
-                        <p>Mark for HCA is the font for all headline copy and body copy because its bold yet simple appearance catches the eye and mirrors our own bold desire to simplify the complexities of healthcare. When space permits, its bold version (non-italic) should be used in a large font size that calls for attention.</p>
-                        <p>In the event you’re unable to access this font, the system fallback is Arial.</p>
-                    </div>
-                    <div class="designs-block-img">
-                        <img src="../img/designs/MarkInUse.png" alt="Mark for HCA in use">
-                        <p class="caption">Mark for HCA in use</p>
-                    </div>
-                </div> <!-- Designs Block -->
-
-                <img src="../img/designs/fonts.png" alt="Mark for HCA font" class="featured-img">
-
-                <div class="designs-block">
-                    <div class="designs-block-text">
-                        <p class="designs-block-title">Georgia Pro</p>
-                        <p>Georgia Pro is the font for all subhead copy and other isolated cases. The elegant serif font is a complement to the geometric style of Mark Pro. System and Google Web fonts are available.</p>
-                        <p>In the event you’re unable to access this font, the system fallback is Georgia.</p>
-                    </div>
-                    <div class="designs-block-img">
-                        <img src="../img/designs/GeorgiaInUse.png" alt="Georgia Pro in use">
-                        <p class="caption">Georgia Pro in use</p>
+                        <p class="designs-block-title">Access Point Maps</p>
+                        <p>Access point maps showcase the locations a patient could receive treatment based on a specific region and service line. In addition, remember that:</p>
+                        <ul>
+                            <li>These maps are flexible enough to focus tightly on a location or to give a broader view as needed</li>
+                            <li>Colored letters outlined by circles appear in a variety of colors (given context by the legend beneath the map) to help identify the different service lines offered at each facility</li>
+                        </ul>
                     </div>
                 </div> <!-- Designs Block -->
 
-                <img src="../img/designs/fonts2.png" alt="Georgia Pro Font" class="featured-img">
-
+                <img src="img/maps/maps-accesspoints.png" alt="" class="featured-img">
             </div> <!-- Page Right -->
         </div>
 
@@ -241,7 +184,7 @@
             </div>
             
             <div class="footer-logo">
-                <img src="../img/logo.png" alt="HCA Logo">
+                <img src="../../img/logo.png" alt="HCA Logo">
             </div>
         </div>
     </div> <!-- Container -->
