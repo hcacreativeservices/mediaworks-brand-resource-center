@@ -1,0 +1,17 @@
+.nurse-strategy {
+    list-style: initial;
+    padding-left: 20px;
+}
+
+.proof-points {
+    color: #E05929;
+    padding-left: 0;
+}
+
+.proof-points li {
+    padding: 5px 0;
+}
+
+.section-title {
+    font-size: 22px;
+}

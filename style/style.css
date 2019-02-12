@@ -25,7 +25,9 @@ a,
 .sidebar-left .sidebar-category a,
 .page-content .link-orange,
 .sidebar-left .sidebar-category .active,
-.nav .dropdown .dropdown-category a {
+.nav .dropdown .dropdown-category a,
+.mark-bold,
+.mark-bold > * {
     font-family: 'MarkBold', sans-serif;
 }
 
@@ -87,7 +89,8 @@ ul {
 }
 
 .footer a,
-.page-content .link-orange {
+.page-content .link-orange,
+.sidebar-category .active-primary {
     color: #E05929;
 }
 
@@ -115,6 +118,10 @@ ul {
 .link-margin-bottom {
     display: inline-block;
     margin-bottom: 20px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
 }
 
 .nav {
