@@ -27,19 +27,30 @@
 .hero-item.active {
     cursor: default;
     width: 44%;
-    transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .35s,width .5s;
+    transition: background .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .35s,width .5s;
+    z-index: 4;
 }
 
 .hero-item:nth-of-type(1) {
-    transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .45s,width .5s;
+    transition: background .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .45s,width .5s;
 }
 
 .hero-item:nth-of-type(2) {
-    transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .35s,width .5s;
+    box-shadow: 0px 0px 20px 15px rgba(0,0,0,0.3);
+    transition: background .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .35s,width .5s;
+    z-index: 3;
 }
 
 .hero-item:nth-of-type(3) {
-    transition: background .5s,box-shadow .5s .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .55s,width .5s;
+    transition: background .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .55s,width .5s;
+}
+
+.hero-item:nth-of-type(1).active {
+    box-shadow: 15px 0px 20px 0px rgba(0,0,0,0.3);
+}
+
+.hero-item:nth-of-type(3).active {
+    box-shadow: -15px 0px 20px 0px rgba(0,0,0,0.3);
 }
 
 .hero-item:nth-of-type(1) .color-overlay,
@@ -50,6 +61,8 @@
 .hero-item:nth-of-type(3) .color-overlay {
     background-color: rgba(3, 23, 62, .67);
 }
+
+
 
 .hero-item.active .color-overlay {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
@@ -102,12 +115,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 
 .hero-item-content {
+    bottom: 0;
     margin-left: 25px;
-    padding-top: 185px;
     position: absolute;
     transition: all .25s ease-in-out;
     width: 240px;
     z-index: 2;
+    margin-bottom: 80px;
 }
 
 .hero-item.active .hero-item-content {
@@ -168,7 +182,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     }
 
     .hero-item-content {
-        padding-top: 180px;
         width: 255px;
     }
 
@@ -195,7 +208,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     }
 
     .hero-item-content {
-        padding-top: 170px;
         width: 270px;
     }
 
