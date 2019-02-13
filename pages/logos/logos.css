@@ -29,3 +29,8 @@
 .logos .section .featured-img {
     margin: 20px 0;
 }
+
+.logo-space {
+    margin: 20px 0 60px;
+    max-width: 420px;
+}

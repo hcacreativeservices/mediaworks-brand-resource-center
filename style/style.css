@@ -274,6 +274,10 @@ ul {
     margin: 15px 0;
 }
 
+.sidebar-left ul a {
+    color: #58595B;
+}
+
 .sidebar-left .sidebar-page-title {
     color: #E05929;
 }
