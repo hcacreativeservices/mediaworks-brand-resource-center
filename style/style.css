@@ -119,6 +119,10 @@ ul {
     margin-bottom: 20px;
 }
 
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
 .margin-top-40 {
     margin-top: 40px;
 }
@@ -197,11 +201,14 @@ ul {
 }
 
 .page-content a {
-    color: #58595B;
+    color: #00558C;
     transition: all .3s ease-in-out;
 }
 
-.page-content a:hover,
+.page-content a:hover {
+    color: #03173E;
+}
+
 .sidebar-category a:hover {
     color: #E0582A;
 }
