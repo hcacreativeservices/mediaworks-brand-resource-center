@@ -1,4 +1,4 @@
-../<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brand Resource Center</title>
     <link rel="stylesheet" href="../../style/style.css">
-    <link rel="stylesheet" href="logos.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -14,19 +13,19 @@
     <script src="../../script/sidebar.js"></script>
 </head>
 <body class="bs-override">
-    <div class="container">
+    <div class="container designs">
         <div class="header">
-            <h1>Our Logos</h1>
+            <h1>Our Messaging</h1>
             <div class="nav">
                 <div class="nav-item">
                     <a href="../../index.html" class="nav-primary">Home</a>
                 </div>
                 <div class="nav-item">
-                    <a href="logos.html" class="nav-primary active">Our Logos</a>
+                    <a href="../logos/logos.html" class="nav-primary">Our Logos</a>
                     <div class="dropdown">
                         <ul>
-                            <li class="dropdown-category"><a href="logos.html">HCA Logos</a></li>
-                            <li class="dropdown-category"><a href="supporting-logos-about.html">Supporting Logos</a></li>
+                            <li class="dropdown-category"><a href="../logos/logos.html">HCA Logos</a></li>
+                            <li class="dropdown-category"><a href="../logos/supporting-logos-about.html">Supporting Logos</a></li>
                         </ul>
                     </div>
                 </div> <!-- Nav Item -->
@@ -47,14 +46,14 @@
                 </div> <!-- Nav Item -->
 
                 <div class="nav-item">
-                    <a href="../messaging/our-messaging.html" class="nav-primary">Our Messaging</a>
+                    <a href="our-messaging.html" class="nav-primary active">Our Messaging</a>
                     <div class="dropdown">
                         <ul>
-                            <li class="dropdown-category"><a href="../messaging/about.html">About HCA Healthcare</a></li>
-                            <li class="dropdown-category"><a href="../messaging/talking-to-physicians.html">Talking to Physicians</a></li>
-                            <li class="dropdown-category"><a href="../messaging/talking-to-nurses.html">Talking to Nurses</a></li>
-                            <li class="dropdown-category"><a href="../messaging/talking-to-payers.html">Talking to Payers</a></li>
-                            <li class="dropdown-category"><a href="../messaging/talking-to-colleagues.html">Talking About Our Brand</a></li>
+                            <li class="dropdown-category"><a href="about.html">About HCA Healthcare</a></li>
+                            <li class="dropdown-category"><a href="talking-to-physicians.html">Talking to Physicians</a></li>
+                            <li class="dropdown-category"><a href="talking-to-nurses.html">Talking to Nurses</a></li>
+                            <li class="dropdown-category"><a href="talking-to-payers.html">Talking to Payers</a></li>
+                            <li class="dropdown-category"><a href="talking-to-colleagues.html">Talking About Our Brand</a></li>
                         </ul>
                     </div>
                 </div>
@@ -105,58 +104,40 @@
             </div>
         </div> <!-- Header -->
 
-        <div class="page-content logos">
+        <div class="page-content">
             <div class="sidebar-left">
                 <div class="accordion" id="sidebarAccordion">
-                    <p class="sidebar-page-title">Our Logos</p>
+                    <p class="sidebar-page-title">Our Messaging</p>
                     <div class="sidebar-category">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        HCA Logo
-                        </button>
-                    
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#sidebarAccordion">
-                            <ul>
-                                <li><a href="#">About our Logo</a></li>
-                                <li><a href="using-our-logo.html">Using our Logo</a></li>
-                                <li><a href="#">Logo Download</a></li>
-                            </ul>
-                        </div>
+                        <a href="our-messaging.html">Our Messaging</a>
                     </div>
 
                     <div class="sidebar-category">
-                        <button class="btn btn-link active open" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                        Supporting Logos
-                        </button>
-
-                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#sidebarAccordion">
-                            <ul>
-                                <li><a href="supporting-logos-about.html">About</a></li>
-                                <li><a href="supporting-logos-groups.html">Groups</a></li>
-                                <li><a href="supporting-logos-divisions.html">Divisions</a></li>
-                                <li><a href="supporting-logos-departments.html">Departments</a></li>
-                                <li><a href="supporting-logos-service-line.html">Service Line</a></li>
-                                <li><a href="supporting-logos-resources.html">Resources</a></li>
-                                <li><a href="supporting-logos-programs.html" class="active">Programs</a></li>
-                            </ul>
-                        </div>
+                        <a href="about.html">About HCA Healthcare</a>
                     </div>
 
+                    <div class="sidebar-category">
+                        <a href="talking-to-physicians.html">Talking to Physicians</a>
+                    </div>
+
+                    <div class="sidebar-category">
+                        <a href="talking-to-nurses.html">Talking to Nurses</a>
+                    </div>
+
+                    <div class="sidebar-category">
+                        <a href="talking-to-payers.html" class="active-primary">Talking to Payers</a>
+                    </div>
+
+                    <div class="sidebar-category">
+                        <a href="talking-to-colleagues.html">Talking about our brand</a>
+                    </div>
                 </div>
             </div> <!-- Sidebar -->
 
-            <div class="page-right logos">
-                <h1>Programs</h1>
-                <a href="#" class="link-orange">> Go to Program Logos</a>
-                <div class="section">
-                    <p class="section-title mark-heavy">Definition</p>
-                    <p>Targeted initiative, run by a department, with a specific focus that spans groups, divisions, or departments.</p>
-                </div>
+            <div class="page-right">
+                <h1>Talking to payers about HCA Healthcare</h1>
 
-                <div class="section">
-                    <p class="section-title mark-heavy">Audience Exposure</p>
-                    <p>Internal and External</p>
-                    <img src="img/logos-programs.png" alt="Program Logos" class="featured-img">
-                </div>
+                <p>HCA Healthcare is a collaborative healthcare network, driven by physicians, nurses and colleagues helping each other champion the practice of medicine to give people a healthier tomorrow. As the largest private provider of healthcare in the United States, our scale enables us to deliver great outcomes for our patients, provide superior nursing care and be a preferred place for physicians to practice medicine. The strength and scale of our nationally integrated network, combined with our unique operational discipline, delivers a more effective and more efficient provider system in the communities we serve, which keeps costs down and focuses investment where it really matters: on our patients. Along with our growing network of hospitals, we also serve patients through an expansive outpatient network, which includes emergency rooms, urgent care clinics, ambulatory surgery centers, physician practices and outpatient imaging centers. This network supports health plans’ need to keep members in-network while offering them a wide array of quality care choices. As health plan providers, you face increasing pressure to connect members to quality medical services and convenient care. HCA Healthcare is uniquely prepared to ease this pressure through our vast network and innovative approaches.</p>
 
             </div> <!-- Page Right -->
         </div>

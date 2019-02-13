@@ -1,6 +1,5 @@
-.nurse-strategy {
-    list-style: initial;
-    padding-left: 20px;
+.messaging-resources {
+    padding-left: 0;
 }
 
 .proof-points {
@@ -14,4 +13,14 @@
 
 .section-title {
     font-size: 22px;
+}
+
+.talking-brand {
+    color: #58595B;
+    list-style: initial;
+    padding-left: 20px;
+}
+
+.talking-brand li {
+    padding: 10px 0;
 }

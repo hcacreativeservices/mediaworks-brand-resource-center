@@ -46,7 +46,6 @@ h2,
 
 *,
 .hero-item p,
-.page-content p,
 .page-content a,
 .nav .dropdown a,
 .sidebar-left .sidebar-category li a {
@@ -67,7 +66,7 @@ ul {
     top: 0;
 }
 
-.container {
+.bs-override .container {
     max-width: 1028px;
     margin: 0 auto;
 }
@@ -176,7 +175,7 @@ ul {
 .nav ul {
     display: flex;
     flex-direction: column;
-    min-width: 150px;
+    min-width: 165px;
     padding: 0;
 }
 
