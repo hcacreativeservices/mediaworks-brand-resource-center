@@ -1,0 +1,35 @@
+.section-title {
+    font-size: 22px;
+}
+
+.card-header p {
+    cursor: pointer;
+    margin: 0;
+}
+
+.bs-override .card {
+    border: 0;
+}
+
+.card .fas {
+    float: right;
+    padding-right: 20px;
+    position: relative;
+    font-size: 22px;
+    top: 3px;
+}
+
+.bs-override .card-header {
+    background-color: #fff;
+    padding: 16px 0;
+}
+
+.bs-override .card-body {
+    padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+    .card .fas {
+        padding-right: 40px;
+    }
+}

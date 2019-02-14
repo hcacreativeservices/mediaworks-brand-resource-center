@@ -26,6 +26,7 @@ a,
 .page-content .link-orange,
 .sidebar-left .sidebar-category .active,
 .nav .dropdown .dropdown-category a,
+.card-header p,
 .mark-bold,
 .mark-bold > * {
     font-family: 'MarkBold', sans-serif;
