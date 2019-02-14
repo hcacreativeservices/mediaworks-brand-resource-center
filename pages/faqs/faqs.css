@@ -21,6 +21,7 @@
 
 .bs-override .card-header {
     background-color: #fff;
+    border-bottom: 0;
     padding: 16px 0;
 }
 
