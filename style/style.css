@@ -91,7 +91,7 @@ ul {
 .footer a,
 .page-content .link-orange,
 .sidebar-category .active-primary {
-    color: #E05929;
+    color: #00558c;
 }
 
 .footer-content {
@@ -206,12 +206,9 @@ ul {
     transition: all .3s ease-in-out;
 }
 
-.page-content a:hover {
-    color: #03173E;
-}
-
+.page-content a:hover,
 .sidebar-category a:hover {
-    color: #E0582A;
+    color: #03173E;
 }
 
 .page-right {
@@ -231,6 +228,10 @@ ul {
 .sidebar-category {
     border: 0;
     padding: 6px 0;
+}
+
+.sidebar-category a {
+    color: #58595B;
 }
 
 .sidebar-left {

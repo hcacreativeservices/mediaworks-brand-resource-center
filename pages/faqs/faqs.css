@@ -1,5 +1,6 @@
 .section-title {
     font-size: 22px;
+    margin: 40px 0 10px;
 }
 
 .card-header p {
@@ -9,6 +10,7 @@
 
 .bs-override .card {
     border: 0;
+    border-bottom: 1px solid #bbbcbc;
 }
 
 .card .fas {
@@ -27,6 +29,14 @@
 
 .bs-override .card-body {
     padding: 20px 0;
+}
+
+.faqs .sidebar-left {
+    padding-right: 40px;
+}
+
+.faqs .accordion.fixed {
+    width: 200px;
 }
 
 @media (min-width: 768px) {
