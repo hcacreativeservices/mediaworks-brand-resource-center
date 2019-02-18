@@ -23,7 +23,7 @@ a,
 .toolkit-item .toolkit-item-content a,
 .logos .logo-download,
 .sidebar-left .sidebar-category a,
-.page-content .link-orange,
+.page-content .link-denim,
 .sidebar-left .sidebar-category .active,
 .nav .dropdown .dropdown-category a,
 .card-header p,
@@ -86,15 +86,15 @@ ul {
 .footer p,
 .page-content p,
 .page-right h1,
-.sidebar-category a,
+.page-content .sidebar-category a,
 .sidebar-left ul a,
 .sidebar-left button {
     color: #58595B;
 }
 
 .footer a,
-.page-content .link-orange,
-.sidebar-category .active-primary,
+.page-content .link-denim,
+.page-content .sidebar-category .active-primary,
 .page-content a,
 .nav a.active,
 .sidebar-left button.active {
@@ -124,12 +124,20 @@ ul {
     margin-bottom: 40px;
 }
 
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+
 .margin-top-40 {
     margin-top: 40px;
 }
 
 .margin-vertical-20 {
     margin: 20px 0;
+}
+
+.margin-vertical-30 {
+    margin: 30px 0;
 }
 
 .margin-vertical-40 {
