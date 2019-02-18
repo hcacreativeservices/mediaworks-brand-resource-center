@@ -1,12 +1,10 @@
 .logos .logo-download {
     color: #00558c;
     display: inline-block;
-    margin-bottom: 40px;
 }
 
 .logo-use-item {
     display: flex;
-    margin: 40px 0;
 }
 
 .logo-use-item img {
@@ -14,20 +12,8 @@
     margin-right: 30px;
 }
 
-.logos .poor-use-examples {
-    margin-top: 40px;
-}
-
-.logos .section {
-    margin: 40px 0;
-}
-
 .logos .section-title {
     font-size: 20px;
-}
-
-.logos .section .featured-img {
-    margin: 20px 0;
 }
 
 .logo-space {

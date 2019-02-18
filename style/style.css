@@ -120,6 +120,22 @@ ul {
     transition: all .3s ease-in-out;
 }
 
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-vertical-20 {
+    margin: 20px 0;
+}
+
+.margin-vertical-40 {
+    margin: 40px 0;
+}
+
 .footer-content {
     flex-basis: 50%;
 }
@@ -143,14 +159,6 @@ ul {
 .link-margin-bottom {
     display: inline-block;
     margin-bottom: 20px;
-}
-
-.margin-bottom-40 {
-    margin-bottom: 40px;
-}
-
-.margin-top-40 {
-    margin-top: 40px;
 }
 
 .nav {
