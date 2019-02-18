@@ -46,7 +46,6 @@ h2,
 }
 
 *,
-.hero-item p,
 .page-content a,
 .nav .dropdown a,
 .sidebar-left .sidebar-category li a {
@@ -84,14 +83,41 @@ ul {
     padding: 0 60px;
 }
 
-.footer p {
+.footer p,
+.page-content p,
+.page-right h1,
+.sidebar-category a,
+.sidebar-left ul a,
+.sidebar-left button {
     color: #58595B;
 }
 
 .footer a,
 .page-content .link-orange,
-.sidebar-category .active-primary {
+.sidebar-category .active-primary,
+.page-content a,
+.nav a.active,
+.sidebar-left button.active {
     color: #00558c;
+}
+
+.header h1,
+.sidebar-left .sidebar-page-title {
+    color: #E05929;
+}
+
+.nav a:hover,
+.nav .dropdown a:hover,
+.page-content a:hover,
+.sidebar-category a:hover,
+.sidebar-left button:hover {
+    color: #03173E;
+}
+
+.nav a,
+.nav .dropdown,
+.page-content a {
+    transition: all .3s ease-in-out;
 }
 
 .footer-content {
@@ -110,7 +136,6 @@ ul {
 }
 
 .header h1 {
-    color: #E05929;
     font-size: 42px;
     margin: 25px 0;
 }
@@ -140,16 +165,6 @@ ul {
     color: #75767A;
     font-size: 14px;
     text-decoration: none;
-    transition: all .3s ease-in-out;
-}
-
-.nav a.active {
-    color: #00558c;
-}
-
-.nav a:hover,
-.nav .dropdown a:hover {
-    color: #03173E;
 }
 
 .nav-item {
@@ -164,9 +179,8 @@ ul {
     display: none;
     position: absolute;
     z-index: 1;
-    background-color: white;
+    background-color: #fff;
     padding: 10px 0 0 30px;
-    transition: all .3s ease-in-out;
     transform: translateX(-15%);
 }
 
@@ -200,26 +214,11 @@ ul {
     padding: 60px 0;
 }
 
-.page-content p {
-    color: #58595B;
-}
-
-.page-content a {
-    color: #00558C;
-    transition: all .3s ease-in-out;
-}
-
-.page-content a:hover,
-.sidebar-category a:hover {
-    color: #03173E;
-}
-
 .page-right {
     width: 75%;
 }
 
 .page-right h1 {
-    color: #58595B;
     font-size: 34px;
     margin-bottom: 20px;
 }
@@ -233,10 +232,6 @@ ul {
     padding: 6px 0;
 }
 
-.sidebar-category a {
-    color: #58595B;
-}
-
 .sidebar-left {
     font-size: 14px;
     width: 25%;
@@ -247,18 +242,9 @@ ul {
 }
 
 .sidebar-left button {
-    color: #58595B;
     font-size: 14px;
     padding: 0;
     text-align: left;
-}
-
-.sidebar-left button.active {
-    color: #00558c;
-}
-
-.sidebar-left button:hover {
-    color: #03173E;
 }
 
 .sidebar-left button:focus,
@@ -280,12 +266,4 @@ ul {
 
 .sidebar-left ul {
     margin: 15px 0;
-}
-
-.sidebar-left ul a {
-    color: #58595B;
-}
-
-.sidebar-left .sidebar-page-title {
-    color: #E05929;
 }

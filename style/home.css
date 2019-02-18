@@ -14,14 +14,17 @@
 }
 
 .hero-item img {
-    height: 100%;
     width: 44vw;
+    object-fit: cover;
+}
+
+.hero-item img, 
+.hero-item .color-overlay {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
-    object-fit: cover;
+    height: 100%;
 }
 
 .hero-item.active {
@@ -62,14 +65,11 @@
     background-color: rgba(3, 23, 62, .67);
 }
 
-
-
 .hero-item.active .color-overlay {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
-background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 .hero-item a {
@@ -82,17 +82,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
     color: #54575A;
 }
 
+.hero-item.active h1,
 .hero-item a:hover {
-    color: #E0582A;
+    color: #03173e;
 }
 
 .hero-item h1 {
     font-size: 36px;
     margin: 0 0 20px;
-}
-
-.hero-item.active h1 {
-    color: #03173E;
 }
 
 .hero-item p {
@@ -105,11 +102,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 }
 
 .hero-item .color-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 100%;
     width: 100%;
     z-index: 1;
 }
