@@ -143,10 +143,13 @@ ul {
     transition: all .3s ease-in-out;
 }
 
-.nav a.active,
+.nav a.active {
+    color: #00558c;
+}
+
 .nav a:hover,
 .nav .dropdown a:hover {
-    color: #E05929;
+    color: #03173E;
 }
 
 .nav-item {
@@ -250,9 +253,12 @@ ul {
     text-align: left;
 }
 
-.sidebar-left button.active,
+.sidebar-left button.active {
+    color: #00558c;
+}
+
 .sidebar-left button:hover {
-    color: #E05929;
+    color: #03173E;
 }
 
 .sidebar-left button:focus,
