@@ -1,6 +1,6 @@
 .toolkit-items {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding-top: 30px;
 }
 
@@ -10,7 +10,6 @@
 }
 
 .toolkit-item a {
-    color: #E05929;
     font-size: 15px;
 }
 
@@ -26,8 +25,4 @@
 
 .toolkit-item-title {
     font-size: 15px;
-}
-
-.toolkit .nav {
-    border-bottom: 2px solid #75767A;
 }
