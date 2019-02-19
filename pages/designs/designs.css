@@ -16,6 +16,10 @@
     margin-top: 20px;
 }
 
+.designs .accordion {
+    max-width: 230px;
+}
+
 .designs-block {
     display: flex;
 }
