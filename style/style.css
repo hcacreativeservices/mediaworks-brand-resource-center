@@ -89,7 +89,8 @@ ul {
 .page-right h1,
 .page-content .sidebar-category a,
 .sidebar-left ul a,
-.sidebar-left button {
+.sidebar-left button,
+.designs-block-title {
     color: #58595B;
 }
 
