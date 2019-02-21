@@ -9,8 +9,9 @@
     padding-bottom: 50px;
 }
 
-.toolkit-item a {
-    font-size: 15px;
+.toolkit-item a,
+.toolkit-item p {
+    font-size: 14px;
 }
 
 .toolkit-item img {
@@ -19,10 +20,6 @@
     width: auto;
 }
 
-.toolkit-item p {
-    font-size: 14px;
-}
-
-.toolkit-item-title {
+p.toolkit-item-title {
     font-size: 15px;
 }
