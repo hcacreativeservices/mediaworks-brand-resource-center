@@ -72,6 +72,11 @@ ul {
     margin: 0 auto;
 }
 
+.date-stamp {
+    font-size: 12px;
+    font-style: italic;
+}
+
 .featured-img {
     width: 100%;
 }
