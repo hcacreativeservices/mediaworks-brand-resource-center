@@ -3,10 +3,6 @@
     display: inline-block;
 }
 
-.logo-use-item {
-    display: flex;
-}
-
 .logo-use-item img {
     height: 150px;
     margin-right: 30px;
@@ -19,4 +15,11 @@
 .logo-space {
     margin: 20px 0 60px;
     max-width: 420px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .logo-use-item {
+        display: flex;
+    }
 }

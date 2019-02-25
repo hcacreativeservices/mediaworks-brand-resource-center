@@ -180,6 +180,7 @@ ul {
     border-bottom: 1px solid #75767A;
     border-top: 1px solid #75767A;
     display: flex;
+    flex-wrap: wrap;
     padding: 20px 0;
     position: relative;
     z-index: 5;
@@ -192,6 +193,7 @@ ul {
 }
 
 .nav-item {
+    padding: 8px;
     position: relative;
 }
 
@@ -234,12 +236,7 @@ ul {
 }
 
 .page-content {
-    display: flex;
     padding: 60px 0;
-}
-
-.page-right {
-    width: 75%;
 }
 
 .page-right h1 {
@@ -258,7 +255,6 @@ ul {
 
 .sidebar-left {
     font-size: 14px;
-    width: 25%;
 }
 
 .sidebar-left a:hover {
@@ -290,4 +286,22 @@ ul {
 
 .sidebar-left ul {
     margin: 15px 0;
+}
+
+@media (min-width: 768px) {
+    .nav-item {
+        padding: 0;
+    }
+
+    .page-content {
+        display: flex;
+    }
+
+    .page-right {
+        width: 75%;
+    }
+
+    .sidebar-left {
+        width: 25%;
+    }
 }

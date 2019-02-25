@@ -20,10 +20,6 @@
     max-width: 230px;
 }
 
-.designs-block {
-    display: flex;
-}
-
 .designs-block ul {
     color: #58595B;
     list-style: initial;
@@ -91,4 +87,10 @@
 
 .photo-grid-item:nth-child(3n+3) {
     padding-left: 12px;
+}
+
+@media (min-width: 768px) {
+    .designs-block {
+        display: flex;
+    }
 }

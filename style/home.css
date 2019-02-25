@@ -1,5 +1,6 @@
 .home-hero {
     display: flex;
+    flex-direction: column;
     overflow: hidden;
 }
 
@@ -7,15 +8,14 @@
     color: #fff;
     cursor: pointer;
     display: flex;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
     position: relative;
-    width: 28%;
 }
 
 .hero-item img {
-    width: 44vw;
     object-fit: cover;
+    width: 100%;
 }
 
 .hero-item img, 
@@ -29,7 +29,6 @@
 
 .hero-item.active {
     cursor: default;
-    width: 44%;
     transition: background .5s,color .5s,transform .5s cubic-bezier(.68, 0, .265, 1) .35s,width .5s;
     z-index: 4;
 }
@@ -163,6 +162,25 @@
 
 p.sidebar-title {
     padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .hero-item.active {
+        width: 44%;
+    }
+
+    .hero-item {
+        height: 500px;
+        width: 28%;
+    }
+    
+    .hero-item img {
+        width: 44vw;
+    }
+
+    .home-hero {
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 992px) {
