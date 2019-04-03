@@ -10,6 +10,130 @@
     width: 100%;
 }
 
+.color-palette {
+    display: flex;
+    margin: 20px 0 40px 0;
+}
+
+.color-palette-item {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.primary-color-palette .color-palette-color {
+    height: 200px;
+    width: 200px;
+}
+
+.neutral-color-palette .color-palette-color {
+    height: 170px;
+    width: 170px;
+}
+
+.accent-color-palette .color-palette-color {
+    height: 160px;
+    width: 160px;
+}
+
+.neutral-color-palette .color-palette-item {
+    margin-right: 20px;
+}
+
+.primary-color-palette .color-palette-name {
+    font-size: 18px;
+}
+
+.color-palette-name {
+    margin: 20px 0;
+}
+
+.neutral-color-palette .color-palette-details,
+.accent-color-palette .color-palette-details {
+    font-size: 14px;
+}
+
+.color-palette-details p {
+    margin-bottom: 5px;
+}
+
+.color-palette-color.hca-healthcare-orange {
+    background-color: #E05929;
+}
+
+.color-palette-color.hca-healthcare-navy {
+    background-color: #03173E;
+}
+
+.color-palette-color.color-white {
+    background-color: #fff;
+    border: 1px solid #58595B;
+}
+
+.color-palette-color.color-slate {
+    background-color: #58595B;
+}
+
+.color-palette-color.color-chrome-dark {
+    background-color: #898b8e;
+}
+
+.color-palette-color.color-chrome-light {
+    background-color: #bbbcbc;
+}
+
+.color-palette-color.color-chrome-ultralight {
+    background-color: #d9d9d6;
+}
+
+.color-palette-color.color-denim {
+    background-color: #00558c;
+}
+
+.color-palette-color.color-cerulean {
+    background-color: #0085CA;
+}
+
+.color-palette-color.color-tangerine {
+    background-color: #ED8B00;
+}
+
+.color-palette-color.color-goldenrod {
+    background-color: #FFC845;
+}
+
+.color-palette-color.color-deep-marine {
+    background-color: #285c4d;
+}
+
+.color-palette-color.color-dusty-green {
+    background-color: #599662;
+}
+
+.color-palette-color.color-pale-aqua {
+    background-color: #63B1BA;
+}
+
+.color-palette-color.color-light-teal {
+    background-color: #8FD6BD;
+}
+
+.color-palette-color.color-sky-blue {
+    background-color: #9BB8D3;
+}
+
+.color-palette-color.color-lime {
+    background-color: #A4D65E
+}
+
+.color-palette-color.color-american-rose {
+    background-color: #CE2130;
+}
+
+.color-palette-color.color-crimson {
+    background-color: #971B2F;
+}
+
 .color-palette.featured-img,
 .map.featured-img {
     margin-bottom: 50px;
