@@ -67,6 +67,15 @@ ul {
     top: 0;
 }
 
+.br-btn {
+    color: #75767A;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    margin: 0;
+    cursor: default;
+}
+
 .bs-override .container {
     max-width: 1028px;
     margin: 0 auto;
@@ -210,8 +219,17 @@ ul {
     transform: translateX(-15%);
 }
 
-.nav .toolkit-dropdown.dropdown {
+.nav .toolkit-dropdown.dropdown,
+.nav .br-dropdown.dropdown {
     transform: translateX(-42%);
+}
+
+.nav .br-dropdown.dropdown {
+    transform: translateX(-38%);
+}
+
+.nav .br-dropdown ul {
+    min-width: 200px;
 }
 
 .nav .dropdown a,
