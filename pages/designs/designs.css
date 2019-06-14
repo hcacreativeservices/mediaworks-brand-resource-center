@@ -213,8 +213,35 @@
     padding-left: 12px;
 }
 
+.photo-categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.photo-category {
+    background-color: #eeeeee;
+    flex-basis: 50%;
+    border: 12px solid #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-content .photo-category a {
+    color: #03173E;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
     .designs-block {
         display: flex;
+    }
+
+    .photo-category {
+        flex-basis: 25%;
     }
 }
