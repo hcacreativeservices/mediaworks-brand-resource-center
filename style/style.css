@@ -211,6 +211,10 @@ ul {
     display: flex;
 }
 
+.nav-item p {
+    display: inline-block;
+}
+
 .nav .dropdown {
     display: none;
     position: absolute;
