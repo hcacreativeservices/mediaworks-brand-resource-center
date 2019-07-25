@@ -24,5 +24,6 @@
 }
 
 .talking-brand li {
+    font-family: 'MarkBook', sans-serif !important;
     padding: 10px 0;
 }
