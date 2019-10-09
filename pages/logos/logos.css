@@ -18,6 +18,11 @@
     width: 100%;
 }
 
+.logos .page-right .featured-img {
+    margin: 40px 0 60px;
+    max-width: 500px;
+}
+
 @media (min-width: 768px) {
     .logo-use-item {
         display: flex;
