@@ -23,6 +23,11 @@
     max-width: 500px;
 }
 
+.logos .page-right .our-logo {
+    max-width: 500px;
+    padding: 20px 0;
+}
+
 @media (min-width: 768px) {
     .logo-use-item {
         display: flex;
