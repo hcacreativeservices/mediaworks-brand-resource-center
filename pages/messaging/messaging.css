@@ -1,29 +1,84 @@
+.columns-2 {
+  display: flex;
+}
+
+.lexicon-col-l {
+  flex-basis: 65%;
+}
+
+.lexicon-col-r {
+  flex-basis: 35%;
+  padding-left: 50px;
+}
+
+.lexicon-col-r img {
+  height: 105px;
+  width: 105px;
+}
+
+.lexicon-col-r .mark-heavy,
+.lexicon-col-r p {
+  color: #e05929;
+}
+
+.lexicon-block-title {
+  color: #58595b;
+  font-size: 22px;
+  margin-bottom: 15px;
+  padding-top: 30px;
+}
+
 .messaging-resources {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .proof-points {
-    color: #707070;
-    padding-left: 0;
+  color: #707070;
+  padding-left: 0;
 }
 
 .proof-points li {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
 .section-title {
-    color: #58595B;
-    font-size: 22px;
-    margin-bottom: 20px;
+  color: #58595b;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
 .talking-brand {
-    color: #58595B;
-    list-style: initial;
-    padding-left: 20px;
+  color: #58595b;
+  list-style: initial;
+  padding-left: 20px;
 }
 
 .talking-brand li {
-    font-family: 'MarkBook', sans-serif !important;
-    padding: 10px 0;
+  font-family: "MarkBook", sans-serif !important;
+  padding: 10px 0;
+}
+
+.word-examples {
+  color: #54575a;
+  font-size: 14px;
+  padding-bottom: 60px;
+}
+
+.word-examples table {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.word-examples th {
+  font-size: 16px;
+  padding-bottom: 15px;
+  width: 50%;
+}
+
+.word-examples td {
+  padding: 10px 30px 10px 0;
+}
+
+.word-examples tr {
+  border-bottom: 1px solid #58595b;
 }
