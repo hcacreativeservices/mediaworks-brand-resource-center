@@ -32,6 +32,26 @@
   padding-left: 0;
 }
 
+.mission-guidelines {
+  margin: 20px 0;
+}
+
+.mission-guideline {
+  align-items: center;
+  display: flex;
+  padding: 10px 0;
+}
+
+.mission-guideline img {
+  height: 40px;
+  margin-right: 20px;
+  width: 40px;
+}
+
+.mission-guideline p {
+  margin-bottom: 0;
+}
+
 .proof-points {
   color: #707070;
   padding-left: 0;
@@ -59,7 +79,7 @@
 }
 
 .word-examples {
-  color: #54575a;
+  color: #58595b;
   font-size: 14px;
   padding-bottom: 60px;
 }
@@ -81,4 +101,20 @@
 
 .word-examples tr {
   border-bottom: 1px solid #58595b;
+}
+
+.word-suggestions th {
+  width: 25%;
+}
+
+.word-suggestions tr {
+  vertical-align: top;
+}
+
+.word-suggestions .row-end {
+  border-bottom: 0.5px solid #58595b;
+}
+
+.word-suggestions .row-1 td {
+  padding-top: 10px;
 }
