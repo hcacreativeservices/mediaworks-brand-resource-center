@@ -63,6 +63,7 @@ ul {
 }
 
 .accordion.fixed {
+  max-width: 250px;
   padding-top: 20px;
   position: fixed;
   top: 0;
