@@ -95,6 +95,17 @@ table {
   padding: 10px 0;
 }
 
+.talking-to-payers {
+  color: #58595b;
+  font-size: 16px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.talking-to-payers li {
+  padding: 15px 0;
+}
+
 .word-examples {
   color: #58595b;
   font-size: 14px;
