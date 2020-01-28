@@ -1,5 +1,22 @@
+table {
+  color: #58595b;
+}
+
 .columns-2 {
   display: flex;
+}
+
+.communication-table th {
+  padding: 10px 15px;
+}
+
+.communication-table tr {
+  vertical-align: top;
+}
+
+.communication-table td {
+  font-size: 14px;
+  padding: 10px 15px;
 }
 
 .lexicon-col-l {
@@ -99,8 +116,13 @@
   padding: 10px 30px 10px 0;
 }
 
+.communication-table tr,
 .word-examples tr {
   border-bottom: 1px solid #58595b;
+}
+
+.word-suggestions {
+  margin-bottom: 30px;
 }
 
 .word-suggestions th {
@@ -109,6 +131,19 @@
 
 .word-suggestions tr {
   vertical-align: top;
+}
+
+.word-suggestions th {
+  padding: 10px 0;
+}
+
+.word-suggestions td {
+  font-size: 14px;
+  padding: 6px 0;
+}
+
+.word-suggestions td.mark-heavy {
+  font-size: 16px;
 }
 
 .word-suggestions .row-end {
