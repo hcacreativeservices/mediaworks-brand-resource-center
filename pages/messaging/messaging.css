@@ -159,7 +159,7 @@ table {
 
 .word-suggestions td {
   font-size: 14px;
-  padding: 6px 0;
+  padding: 6px 4px;
 }
 
 .word-suggestions td.mark-heavy {
