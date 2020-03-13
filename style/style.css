@@ -16,8 +16,8 @@
 /* Global */
 
 a,
-.nav li:first-child,
-.nav li:first-child a,
+#nav li:first-child,
+#nav li:first-child a,
 .sidebar-left button,
 .sidebar-left a:hover,
 .toolkit-item .toolkit-item-content a,
@@ -26,7 +26,7 @@ a,
 .page-content .link-denim,
 .page-content .photo-category a,
 .sidebar-left .sidebar-category .active,
-.nav .dropdown .dropdown-category a,
+#nav .dropdown .dropdown-category a,
 .card-header p,
 .mark-bold,
 .mark-bold > * {
@@ -49,7 +49,7 @@ h2,
 
 *,
 .page-content a,
-.nav .dropdown a,
+#nav .dropdown a,
 .sidebar-left .sidebar-category li a {
   font-family: "MarkBook", sans-serif;
 }
@@ -114,7 +114,7 @@ ul {
 .page-content .link-denim,
 .page-content .sidebar-category .active-primary,
 .page-content a,
-.nav a.active,
+#nav a.active,
 .sidebar-left button.active {
   color: #00558c;
 }
@@ -124,16 +124,16 @@ ul {
   color: #e05929;
 }
 
-.nav a:hover,
-.nav .dropdown a:hover,
+#nav a:hover,
+#nav .dropdown a:hover,
 .page-content a:hover,
 .sidebar-category a:hover,
 .sidebar-left button:hover {
   color: #03173e;
 }
 
-.nav a,
-.nav .dropdown,
+#nav a,
+#nav .dropdown,
 .page-content a {
   transition: all 0.3s ease-in-out;
 }
@@ -187,7 +187,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.nav {
+#nav {
   border-bottom: 1px solid #75767a;
   border-top: 1px solid #75767a;
   display: flex;
@@ -197,7 +197,7 @@ ul {
   z-index: 5;
 }
 
-.nav a {
+#nav a {
   color: #75767a;
   font-size: 14px;
   text-decoration: none;
@@ -216,7 +216,7 @@ ul {
   display: inline-block;
 }
 
-.nav .dropdown {
+#nav .dropdown {
   display: none;
   position: absolute;
   z-index: 1;
@@ -225,39 +225,39 @@ ul {
   transform: translateX(-15%);
 }
 
-.nav .toolkit-dropdown.dropdown,
-.nav .br-dropdown.dropdown {
+#nav .toolkit-dropdown.dropdown,
+#nav .br-dropdown.dropdown {
   transform: translateX(-42%);
 }
 
-.nav .br-dropdown.dropdown {
+#nav .br-dropdown.dropdown {
   transform: translateX(-38%);
 }
 
-.nav .br-dropdown ul {
+#nav .br-dropdown ul {
   min-width: 200px;
 }
 
-.nav .dropdown a,
-.nav .dropdown li {
+#nav .dropdown a,
+#nav .dropdown li {
   font-size: 12px;
   color: #898b8e;
 }
 
-.nav .dropdown a.active {
+#nav .dropdown a.active {
   color: #00558c;
   font-weight: 800;
   text-decoration: underline;
 }
 
-.nav ul {
+#nav ul {
   display: flex;
   flex-direction: column;
   min-width: 165px;
   padding: 0;
 }
 
-.nav li {
+#nav li {
   padding-bottom: 15px;
 }
 
