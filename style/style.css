@@ -208,7 +208,7 @@ ul {
   position: relative;
 }
 
-.nav-item:hover .dropdown {
+#nav .nav-item:hover .dropdown {
   display: flex;
 }
 

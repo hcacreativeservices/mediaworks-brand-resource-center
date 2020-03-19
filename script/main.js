@@ -8,7 +8,7 @@ const navHTML = `
 </div>
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2330"
+  href="https://hcamediaworks.saepio.com/marketport/servlet/microsite/LandingPage_New/mediaworks-brand-resource-center-master/pages/messaging/lexicon.html"
   class="nav-primary"
   >Our Lexicon</a
 >
@@ -165,7 +165,7 @@ const navHTML = `
     <li>
       <a
         href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1788"
-        >Digital Templates</a
+        >Office Templates</a
       >
     </li>
     <li>
