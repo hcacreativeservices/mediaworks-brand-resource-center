@@ -339,6 +339,12 @@ const navHTML = `
     </li>
     <li>
       <a
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3447"
+        >Bramd Training</a
+      >
+    </li>
+    <li>
+      <a
         class="active"
         href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2389"
         >More</a
