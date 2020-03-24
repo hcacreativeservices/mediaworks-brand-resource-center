@@ -340,7 +340,7 @@ const navHTML = `
     <li>
       <a
         href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3447"
-        >Bramd Training</a
+        >Brand Training</a
       >
     </li>
     <li>
