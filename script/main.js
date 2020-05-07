@@ -15,47 +15,6 @@ const navHTML = `
 </div>
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml#openCategory_3275"
-  class="nav-primary"
-  >Our Branded Family</a
->
-<div class="dropdown">
-  <ul>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3276"
-        >Architecture</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3277"
-        >Naming</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3279"
-        >Compliance</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3280"
-        >Co-Branding</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3278"
-        >Tier System</a
-      >
-    </li>
-  </ul>
-</div>
-</div>
-<div class="nav-item">
-<a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
   class="nav-primary"
   >Our Design Elements</a
@@ -287,7 +246,7 @@ const navHTML = `
     </li>
     <li>
       <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_951490_null"
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_951490_categories_2390"
         >HCA Healthcare Family Brochure</a
       >
     </li>
@@ -321,8 +280,8 @@ const navHTML = `
     </li>
     <li>
       <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_973476_null"
-        >Impact Report</a
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_1325459_categories_2390"
+        >2020 Impact Report</a
       >
     </li>
     <li>
@@ -363,4 +322,61 @@ const navHTML = `
 </div>
 
 `;
+
+const footerHTML = `
+<div class="footer-content">
+  <p>
+    Questions? Concerns?
+    <a href="mailto:brand@hcahealthcare.com">Contact.</a>
+  </p>
+</div>
+
+<div class="footer-logo">
+  <img src="../../img/logo.png" alt="HCA Logo" />
+</div>
+`;
+
 document.getElementById('nav').innerHTML = navHTML;
+document.getElementById('footer').innerHTML = footerHTML;
+
+{/* <div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml#openCategory_3275"
+  class="nav-primary"
+  >Our Branded Family</a
+>
+<div class="dropdown">
+  <ul>
+    <li class="dropdown-category">
+      <a
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3276"
+        >Architecture</a
+      >
+    </li>
+    <li class="dropdown-category">
+      <a
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3277"
+        >Naming</a
+      >
+    </li>
+    <li class="dropdown-category">
+      <a
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3279"
+        >Compliance</a
+      >
+    </li>
+    <li class="dropdown-category">
+      <a
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3280"
+        >Co-Branding</a
+      >
+    </li>
+    <li class="dropdown-category">
+      <a
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3278"
+        >Tier System</a
+      >
+    </li>
+  </ul>
+</div>
+</div> */}

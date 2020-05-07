@@ -278,3 +278,9 @@
     flex-basis: 25%;
   }
 }
+
+/* 5/7/20 - Remove accent color style once layout is updated */
+.accent-color-palette .color-palette-color {
+  height: 160px;
+  width: 160px;
+}
