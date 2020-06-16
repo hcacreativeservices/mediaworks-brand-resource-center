@@ -327,7 +327,7 @@ const footerHTML = `
 <div class="footer-content">
   <p>
     Questions? Concerns?
-    <a href="mailto:brand@hcahealthcare.com">Contact.</a>
+    <a href="https://hca.my.workfront.com/requests?projectID=5e3c40b6004eeffdfc20ed48ebe73067&path=&activeTab=tab-new-helpRequest">Contact.</a>
   </p>
 </div>
 
