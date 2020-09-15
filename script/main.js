@@ -23,6 +23,12 @@ const navHTML = `
   <ul>
     <li class="dropdown-category">
       <a
+        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml#openCategory_1561"
+        >Our Logos</a
+      >
+    </li>
+    <li class="dropdown-category">
+      <a
         href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
         >Fonts</a
       >
@@ -31,6 +37,12 @@ const navHTML = `
       <a
         href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2299"
         >Colors</a
+      >
+    </li>
+    <li class="dropdown-category">
+      <a
+        href="#"
+        >Digital</a
       >
     </li>
     <li class="dropdown-category">
@@ -55,12 +67,6 @@ const navHTML = `
       <a
         href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2296"
         >Icons</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml#openCategory_1561"
-        >Our Logos</a
       >
     </li>
   </ul>
