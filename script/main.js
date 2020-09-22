@@ -8,69 +8,24 @@ const navHTML = `
 </div>
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/servlet/microsite/LandingPage_New/mediaworks-brand-resource-center-master/pages/messaging/lexicon.html"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1563"
   class="nav-primary"
   >Our Lexicon</a
 >
 </div>
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3275"
   class="nav-primary"
-  >Our Design Elements</a
+  >Our Brand Architecture</a
 >
-<div class="dropdown">
-  <ul>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml#openCategory_1561"
-        >Our Logos</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
-        >Fonts</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2299"
-        >Colors</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="#"
-        >Digital</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2298"
-        >Patterns</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2297"
-        >Maps</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1796"
-        >Photos</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2296"
-        >Icons</a
-      >
-    </li>
-  </ul>
 </div>
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
+  class="nav-primary design-system-nav-item"
+  >Our Design System</a
+>
 </div>
 <!-- Nav Item -->
 
@@ -80,243 +35,15 @@ const navHTML = `
   class="nav-primary"
   >Our Templates</a
 >
-<div class="dropdown toolkit-dropdown">
-  <ul>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1777"
-        >Stationery</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1783"
-        >Business Cards</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1784"
-        >Envelopes</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1785"
-        >Letterhead</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1786"
-        >Certificates & Folders</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1782"
-        >Note Cards & Notepads</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2324"
-        >Stickers</a
-      >
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1788"
-        >Office Templates</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2292"
-        >Word</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2294"
-        >PowerPoint</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2293"
-        >Email Signature</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_781869_2293#openCategory_2293"
-        >Email Templates</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_1099555_null#openCategory_2778"
-        >Digital Backgrounds</a
-      >
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1787"
-        >Print Templates</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1790"
-        >Posters</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1793"
-        >Flyers</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1795"
-        >One Pagers</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1791"
-        >Rack Cards</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1792"
-        >Table Tents</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1794"
-        >Postcards</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1892"
-        >Banners</a
-      >
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2329"
-        >Designer Resources</a
-      >
-    </li>
-  </ul>
-</div>
 </div>
 <!-- Nav Item -->
 
 <div class="nav-item">
-<p class="br-btn nav-primary mark-bold">Brand Essentials</p>
-<div class="dropdown br-dropdown">
-  <ul>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2390"
-        >Organization Reference</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_839694_1789"
-        >Facility Map Poster 11x17</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_839680_1789"
-        >Fact Sheet</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_951490_categories_2390"
-        >HCA Healthcare Family Brochure</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_844209_1789"
-        >Hospital Pocket Guide 2019</a
-      >
-    </li>
-    <li>
-      <a
-        class="active"
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2390"
-        >More</a
-      >
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2389"
-        >Brand Education Tools</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_849851_1789"
-        >Brand Book</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_1325459_categories_2390"
-        >2020 Impact Report</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_834894_1789"
-        >EVP Usage Guide</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=viewAssetDetail_1082364_2389"
-        >Physician Voice Guidelines</a
-      >
-    </li>
-    <li>
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3447"
-        >Brand Training</a
-      >
-    </li>
-    <li>
-      <a
-        class="active"
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2389"
-        >More</a
-      >
-    </li>
-  </ul>
-</div>
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2387"
+  class="nav-primary"
+  >Brand Essentials</a
+>
 </div>
 
 <div class="nav-item">
@@ -324,6 +51,117 @@ const navHTML = `
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2291"
   class="nav-primary"
   >FAQ</a
+>
+</div>
+
+`;
+
+const designSubNav = `
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
+  class="nav-primary logo-menu-item"
+  >Logo</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3820"
+  class="nav-primary typography-menu-item"
+  >Typography</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2299"
+  class="nav-primary"
+  >Color</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3822"
+  class="nav-primary"
+  >Graphic shapes</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2298"
+  class="nav-primary"
+  >Patterns</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2296"
+  class="nav-primary"
+  >Icons</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1796"
+  class="nav-primary"
+  >Photography</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2297"
+  class="nav-primary"
+  >Maps</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3821"
+  class="nav-primary"
+  >Digital design</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2329"
+  class="nav-primary"
+  >Designer resources</a
+>
+</div>
+
+`;
+
+const templatesSubNav = `
+<div class="nav-item">
+
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1777"
+  class="nav-primary"
+  >Stationary</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1788"
+  class="nav-primary"
+  >Digital templates</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1787"
+  class="nav-primary"
+  >Print templates</a
 >
 </div>
 
@@ -342,47 +180,18 @@ const footerHTML = `
 </div>
 `;
 
+// Insert nav items on all pages
 document.getElementById('nav').innerHTML = navHTML;
-document.getElementById('footer').innerHTML = footerHTML;
 
-{/* <div class="nav-item">
-<a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml#openCategory_3275"
-  class="nav-primary"
-  >Our Branded Family</a
->
-<div class="dropdown">
-  <ul>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3276"
-        >Architecture</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3277"
-        >Naming</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3279"
-        >Compliance</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3280"
-        >Co-Branding</a
-      >
-    </li>
-    <li class="dropdown-category">
-      <a
-        href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3278"
-        >Tier System</a
-      >
-    </li>
-  </ul>
-</div>
-</div> */}
+// insert designs sub nav on all designs pages
+if(document.getElementById('designsSubNav')) {
+  document.getElementById('designsSubNav').innerHTML = designSubNav;
+}
+
+// insert templates subnav on all templates pages
+if(document.getElementById('templatesSubNav')) {
+  document.getElementById('templatesSubNav').innerHTML = templatesSubNav;
+}
+
+//insert footer content on all pages
+document.getElementById('footer').innerHTML = footerHTML;
