@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Brand Resource Center</title>
+    <link rel="stylesheet" href="../../style/style.css" />
+    <link rel="stylesheet" href="designs.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"
+      integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../script/sidebar.js"></script>
+    <base target="_parent" />
+  </head>
+
+  <body class="bs-override">
+    <div class="container designs">
+      <div class="header">
+        <h1>Our Design Elements</h1>
+        <nav id="nav" class="design-system-nav"></nav>
+        <nav id="designsSubNav" class="subnav colors-subnav"></nav>
+      </div>
+      <!-- Header -->
+
+      <div class="page-content">
+        <div class="sidebar-left">
+          <div class="accordion" id="sidebarAccordion">
+            <div class="sidebar-category">
+              <a
+                href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2299"
+                >Palettes</a
+              >
+            </div>
+
+            <div class="sidebar-category">
+              <a href="designs-colors-use.html">How to use</a>
+            </div>
+
+            <div class="sidebar-category">
+              <a href="designs-colors-accessibility.html" class="active-primary"
+                >Contrast and accessibility</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Sidebar -->
+
+        <div class="page-right">
+          <h1>Contrast and accessiblity</h1>
+          <p>
+            The appropriate use of color with various font sizes, UI components
+            and key graphical objects ensures that all of our communications are
+            clear and easy for everyone to read. When using colors from the HCA
+            Healthcare color palettes, there should be enough contrast between
+            the background and type or graphics. For web usage, type and
+            graphics that are placed on white, dark or colored backgrounds must
+            exceed the minimum contrast ratio for AA accessibility. Text smaller
+            than 18pt/24px* should have a ratio of at least 4.5:1; larger text,
+            over 18pt/24px*, at least 3:1. While various combinations can be
+            created using our color palettes, be sure to work within
+            accessibility standards. The examples to the right demonstrate
+            correct color use for on-screen (RGB) applications. All the color
+            combinations on this page pass the minimum required AA accessibility
+            rating. For more information on color contrast testing, see snook.ca
+            colour contrast or the webaim.org contrast checker.
+          </p>
+
+          <div class="designs-block">
+            <div>
+              <img
+                src="img/photos/color-contrast.png"
+                alt=""
+                class="color-balance"
+              />
+              <div class="color-contrast-orange">
+                <img
+                  src="img/photos/color-contrast-single.png"
+                  alt=""
+                  class="color-contrast-single"
+                />
+                <p>
+                  <strong>Note:</strong> HCA Healthcare Orange and white may
+                  only be used for type combinations when the font is 14pt bold
+                  or above, as it has a lower contrast ratio and will not pass
+                  accessibility requirements otherwise.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Designs Block -->
+        </div>
+        <!-- Page Right -->
+      </div>
+
+      <footer class="footer" id="footer"></footer>
+    </div>
+    <!-- Container -->
+    <script src="../../script/main.js"></script>
+  </body>
+</html>

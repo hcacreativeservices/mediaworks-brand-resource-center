@@ -1,25 +1,29 @@
 .toolkit-items {
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
 }
 
 .toolkit-item {
-    display: flex;
-    padding-bottom: 50px;
+  display: flex;
+  padding-bottom: 50px;
 }
 
 .toolkit-item a,
 .toolkit-item p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .toolkit-item img {
-    height: 135px;
-    margin-right: 25px;
-    width: auto;
+  height: 135px;
+  margin-right: 25px;
+  width: auto;
 }
 
 p.toolkit-item-title {
-    font-size: 15px;
+  font-size: 15px;
+}
+
+.stationary-subnav .stationary-menu-item {
+  color: #00558c;
 }

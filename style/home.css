@@ -48,6 +48,12 @@
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  background-image: url("../img/home/BRC-hero\ FINAL-01.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #d9d9d9;
+  padding-left: 60px;
 }
 
 .home-hero h2 {
@@ -112,6 +118,6 @@
   }
 
   .page-content p {
-    max-width: 700px;
+    max-width: 750px;
   }
 }

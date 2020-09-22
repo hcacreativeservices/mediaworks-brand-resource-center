@@ -13,6 +13,11 @@
   src: url("fonts/mark-bold.woff");
 }
 
+@font-face {
+  font-family: "GeorgiaProBold";
+  src: url("fonts/GeorgiaPro-Bold.otf");
+}
+
 /* Global */
 
 a,
@@ -52,6 +57,10 @@ h2,
 #nav .dropdown a,
 .sidebar-left .sidebar-category li a {
   font-family: "MarkBook", sans-serif;
+}
+
+.georgia-bold {
+  font-family: "GeorgiaProBold", sans-serif;
 }
 
 h2 {
@@ -102,7 +111,6 @@ ul {
 
 .footer p,
 .page-content p,
-.page-right h1,
 .page-content .sidebar-category a,
 .sidebar-left ul a,
 .sidebar-left button,
@@ -124,6 +132,7 @@ ul {
   color: #e05929;
 }
 
+.page-right h1,
 #nav a:hover,
 #nav .dropdown a:hover,
 .page-content a:hover,
@@ -276,7 +285,8 @@ ul {
   padding-bottom: 15px;
 }
 
-.design-system-nav .design-system-nav-item {
+.design-system-nav .design-system-nav-item,
+.templates-nav .templates-nav-item {
   color: #00558c !important;
   border-bottom: 6px solid #e05929;
 }
