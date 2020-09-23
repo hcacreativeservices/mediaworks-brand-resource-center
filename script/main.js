@@ -2,7 +2,7 @@ const navHTML = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1557"
-  class="nav-primary"
+  class="nav-primary home-menu-item"
   >Home</a
 >
 </div>
@@ -152,7 +152,7 @@ const templatesSubNav = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1788"
-  class="nav-primary"
+  class="nav-primary digital-templates-menu-item"
   >Digital templates</a
 >
 </div>
@@ -160,7 +160,7 @@ const templatesSubNav = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1787"
-  class="nav-primary"
+  class="nav-primary print-templates-menu-item"
   >Print templates</a
 >
 </div>

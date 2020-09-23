@@ -37,9 +37,17 @@
   font-size: 14px;
 }
 
+.home-feature-item-img {
+  width: 50px;
+  margin: 0 auto;
+  padding: 12px 12px;
+  background-color: #fff;
+  border-radius: 60px;
+}
+
 .home-feature-item img {
   max-width: 100%;
-  width: 82px;
+  width: 50px;
 }
 
 .home-hero {
@@ -68,6 +76,10 @@
 
 .page-info {
   font-size: 14px;
+}
+
+.home-nav .home-menu-item {
+  color: #00558c !important;
 }
 
 @media (min-width: 768px) {
