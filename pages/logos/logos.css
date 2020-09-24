@@ -51,3 +51,15 @@ img.logo-use-example {
   height: 155px;
   margin-top: 40px;
 }
+
+.logo-use-examples {
+  display: flex;
+}
+
+.logo-use-examples img {
+  max-width: 250px;
+}
+
+.logo-use-example-r {
+  margin-left: 40px;
+}

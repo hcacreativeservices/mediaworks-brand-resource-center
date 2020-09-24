@@ -183,6 +183,10 @@
   flex-basis: 50%;
 }
 
+.designs-block .map-img {
+  flex-basis: 50%;
+}
+
 .designs-block-img {
   flex-basis: 25%;
   padding: 0 15px;
@@ -218,6 +222,9 @@
 .page-content .map-link,
 .photos-content a {
   display: inline-block;
+}
+
+.page-content .map-link {
   margin-bottom: 40px;
 }
 
@@ -277,12 +284,17 @@
 
 .typography-subnav .typography-menu-item,
 .colors-subnav .color-menu-item,
-.icons-subnav .icons-menu-item {
+.icons-subnav .icons-menu-item,
+.graphics-subnav .graphics-menu-item,
+.patterns-subnav .patterns-menu-item,
+.photos-subnav .photos-menu-item,
+.maps-subnav .maps-menu-item {
   color: #00558c;
 }
 
 .designs .page-content h1 {
   font-size: 32px;
+  color: #03173e;
 }
 
 .seperator {
@@ -364,6 +376,109 @@ img.color-contrast-single {
 
 .icon-asset a {
   color: #54575a;
+}
+
+.graphic-shapes .col-two,
+.photography .col-two,
+.patterns .col-two,
+.patterns-examples,
+.clinical-photo-guidelines {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clinical-photo-guidelines {
+  margin-top: 40px;
+}
+
+.clinical-photo-guideline {
+  flex-basis: 50%;
+  padding-right: 60px;
+}
+
+.clinical-photo-guideline h2 {
+  color: #03173e;
+}
+
+.clinical-photo-guideline ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.patterns .col-two {
+  margin-bottom: 40px;
+}
+
+.patterns-examples {
+  padding-top: 40px;
+}
+
+.graphic-shapes .col-two .graphics-text,
+.photography .col-two .photos-text {
+  flex-basis: 55%;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+.graphics-img,
+.photos-img {
+  flex-basis: 45%;
+}
+
+.pattern-example-item {
+  flex-basis: 25%;
+  padding-right: 40px;
+}
+
+.pattern-example-item p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.patterns .col-two .patterns-text {
+  flex-basis: 75%;
+  padding-right: 60px;
+  padding-top: 20px;
+}
+
+.patterns-img {
+  flex-basis: 25%;
+  padding-right: 40px;
+}
+
+.patterns .col-two img,
+.pattern-example-item img,
+.graphic-shapes .col-two img,
+.photography .col-two img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.graphics-text ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+img.graphic-shapes-examples {
+  width: 100%;
+  padding: 40px;
+}
+
+.maps-three-col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.maps-three-col .map-type {
+  flex-basis: 33.3333%;
+  padding: 25px;
+}
+
+.map-type img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {

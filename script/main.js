@@ -84,7 +84,7 @@ const designSubNav = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3822"
-  class="nav-primary"
+  class="nav-primary graphics-menu-item"
   >Graphic shapes</a
 >
 </div>
@@ -92,7 +92,7 @@ const designSubNav = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2298"
-  class="nav-primary"
+  class="nav-primary patterns-menu-item"
   >Patterns</a
 >
 </div>
@@ -108,7 +108,7 @@ const designSubNav = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1796"
-  class="nav-primary"
+  class="nav-primary photos-menu-item"
   >Photography</a
 >
 </div>
@@ -116,7 +116,7 @@ const designSubNav = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2297"
-  class="nav-primary"
+  class="nav-primary maps-menu-item"
   >Maps</a
 >
 </div>
@@ -171,7 +171,7 @@ const footerHTML = `
 <div class="footer-content">
   <p>
     Questions? Concerns?
-    <a href="https://hca.my.workfront.com/requests?projectID=5e3c40b6004eeffdfc20ed48ebe73067&path=&activeTab=tab-new-helpRequest">Contact.</a>
+    <a href="https://hca.my.workfront.com/requests?projectID=5e3c40b6004eeffdfc20ed48ebe73067&path=&activeTab=tab-new-helpRequest">AskBrand.</a>
   </p>
 </div>
 
@@ -209,16 +209,16 @@ const designSubNavStage = `
 
 <div class="nav-item">
 <a
-  href="#"
-  class="nav-primary"
+  href="graphic-shapes.html"
+  class="nav-primary graphics-menu-item"
   >Graphic shapes</a
 >
 </div>
 
 <div class="nav-item">
 <a
-  href="#"
-  class="nav-primary"
+  href="patterns.html"
+  class="nav-primary patterns-menu-item"
   >Patterns</a
 >
 </div>
@@ -234,7 +234,7 @@ const designSubNavStage = `
 <div class="nav-item">
 <a
   href="photos.html"
-  class="nav-primary"
+  class="nav-primary photos-menu-item"
   >Photography</a
 >
 </div>
@@ -242,7 +242,7 @@ const designSubNavStage = `
 <div class="nav-item">
 <a
   href="maps.html"
-  class="nav-primary"
+  class="nav-primary maps-menu-item"
   >Maps</a
 >
 </div>
@@ -292,7 +292,7 @@ const logosSubNavStage = `
 
 <div class="nav-item">
 <a
-  href="#"
+  href="../designs/graphic-shapes.html"
   class="nav-primary"
   >Graphic shapes</a
 >
@@ -300,8 +300,8 @@ const logosSubNavStage = `
 
 <div class="nav-item">
 <a
-  href="#"
-  class="nav-primary"
+  href="patterns.html"
+  class="nav-primary patterns-menu-item"
   >Patterns</a
 >
 </div>
@@ -317,7 +317,7 @@ const logosSubNavStage = `
 <div class="nav-item">
 <a
   href="../designs/photos.html"
-  class="nav-primary"
+  class="nav-primary photos-menu-item"
   >Photography</a
 >
 </div>
@@ -325,7 +325,7 @@ const logosSubNavStage = `
 <div class="nav-item">
 <a
   href="../designs/maps.html"
-  class="nav-primary"
+  class="nav-primary maps-menu-item"
   >Maps</a
 >
 </div>
