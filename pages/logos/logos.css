@@ -4,11 +4,6 @@
   font-size: 14px;
 }
 
-.logo-use-item img {
-  height: 150px;
-  margin-right: 30px;
-}
-
 .logos .section-title {
   font-size: 20px;
 }
@@ -29,8 +24,30 @@
   color: #00558c;
 }
 
-@media (min-width: 768px) {
-  .logo-use-item {
-    display: flex;
-  }
+img.logo-use-example {
+  width: 560px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.logo-use-caption {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.logo-use-item.col-two {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-use-item.col-two .logo-use-text {
+  flex-basis: 60%;
+  padding-right: 40px;
+}
+
+.logo-use-item.col-two img {
+  max-width: 100%;
+  width: 276px;
+  height: 155px;
+  margin-top: 40px;
 }
