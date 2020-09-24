@@ -180,18 +180,232 @@ const footerHTML = `
 </div>
 `;
 
+// STAGING LINKS ... REMOVE BEFORE LAUNCH
+
+const designSubNavStage = `
+<div class="nav-item">
+<a
+  href="../logos/logos.html"
+  class="nav-primary logo-menu-item"
+  >Logo</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="designs.html"
+  class="nav-primary typography-menu-item"
+  >Typography</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="designs-colors.html"
+  class="nav-primary color-menu-item"
+  >Color</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="#"
+  class="nav-primary"
+  >Graphic shapes</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="#"
+  class="nav-primary"
+  >Patterns</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="icons.html"
+  class="nav-primary icons-menu-item"
+  >Icons</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="photos.html"
+  class="nav-primary"
+  >Photography</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="maps.html"
+  class="nav-primary"
+  >Maps</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="#"
+  class="nav-primary"
+  >Digital design</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2329"
+  class="nav-primary"
+  >Designer resources</a
+>
+</div>
+
+`;
+
+const logosSubNavStage = `
+<div class="nav-item">
+<a
+  href="logos.html"
+  class="nav-primary logo-menu-item"
+  >Logo</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="../designs/designs.html"
+  class="nav-primary typography-menu-item"
+  >Typography</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="../designs/designs-colors.html"
+  class="nav-primary color-menu-item"
+  >Color</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="#"
+  class="nav-primary"
+  >Graphic shapes</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="#"
+  class="nav-primary"
+  >Patterns</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="../designs/icons.html"
+  class="nav-primary icons-menu-item"
+  >Icons</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="../designs/photos.html"
+  class="nav-primary"
+  >Photography</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="../designs/maps.html"
+  class="nav-primary"
+  >Maps</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="#"
+  class="nav-primary"
+  >Digital design</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2329"
+  class="nav-primary"
+  >Designer resources</a
+>
+</div>
+
+`;
+
+const templatesSubNavStage = `
+<div class="nav-item">
+
+<a
+  href="toolkit.html"
+  class="nav-primary stationary-menu-item"
+  >Stationary</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="toolkit-digital.html"
+  class="nav-primary digital-templates-menu-item"
+  >Digital templates</a
+>
+</div>
+
+<div class="nav-item">
+<a
+  href="toolkit-print.html"
+  class="nav-primary print-templates-menu-item"
+  >Print templates</a
+>
+</div>
+
+`;
+
+// ACTIVATE BELOW BEFORE LAUNCH
+
 // Insert nav items on all pages
-document.getElementById('nav').innerHTML = navHTML;
+// if(document.getElementById('nav')) {
+//   document.getElementById('nav').innerHTML = navHTML;
+// }
 
 // insert designs sub nav on all designs pages
-if(document.getElementById('designsSubNav')) {
-  document.getElementById('designsSubNav').innerHTML = designSubNav;
-}
+// if(document.getElementById('designsSubNav')) {
+//   document.getElementById('designsSubNav').innerHTML = designSubNav;
+// }
 
 // insert templates subnav on all templates pages
-if(document.getElementById('templatesSubNav')) {
-  document.getElementById('templatesSubNav').innerHTML = templatesSubNav;
-}
+// if(document.getElementById('templatesSubNav')) {
+//   document.getElementById('templatesSubNav').innerHTML = templatesSubNav;
+// }
 
 //insert footer content on all pages
 document.getElementById('footer').innerHTML = footerHTML;
+
+// FOR STAGING ... DELETE BEFORE LAUNCH
+
+if(document.getElementById('templatesSubNav')) {
+     document.getElementById('templatesSubNav').innerHTML = templatesSubNavStage;
+}
+
+const dsubnav = document.getElementById('designsSubNav');
+
+if(dsubnav.classList.contains('logos-subnav')) {
+  document.getElementById('designsSubNav').innerHTML = logosSubNavStage;
+} else if(document.getElementById('designsSubNav')) {
+  document.getElementById('designsSubNav').innerHTML = designSubNavStage;
+}
