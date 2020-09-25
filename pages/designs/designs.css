@@ -288,7 +288,8 @@
 .graphics-subnav .graphics-menu-item,
 .patterns-subnav .patterns-menu-item,
 .photos-subnav .photos-menu-item,
-.maps-subnav .maps-menu-item {
+.maps-subnav .maps-menu-item,
+.digital-designs-subnav .digital-designs-menu-item {
   color: #00558c;
 }
 
@@ -381,6 +382,7 @@ img.color-contrast-single {
 .graphic-shapes .col-two,
 .photography .col-two,
 .patterns .col-two,
+.digital-designs .col-two,
 .patterns-examples,
 .clinical-photo-guidelines {
   display: flex;
@@ -414,14 +416,16 @@ img.color-contrast-single {
 }
 
 .graphic-shapes .col-two .graphics-text,
-.photography .col-two .photos-text {
+.photography .col-two .photos-text,
+.digital-designs .col-two .digital-designs-text {
   flex-basis: 55%;
   padding-right: 40px;
   padding-top: 20px;
 }
 
 .graphics-img,
-.photos-img {
+.photos-img,
+.digital-designs-img {
   flex-basis: 45%;
 }
 
@@ -449,7 +453,8 @@ img.color-contrast-single {
 .patterns .col-two img,
 .pattern-example-item img,
 .graphic-shapes .col-two img,
-.photography .col-two img {
+.photography .col-two img,
+.digital-designs .col-two img {
   max-width: 100%;
   width: 100%;
   height: auto;
@@ -479,6 +484,25 @@ img.graphic-shapes-examples {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
+}
+
+.digital-designs-img-caption {
+  font-size: 14px;
+}
+
+.guiding-principles {
+  flex-basis: 50%;
+  padding-right: 40px;
+}
+
+.guiding-principle-title {
+  font-family: "MarkBold", sans-serif;
+  font-size: 18px;
+  color: #03173e !important;
+}
+
+.guiding-principles-container {
+  padding-right: 80px;
 }
 
 @media (min-width: 768px) {

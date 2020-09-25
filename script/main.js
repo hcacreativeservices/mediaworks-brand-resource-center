@@ -124,7 +124,7 @@ const designSubNav = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3821"
-  class="nav-primary"
+  class="nav-primary digital-designs-menu-item"
   >Digital design</a
 >
 </div>
@@ -249,8 +249,8 @@ const designSubNavStage = `
 
 <div class="nav-item">
 <a
-  href="#"
-  class="nav-primary"
+  href="digital-design.html"
+  class="nav-primary digital-designs-menu-item"
   >Digital design</a
 >
 </div>
@@ -332,8 +332,8 @@ const logosSubNavStage = `
 
 <div class="nav-item">
 <a
-  href="#"
-  class="nav-primary"
+  href="../designs/digital-design.html"
+  class="nav-primary digital-designs-menu-item"
   >Digital design</a
 >
 </div>
