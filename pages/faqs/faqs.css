@@ -1,49 +1,49 @@
 .section-title {
-    color: #58595B;
-    font-size: 22px;
-    margin: 40px 0 10px;
+  color: #58595b;
+  font-size: 22px;
+  margin: 40px 0 10px;
 }
 
 .card-header p {
-    cursor: pointer;
-    margin: 0;
+  cursor: pointer;
+  margin: 0;
 }
 
 .bs-override .card {
-    border: 0;
-    border-bottom: 1px solid #bbbcbc;
+  border: 0;
+  border-bottom: 1px solid #bbbcbc;
 }
 
 .card .fas {
-    float: right;
-    padding-right: 20px;
-    position: relative;
-    font-size: 22px;
-    top: 3px;
+  float: right;
+  padding-right: 20px;
+  position: relative;
+  font-size: 22px;
+  top: 3px;
 }
 
 .bs-override .card-header {
-    background-color: #fff;
-    border-bottom: 0;
-    padding: 16px 0;
+  background-color: #fff;
+  border-bottom: 0;
+  padding: 16px 0;
 }
 
 .bs-override .card-body {
-    color: #58595B;
-    padding: 20px 0;
+  color: #58595b;
+  padding: 20px 0;
 }
 
 .faqs .sidebar-left {
-    display: none;
-    padding-right: 40px;
+  /* display: none; */
+  padding-right: 40px;
 }
 
 .faqs .accordion.fixed {
-    width: 200px;
+  width: 200px;
 }
 
 @media (min-width: 768px) {
-    .card .fas {
-        padding-right: 40px;
-    }
+  .card .fas {
+    padding-right: 40px;
+  }
 }

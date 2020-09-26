@@ -49,7 +49,7 @@ const navHTML = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2291"
-  class="nav-primary"
+  class="nav-primary faqs-nav-item"
   >FAQ</a
 >
 </div>

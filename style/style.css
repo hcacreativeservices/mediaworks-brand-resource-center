@@ -286,7 +286,8 @@ ul {
 }
 
 .design-system-nav .design-system-nav-item,
-.templates-nav .templates-nav-item {
+.templates-nav .templates-nav-item,
+.faqs-nav .faqs-nav-item {
   color: #00558c !important;
   border-bottom: 6px solid #e05929;
 }
