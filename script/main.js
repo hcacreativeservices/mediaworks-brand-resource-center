@@ -16,7 +16,7 @@ const navHTML = `
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3275"
-  class="nav-primary"
+  class="nav-primary brand-architecture-nav-item"
   >Our Brand Architecture</a
 >
 </div>
@@ -162,6 +162,54 @@ const templatesSubNav = `
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1787"
   class="nav-primary print-templates-menu-item"
   >Print templates</a
+>
+</div>
+
+`;
+
+const BrandArchitectureSubNav = `
+<div class="nav-item">
+
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3275"
+  class="nav-primary architecture-menu-item"
+  >Architecture</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="brand-outcomes.html"
+  class="nav-primary brand-outcomes-menu-item"
+  >Brand outcomes</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="naming.html"
+  class="nav-primary brand-naming-menu-item"
+  >Naming</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="cobranding.html"
+  class="nav-primary cobranding-menu-item"
+  >Co-branding</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="external-partnerships.html"
+  class="nav-primary external-partnerships-menu-item"
+  >External partnerships</a
 >
 </div>
 
@@ -376,6 +424,54 @@ const templatesSubNavStage = `
 
 `;
 
+const BrandArchitectureSubNavStage = `
+<div class="nav-item">
+
+<a
+  href="architecture.html"
+  class="nav-primary architecture-menu-item"
+  >Architecture</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="brand-outcomes.html"
+  class="nav-primary brand-outcomes-menu-item"
+  >Brand outcomes</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="naming.html"
+  class="nav-primary brand-naming-menu-item"
+  >Naming</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="cobranding.html"
+  class="nav-primary cobranding-menu-item"
+  >Co-branding</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="external-partnerships.html"
+  class="nav-primary external-partnerships-menu-item"
+  >External partnerships</a
+>
+</div>
+
+`;
+
 // ACTIVATE BELOW BEFORE LAUNCH
 
 // Insert nav items on all pages
@@ -393,6 +489,11 @@ const templatesSubNavStage = `
 //   document.getElementById('templatesSubNav').innerHTML = templatesSubNav;
 // }
 
+// insert Brand Architecture subnav on all BA pages
+// if(document.getElementById('BrandArchitectureSubNav')) {
+//   document.getElementById('BrandArchitectureSubNav').innerHTML = BrandArchitectureSubNav;
+// }
+
 //insert footer content on all pages
 document.getElementById('footer').innerHTML = footerHTML;
 
@@ -402,6 +503,10 @@ if(document.getElementById('templatesSubNav')) {
      document.getElementById('templatesSubNav').innerHTML = templatesSubNavStage;
 }
 
+if(document.getElementById('BrandArchitectureSubNav')) {
+  document.getElementById('BrandArchitectureSubNav').innerHTML = BrandArchitectureSubNavStage;
+}
+
 const dsubnav = document.getElementById('designsSubNav');
 
 if(dsubnav.classList.contains('logos-subnav')) {
@@ -409,3 +514,4 @@ if(dsubnav.classList.contains('logos-subnav')) {
 } else if(document.getElementById('designsSubNav')) {
   document.getElementById('designsSubNav').innerHTML = designSubNavStage;
 }
+

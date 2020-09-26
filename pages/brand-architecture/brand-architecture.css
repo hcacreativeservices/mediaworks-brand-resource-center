@@ -1,0 +1,77 @@
+.architecture-subnav .architecture-menu-item,
+.brand-outcomes-subnav .brand-outcomes-menu-item,
+.brand-naming-subnav .brand-naming-menu-item,
+.cobranding-subnav .cobranding-menu-item,
+.external-partnerships-subnav .external-partnerships-menu-item {
+  color: #00558c;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.architecture-process-img {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.brand-outcomes-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.outcomes-item {
+  flex-basis: 33.3333%;
+  padding: 0 50px 20px 0;
+}
+
+.outcomes-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.outcomes-item-img {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.cobranding .digital-designs-img {
+  padding-left: 60px;
+}
+
+.cobranding .digital-designs-img img {
+  height: 312px !important;
+  width: 239px !important;
+}
+
+.cobranding-item {
+  display: flex;
+  padding: 30px 0;
+}
+
+.cobranding-item-img {
+  flex-basis: 25%;
+  padding-right: 30px;
+}
+
+.cobranding-item-img img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.cobranding-item-img p {
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.cobranding-item-text {
+  flex-basis: 60%;
+}
+
+.cobranding-item-title {
+  font-size: 18px;
+  color: #03173e !important;
+}
