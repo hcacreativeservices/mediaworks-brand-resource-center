@@ -215,6 +215,35 @@ const BrandArchitectureSubNav = `
 
 `;
 
+const brandEssentialsSubNav = `
+<div class="nav-item">
+
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2390"
+  class="nav-primary organizational-reference-menu-item"
+  >Organizational reference</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2389"
+  class="nav-primary brand-education-menu-item"
+  >Brand education tools</a
+>
+</div>
+
+<div class="nav-item">
+
+<a
+  href="brand-training.html"
+  class="nav-primary brand-training-menu-item"
+  >Brand training</a
+>
+</div>
+`;
+
 const footerHTML = `
 <div class="footer-content">
   <p>
@@ -348,7 +377,7 @@ const logosSubNavStage = `
 
 <div class="nav-item">
 <a
-  href="patterns.html"
+  href="../designs/patterns.html"
   class="nav-primary patterns-menu-item"
   >Patterns</a
 >
@@ -494,6 +523,11 @@ const BrandArchitectureSubNavStage = `
 //   document.getElementById('BrandArchitectureSubNav').innerHTML = BrandArchitectureSubNav;
 // }
 
+// insert Brand Essentials subnav on all BE pages
+// if(document.getElementById('BrandEssentialsSubNav')) {
+//   document.getElementById('BrandEssentialsSubNav').innerHTML = BrandEssentialsSubNav;
+// }
+
 //insert footer content on all pages
 document.getElementById('footer').innerHTML = footerHTML;
 
@@ -509,7 +543,7 @@ if(document.getElementById('BrandArchitectureSubNav')) {
 
 const dsubnav = document.getElementById('designsSubNav');
 
-if(dsubnav.classList.contains('logos-subnav')) {
+if(dsubnav && dsubnav.classList.contains('logos-subnav')) {
   document.getElementById('designsSubNav').innerHTML = logosSubNavStage;
 } else if(document.getElementById('designsSubNav')) {
   document.getElementById('designsSubNav').innerHTML = designSubNavStage;
