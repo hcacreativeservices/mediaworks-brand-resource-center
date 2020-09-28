@@ -43,6 +43,10 @@ p.toolkit-item-title {
   padding-left: 60px;
 }
 
+.toolkit .hero.digital-hero {
+  background-image: url("img/icon-hero_Digital\ Templates@2x.png");
+}
+
 .toolkit .hero h2 {
   color: #03173e;
   font-size: 30px;

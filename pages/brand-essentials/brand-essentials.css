@@ -18,3 +18,11 @@
 .brand-training-img img {
   width: 100%;
 }
+
+.brand-essentials.icons .hero {
+  background-image: url("img/icon-hero_Brand\ Essentials@2x.png");
+}
+
+.brand-essentials .home-feature-item {
+  flex-basis: 33.3333%;
+}
