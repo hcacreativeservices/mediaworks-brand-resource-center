@@ -38,7 +38,7 @@
 }
 
 .home-feature-item-img {
-  width: 50px;
+  width: 55px;
   margin: 0 auto;
   padding: 12px 12px;
   background-color: #fff;
@@ -47,7 +47,7 @@
 
 .home-feature-item img {
   max-width: 100%;
-  width: 50px;
+  width: 55px;
 }
 
 .home-hero {
@@ -101,11 +101,14 @@
 }
 
 .carousel-indicators li {
-  background-color: #03173e;
+  background-color: #d9d9d9;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
 }
 
 .carousel-indicators li.active {
-  background-color: #e05929;
+  background-color: #75767a;
 }
 
 @media (min-width: 768px) {
