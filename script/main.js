@@ -145,7 +145,7 @@ const templatesSubNav = `
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1777"
   class="nav-primary stationary-menu-item"
-  >Stationary</a
+  >Stationery</a
 >
 </div>
 
@@ -431,7 +431,7 @@ const templatesSubNavStage = `
 <a
   href="toolkit.html"
   class="nav-primary stationary-menu-item"
-  >Stationary</a
+  >Stationery</a
 >
 </div>
 
