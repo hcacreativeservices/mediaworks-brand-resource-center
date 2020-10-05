@@ -8,6 +8,14 @@ ul {
   color: #58595b;
 }
 
+li {
+  padding: 5px 0;
+}
+
+.sidebar-left {
+  padding-right: 40px;
+}
+
 .columns-2 {
   display: flex;
 }

@@ -248,7 +248,7 @@ const footerHTML = `
 <div class="footer-content">
   <p>
     Questions? Concerns?
-    <a href="https://hca.my.workfront.com/requests?projectID=5e3c40b6004eeffdfc20ed48ebe73067&path=&activeTab=tab-new-helpRequest">AskBrand.</a>
+    <a href="https://hca.my.workfront.com/requests?projectID=5e3c40b6004eeffdfc20ed48ebe73067&path=&activeTab=tab-new-helpRequest">Ask Brand.</a>
   </p>
 </div>
 
