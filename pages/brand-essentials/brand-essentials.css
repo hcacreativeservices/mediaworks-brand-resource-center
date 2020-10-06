@@ -26,3 +26,11 @@
 .brand-essentials .home-feature-item {
   flex-basis: 33.3333%;
 }
+
+.brand-essentials .home-feature-item-img {
+  width: 55px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 60px;
+}

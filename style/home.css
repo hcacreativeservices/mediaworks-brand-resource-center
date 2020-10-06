@@ -64,10 +64,50 @@
   padding-left: 60px;
 }
 
+.home-hero.brand-book-slider {
+  background-image: url("../img/home/BRC-brand-book2.png");
+}
+
+.home-hero.brand-training-slider {
+  background-image: url("../img/home/BRC-brand-training.png");
+}
+
 .home-hero h2 {
   color: #03173e;
   font-size: 30px;
   max-width: 350px;
+}
+
+.home-hero.brand-training-slider h2,
+.home-hero.brand-training-slider p,
+.home-hero.brand-training-slider .slider-btn {
+  color: #fff;
+}
+
+.home-hero .slider-btn {
+  border: 3px solid #e05929;
+  color: #e05929;
+  border-radius: 5px;
+  max-width: 175px;
+  padding: 8px 12px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  font-size: 14px;
+}
+
+.home-hero .slider-btn:hover {
+  background-color: #e05929;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-hero.brand-training-slider .slider-btn {
+  border: 3px solid #fff;
+}
+
+.home-hero.brand-training-slider .slider-btn:hover {
+  background-color: #fff;
+  color: #03173e;
 }
 
 .home-hero p {
@@ -89,11 +129,11 @@
 }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e05929' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2375767a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e05929' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2375767a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .carousel-indicators {

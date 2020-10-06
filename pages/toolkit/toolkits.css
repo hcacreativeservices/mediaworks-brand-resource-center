@@ -47,6 +47,10 @@ p.toolkit-item-title {
   background-image: url("img/icon-hero_Digital\ Templates@2x.png");
 }
 
+.toolkit .hero.print-hero {
+  background-image: url("img/print-hero-01.png");
+}
+
 .toolkit .hero h2 {
   color: #03173e;
   font-size: 30px;
