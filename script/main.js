@@ -10,21 +10,21 @@ const navHTML = `
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1563"
   class="nav-primary"
-  >Our Lexicon</a
+  >Lexicon</a
 >
 </div>
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3275"
   class="nav-primary brand-architecture-nav-item"
-  >Our Brand Architecture</a
+  >Brand Architecture</a
 >
 </div>
 <div class="nav-item">
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
   class="nav-primary design-system-nav-item"
-  >Our Design System</a
+  >Design System</a
 >
 </div>
 <!-- Nav Item -->
@@ -33,7 +33,7 @@ const navHTML = `
 <a
   href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1777"
   class="nav-primary templates-nav-item"
-  >Our Templates</a
+  >Templates</a
 >
 </div>
 <!-- Nav Item -->
@@ -233,16 +233,16 @@ const brandEssentialsSubNav = `
   >Brand education tools</a
 >
 </div>
+`;
 
-<div class="nav-item">
+{/* <div class="nav-item">
 
 <a
   href="brand-training.html"
   class="nav-primary brand-training-menu-item"
   >Brand training</a
 >
-</div>
-`;
+</div> */}
 
 const footerHTML = `
 <div class="footer-content">
@@ -509,43 +509,43 @@ const BrandArchitectureSubNavStage = `
 // }
 
 // insert designs sub nav on all designs pages
-// if(document.getElementById('designsSubNav')) {
-//   document.getElementById('designsSubNav').innerHTML = designSubNav;
-// }
+if(document.getElementById('designsSubNav')) {
+  document.getElementById('designsSubNav').innerHTML = designSubNav;
+}
 
 // insert templates subnav on all templates pages
-// if(document.getElementById('templatesSubNav')) {
-//   document.getElementById('templatesSubNav').innerHTML = templatesSubNav;
-// }
+if(document.getElementById('templatesSubNav')) {
+  document.getElementById('templatesSubNav').innerHTML = templatesSubNav;
+}
 
 // insert Brand Architecture subnav on all BA pages
-// if(document.getElementById('BrandArchitectureSubNav')) {
-//   document.getElementById('BrandArchitectureSubNav').innerHTML = BrandArchitectureSubNav;
-// }
+if(document.getElementById('BrandArchitectureSubNav')) {
+  document.getElementById('BrandArchitectureSubNav').innerHTML = BrandArchitectureSubNav;
+}
 
 // insert Brand Essentials subnav on all BE pages
-// if(document.getElementById('BrandEssentialsSubNav')) {
-//   document.getElementById('BrandEssentialsSubNav').innerHTML = BrandEssentialsSubNav;
-// }
+if(document.getElementById('BrandEssentialsSubNav')) {
+  document.getElementById('BrandEssentialsSubNav').innerHTML = brandEssentialsSubNav;
+}
 
 //insert footer content on all pages
 document.getElementById('footer').innerHTML = footerHTML;
 
 // FOR STAGING ... DELETE BEFORE LAUNCH
 
-if(document.getElementById('templatesSubNav')) {
-     document.getElementById('templatesSubNav').innerHTML = templatesSubNavStage;
-}
+// if(document.getElementById('templatesSubNav')) {
+//      document.getElementById('templatesSubNav').innerHTML = templatesSubNavStage;
+// }
 
-if(document.getElementById('BrandArchitectureSubNav')) {
-  document.getElementById('BrandArchitectureSubNav').innerHTML = BrandArchitectureSubNavStage;
-}
+// if(document.getElementById('BrandArchitectureSubNav')) {
+//   document.getElementById('BrandArchitectureSubNav').innerHTML = BrandArchitectureSubNavStage;
+// }
 
-const dsubnav = document.getElementById('designsSubNav');
+// const dsubnav = document.getElementById('designsSubNav');
 
-if(dsubnav && dsubnav.classList.contains('logos-subnav')) {
-  document.getElementById('designsSubNav').innerHTML = logosSubNavStage;
-} else if(document.getElementById('designsSubNav')) {
-  document.getElementById('designsSubNav').innerHTML = designSubNavStage;
-}
+// if(dsubnav && dsubnav.classList.contains('logos-subnav')) {
+//   document.getElementById('designsSubNav').innerHTML = logosSubNavStage;
+// } else if(document.getElementById('designsSubNav')) {
+//   document.getElementById('designsSubNav').innerHTML = designSubNavStage;
+// }
 
