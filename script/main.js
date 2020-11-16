@@ -15,7 +15,7 @@ const navHTML = `
 </div>
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3275"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3276"
   class="nav-primary brand-architecture-nav-item"
   >Brand Architecture</a
 >
@@ -131,7 +131,7 @@ const designSubNav = `
 
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2329"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_4077"
   class="nav-primary"
   >Designer resources</a
 >
@@ -171,7 +171,7 @@ const BrandArchitectureSubNav = `
 <div class="nav-item">
 
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3275"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3276"
   class="nav-primary architecture-menu-item"
   >Architecture</a
 >
@@ -180,7 +180,7 @@ const BrandArchitectureSubNav = `
 <div class="nav-item">
 
 <a
-  href="brand-outcomes.html"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3277"
   class="nav-primary brand-outcomes-menu-item"
   >Brand outcomes</a
 >
@@ -189,7 +189,7 @@ const BrandArchitectureSubNav = `
 <div class="nav-item">
 
 <a
-  href="naming.html"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3278"
   class="nav-primary brand-naming-menu-item"
   >Naming</a
 >
@@ -198,7 +198,7 @@ const BrandArchitectureSubNav = `
 <div class="nav-item">
 
 <a
-  href="cobranding.html"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3280"
   class="nav-primary cobranding-menu-item"
   >Co-branding</a
 >
@@ -207,7 +207,7 @@ const BrandArchitectureSubNav = `
 <div class="nav-item">
 
 <a
-  href="external-partnerships.html"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3279"
   class="nav-primary external-partnerships-menu-item"
   >External partnerships</a
 >
@@ -334,7 +334,7 @@ const designSubNavStage = `
 
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2329"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_4077"
   class="nav-primary"
   >Designer resources</a
 >
@@ -417,7 +417,7 @@ const logosSubNavStage = `
 
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2329"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_4077"
   class="nav-primary"
   >Designer resources</a
 >
