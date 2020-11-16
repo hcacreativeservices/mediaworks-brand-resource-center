@@ -328,6 +328,10 @@ img.color-balance {
   display: flex;
 }
 
+.color-contrast-orange {
+  align-items: flex-start;
+}
+
 img.color-contrast-single {
   width: 165px;
   margin-right: 30px;

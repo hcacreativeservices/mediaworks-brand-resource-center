@@ -8,7 +8,7 @@ const navHTML = `
 </div>
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1563"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2330"
   class="nav-primary"
   >Lexicon</a
 >
@@ -22,7 +22,7 @@ const navHTML = `
 </div>
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1558"
   class="nav-primary design-system-nav-item"
   >Design System</a
 >
@@ -59,7 +59,7 @@ const navHTML = `
 const designSubNav = `
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_1558"
   class="nav-primary logo-menu-item"
   >Logo</a
 >
@@ -67,7 +67,7 @@ const designSubNav = `
 
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_3820"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_2295"
   class="nav-primary typography-menu-item"
   >Typography</a
 >
