@@ -148,6 +148,10 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
 .margin-bottom-40 {
   margin-bottom: 40px;
 }
@@ -160,6 +164,10 @@ ul {
   margin-top: 40px;
 }
 
+.margin-top-60 {
+  margin-top: 60px;
+}
+
 .margin-vertical-20 {
   margin: 20px 0;
 }
@@ -170,6 +178,10 @@ ul {
 
 .margin-vertical-40 {
   margin: 40px 0;
+}
+
+.margin-vertical-60 {
+  margin: 60px 0;
 }
 
 .footer-content {

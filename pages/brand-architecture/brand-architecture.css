@@ -6,37 +6,33 @@
   color: #00558c;
 }
 
+.brand-outcomes-items,
+.outcomes-item-img,
+.cobranding-item,
+.vertical-lockups {
+  display: flex;
+}
+
+.architecture-process-img,
+.cobranding-item-img img {
+  max-width: 100%;
+}
+
+.cobranding-item-img img,
+.outcomes-item img {
+  width: 100%;
+}
+
 ul {
   padding-left: 20px;
 }
 
 .architecture-process-img {
-  max-width: 100%;
   padding: 20px;
 }
 
 .brand-outcomes-items {
-  display: flex;
   flex-wrap: wrap;
-  margin-top: 60px;
-}
-
-.outcomes-item {
-  flex-basis: 33.3333%;
-  padding: 0 50px 20px 0;
-}
-
-.outcomes-item img {
-  max-width: 225px;
-  height: auto;
-  width: 100%;
-}
-
-.outcomes-item-img {
-  display: flex;
-  height: 150px;
-  align-items: center;
-  margin-bottom: 40px;
 }
 
 .cobranding .digital-designs-img {
@@ -49,18 +45,12 @@ ul {
 }
 
 .cobranding-item {
-  display: flex;
   padding: 30px 0;
 }
 
 .cobranding-item-img {
   flex-basis: 25%;
   padding-right: 30px;
-}
-
-.cobranding-item-img img {
-  max-width: 100%;
-  width: 100%;
 }
 
 .cobranding-item-img p,
@@ -74,34 +64,53 @@ ul {
 }
 
 .cobranding-item-title {
-  font-size: 18px;
   color: #03173e !important;
-}
-
-.external-partnerships .designs-block-text {
-  width: 50%;
+  font-size: 18px;
 }
 
 .external-partnerships .designs-block-text img {
-  max-width: 330px;
   margin-top: 40px;
+  max-width: 330px;
 }
 
 .external-partnerships .featured-text {
-  padding: 20px 80px;
   background-color: #f7f7f6;
-  margin: 60px 0;
+  padding: 20px 80px;
 }
 
-.vertical-lockups {
-  display: flex;
+.outcomes-item {
+  padding: 0 50px 20px 0;
 }
 
-.vertical-lockup {
-  flex-basis: 50%;
-  padding: 20px;
+.outcomes-item img {
+  height: auto;
+  max-width: 225px;
+}
+
+.outcomes-item-img {
+  align-items: center;
+  height: 150px;
 }
 
 .vertical-lockup img {
   max-width: 230px !important;
+}
+
+@media (min-width: 768px) {
+  .external-partnerships .designs-block-text {
+    width: 50%;
+  }
+
+  .outcomes-item {
+    flex-basis: 33.3333%;
+  }
+
+  .outcomes-item-img {
+    margin-bottom: 40px;
+  }
+
+  .vertical-lockup {
+    flex-basis: 50%;
+    padding: 20px;
+  }
 }

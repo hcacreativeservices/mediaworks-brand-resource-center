@@ -386,16 +386,6 @@ img.color-contrast-single {
   color: #54575a;
 }
 
-.graphic-shapes .col-two,
-.photography .col-two,
-.patterns .col-two,
-.digital-designs .col-two,
-.patterns-examples,
-.clinical-photo-guidelines {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .clinical-photo-guidelines {
   margin-top: 40px;
 }
@@ -520,6 +510,16 @@ img.graphic-shapes-examples {
 
   .photo-category {
     flex-basis: 33.3333%;
+  }
+
+  .graphic-shapes .col-two,
+  .photography .col-two,
+  .patterns .col-two,
+  .digital-designs .col-two,
+  .patterns-examples,
+  .clinical-photo-guidelines {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 

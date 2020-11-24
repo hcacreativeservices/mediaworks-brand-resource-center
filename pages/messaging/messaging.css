@@ -1,75 +1,71 @@
-table {
+table,
+ul,
+.lexicon-block-title,
+.section-title,
+.talking-brand,
+.talking-to-payers,
+.word-examples {
   color: #58595b;
 }
 
-ul {
+.communication-table td,
+.word-examples,
+.word-suggestions td {
+  font-size: 14px;
+}
+
+.talking-to-payers,
+.word-examples th,
+.word-suggestions td.mark-heavy {
+  font-size: 16px;
+}
+
+.communication-table tr,
+.word-examples tr {
+  border-bottom: 1px solid #58595b;
+}
+
+ul,
+.talking-to-payers {
   list-style: disc;
   padding-left: 20px;
-  color: #58595b;
 }
 
-li {
+li,
+.proof-points li {
   padding: 5px 0;
 }
 
-.sidebar-left {
-  padding-right: 40px;
-}
-
-.columns-2 {
-  display: flex;
-}
-
-.communication-table th {
+.communication-table th,
+.communication-table td {
   padding: 10px 15px;
 }
 
-.communication-table tr {
+.mission-guideline,
+.talking-brand li,
+.word-suggestions th {
+  padding: 10px 0;
+}
+
+.messaging-resources,
+.proof-points {
+  padding-left: 0;
+}
+
+.communication-table tr,
+.word-suggestions tr {
   vertical-align: top;
 }
 
-.communication-table td {
-  font-size: 14px;
-  padding: 10px 15px;
-}
-
-.lexicon-col-l {
-  flex-basis: 65%;
-}
-
-.lexicon-col-r {
-  flex-basis: 35%;
-  padding-left: 50px;
-}
-
-.lexicon-col-r img {
-  height: 105px;
-  width: 105px;
-}
-
-.lexicon-col-r .mark-heavy {
-  color: #e05929;
+.columns-2,
+.mission-guideline {
+  display: flex;
 }
 
 .lexicon-block-title {
-  color: #58595b;
   font-size: 22px;
   margin-bottom: 15px;
   padding-top: 30px;
-}
-
-.lexicon-healthcare-sidebar {
-  border-bottom: 4px solid #898b8e;
-  border-top: 4px solid #898b8e;
-  padding: 20px 0;
-}
-
-.lexicon-healthcare-sidebar p {
-  margin-bottom: 0;
-}
-
-.messaging-resources {
-  padding-left: 0;
 }
 
 .mission-guidelines {
@@ -78,8 +74,10 @@ li {
 
 .mission-guideline {
   align-items: center;
-  display: flex;
-  padding: 10px 0;
+}
+
+.mission-guideline p {
+  margin-bottom: 0;
 }
 
 .mission-guideline img {
@@ -88,41 +86,26 @@ li {
   width: 28px;
 }
 
-.mission-guideline p {
-  margin-bottom: 0;
-}
-
 .proof-points {
   color: #707070;
-  padding-left: 0;
-}
-
-.proof-points li {
-  padding: 5px 0;
 }
 
 .section-title {
-  color: #58595b;
   font-size: 22px;
   margin-bottom: 20px;
 }
 
+.sidebar-left {
+  padding-right: 40px;
+}
+
 .talking-brand {
-  color: #58595b;
   list-style: initial;
   padding-left: 20px;
 }
 
 .talking-brand li {
   font-family: "MarkBook", sans-serif !important;
-  padding: 10px 0;
-}
-
-.talking-to-payers {
-  color: #58595b;
-  font-size: 16px;
-  list-style: disc;
-  padding-left: 20px;
 }
 
 .talking-to-payers li {
@@ -130,29 +113,20 @@ li {
 }
 
 .word-examples {
-  color: #58595b;
-  font-size: 14px;
-  padding-bottom: 60px;
+  overflow: hidden;
 }
 
 .word-examples table {
-  margin-bottom: 20px;
   width: 100%;
 }
 
 .word-examples th {
-  font-size: 16px;
   padding-bottom: 15px;
   width: 50%;
 }
 
 .word-examples td {
   padding: 10px 30px 10px 0;
-}
-
-.communication-table tr,
-.word-examples tr {
-  border-bottom: 1px solid #58595b;
 }
 
 .word-suggestions {
@@ -163,21 +137,8 @@ li {
   width: 25%;
 }
 
-.word-suggestions tr {
-  vertical-align: top;
-}
-
-.word-suggestions th {
-  padding: 10px 0;
-}
-
 .word-suggestions td {
-  font-size: 14px;
   padding: 6px 4px;
-}
-
-.word-suggestions td.mark-heavy {
-  font-size: 16px;
 }
 
 .word-suggestions .row-end {
