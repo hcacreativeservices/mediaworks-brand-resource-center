@@ -1,10 +1,3 @@
-.page-content .home-headline {
-  color: #e05929;
-  font-size: 32px;
-  margin-top: 0;
-  max-width: 530px;
-}
-
 .page-content {
   flex-direction: column;
 }
@@ -15,14 +8,15 @@
 
 .home-feature-items {
   display: flex;
-  margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .home-feature-item {
   background-color: #f2f2f2;
-  margin: 8px;
   text-align: center;
   padding: 15px;
+  flex-basis: 50%;
+  border: 4px solid #fff;
 }
 
 .home-feature-item p {
@@ -55,21 +49,8 @@
   height: 363px;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  background-image: url("../img/home/BRC-hero\ FINAL-01.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   border: 1px solid #d9d9d9;
   padding-left: 60px;
-}
-
-.home-hero.brand-book-slider {
-  background-image: url("../img/home/BRC-brand-book2.png");
-}
-
-.home-hero.brand-training-slider {
-  background-image: url("../img/home/BRC-brand-training.png");
 }
 
 .home-hero h2 {
@@ -152,52 +133,33 @@
 }
 
 @media (min-width: 768px) {
-  .hero-item.active {
-    width: 44%;
+  .home-hero {
+    background-image: url("../img/home/BRC-hero\ FINAL-01.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
-  .hero-item {
-    height: 500px;
-    width: 28%;
+  .home-hero.brand-book-slider {
+    background-image: url("../img/home/BRC-brand-book2.png");
   }
 
-  .hero-item img {
-    width: 44vw;
+  .home-hero.brand-training-slider {
+    background-image: url("../img/home/BRC-brand-training.png");
+  }
+
+  .home-feature-item {
+    flex-basis: 25%;
   }
 }
 
 @media (min-width: 992px) {
-  .page-content .home-headline {
-    font-size: 34px;
-  }
-
   .home-feature-item {
     flex-basis: 20%;
   }
 }
 
 @media (min-width: 1200px) {
-  .hero-item .home-hero-headline {
-    font-size: 42px;
-  }
-
-  .hero-item p {
-    font-size: 25px;
-  }
-
-  .hero-item-content {
-    width: 270px;
-  }
-
-  .hero-item:nth-of-type(2) .hero-item-content {
-    width: 255px;
-  }
-
-  .page-content .home-headline {
-    font-size: 36px;
-    max-width: 540px;
-  }
-
   .page-content p {
     max-width: 750px;
   }
