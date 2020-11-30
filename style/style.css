@@ -71,14 +71,6 @@ ul {
   list-style: none;
 }
 
-.accordion.fixed {
-  max-width: 250px;
-  padding-top: 20px;
-  padding-right: 20px;
-  position: fixed;
-  top: 0;
-}
-
 .br-btn {
   color: #75767a;
   font-size: 14px;
@@ -366,6 +358,13 @@ ul {
 }
 
 @media (min-width: 768px) {
+  .accordion.fixed {
+    max-width: 250px;
+    padding-top: 20px;
+    padding-right: 20px;
+    position: fixed;
+    top: 0;
+  }
   #nav .nav-item {
     padding-right: 45px;
   }

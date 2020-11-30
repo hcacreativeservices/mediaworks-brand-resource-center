@@ -1,50 +1,184 @@
+.designs-block-img p,
+.guiding-principle-title {
+  font-family: "MarkBold", sans-serif;
+}
+
+.color-palette-details p,
+.page-content .photo-category a {
+  font-size: 12px;
+}
+
+.digital-designs-img-caption,
+.neutral-color-palette .color-palette-details,
+.pattern-example-item p {
+  font-size: 14px;
+}
+
+.designs-block-title,
+.font-example-md {
+  font-size: 20px;
+}
+
+.colors-subnav .color-menu-item,
+.digital-designs-subnav .digital-designs-menu-item,
+.graphics-subnav .graphics-menu-item,
+.icons-subnav .icons-menu-item,
+.maps-subnav .maps-menu-item,
 .page-content .link-denim,
 .page-content .map-link,
-.photos-content a {
+.patterns-subnav .patterns-menu-item,
+.photos-content a,
+.photos-subnav .photos-menu-item,
+.typography-subnav .typography-menu-item {
   color: #00558c;
 }
 
+.clinical-photo-guidelines ul,
+.designs-block ul {
+  color: #58595b;
+}
+
+.clinical-photo-guideline h2,
+.designs .page-content h1,
+.icons .hero h2,
+.page-content .photo-category a {
+  color: #03173e;
+}
+
+.primary-color-palette .color-palette-color,
+.neutral-color-palette .color-palette-color {
+  height: 150px;
+}
+
 .designs-block-img img,
+.digital-designs .col-two img,
+.graphic-shapes .col-two img,
+.icon-asset img,
+img.color-balance,
+img.graphic-shapes-examples,
 .map-img img,
-.photo-grid-item img {
+.map-type img,
+.neutral-color-palette .color-palette-color,
+.patterns .col-two img,
+.pattern-example-item img,
+.photography .col-two img,
+.primary-color-palette .color-palette-color,
+.secondary-primary {
   width: 100%;
 }
 
-.color-palette {
-  display: flex;
-  margin: 20px 0 40px 0;
+.icons .hero h2,
+.icons .hero p {
+  max-width: 275px;
 }
 
-.color-palette.secondary-color-palette {
-  margin-top: 0;
+.icons-link,
+.page-content .map-link,
+.photos-content a {
+  display: inline-block;
+}
+
+.color-contrast-orange,
+.color-palette,
+.color-palette-item,
+.icons-assets,
+.icons .hero,
+.maps-three-col,
+.photo-categories,
+.photo-category,
+.photo-grid {
+  display: flex;
+}
+
+.icons-assets,
+.maps-three-col,
+.photo-categories,
+.photo-grid {
+  flex-wrap: wrap;
+}
+
+.color-palette-item,
+.icons .hero {
+  flex-direction: column;
+}
+
+.designs-block-img,
+.neutral-color-palette .color-palette-item,
+.pattern-example-item,
+.patterns-img {
+  flex-basis: 25%;
+}
+
+.font-example,
+.primary-color-palette .color-palette-item {
+  flex-basis: 33.3333%;
+}
+
+.clinical-photo-guideline,
+.designs-block-text,
+.designs-block .map-img,
+.guiding-principles,
+.icon-asset,
+.photo-category {
+  flex-basis: 50%;
+}
+
+.icons .hero,
+.photo-category {
+  justify-content: center;
+}
+
+.page-content .photo-category a,
+.photos-content p.strong {
+  margin-bottom: 0;
+}
+
+.page-content .map-link,
+.patterns .col-two {
+  margin-bottom: 40px;
+}
+
+.clinical-photo-guideline ul,
+.graphics-text ul,
+.map-img:nth-of-type(2) {
+  padding-left: 20px;
+}
+
+.digital-designs .col-two .digital-designs-text,
+.graphic-shapes .col-two .graphics-text,
+.guiding-principles,
+.pattern-example-item,
+.patterns-img,
+.photography .col-two .photos-text {
+  padding-right: 40px;
+}
+
+.clinical-photo-guideline,
+.patterns .col-two .patterns-text {
+  padding-right: 60px;
+}
+
+.icon-asset,
+.page-content .photo-category a {
+  text-align: center;
+}
+
+.clinical-photo-guideline ul,
+.graphics-text ul {
+  list-style: disc;
+}
+
+.clinical-photo-guidelines {
+  margin-top: 40px;
+}
+
+.color-palette {
+  margin: 20px 0 40px 0;
 }
 
 .color-palette-item {
   flex-grow: 1;
-  display: flex;
-  flex-direction: column;
   margin: 0 5px;
-}
-
-.primary-color-palette .color-palette-item,
-.secondary-color-palette .color-palette-item {
-  flex-basis: 33.3333%;
-}
-
-.neutral-color-palette .color-palette-item {
-  flex-basis: 25%;
-}
-
-.tertiary-color-palette .color-palette-item {
-  flex-basis: 20%;
-}
-
-.primary-color-palette .color-palette-color,
-.neutral-color-palette .color-palette-color,
-.secondary-color-palette .color-palette-color,
-.tertiary-color-palette .color-palette-color {
-  height: 150px;
-  width: 100%;
 }
 
 .color-palette-name {
@@ -52,13 +186,7 @@
   margin: 20px 0;
 }
 
-.neutral-color-palette .color-palette-details,
-.secondary-color-palette .color-palette-details {
-  font-size: 14px;
-}
-
 .color-palette-details p {
-  font-size: 12px;
   margin-bottom: 5px;
 }
 
@@ -77,10 +205,6 @@
 
 .color-palette-color.color-slate {
   background-color: #58595b;
-}
-
-.clinical-photo-guidelines ul {
-  color: #58595b;
 }
 
 .color-palette-color.color-chrome-dark {
@@ -111,225 +235,10 @@
   background-color: #ffc845;
 }
 
-.color-palette-color.color-deep-marine {
-  background-color: #285c4d;
-}
-
-.color-palette-color.color-dusty-green {
-  background-color: #599662;
-}
-
-.color-palette-color.color-pale-aqua {
-  background-color: #63b1ba;
-}
-
-.color-palette-color.color-light-teal {
-  background-color: #8fd6bd;
-}
-
-.color-palette-color.color-pear {
-  background-color: #82d600;
-}
-
-.color-palette-color.color-sky-blue {
-  background-color: #9bb8d3;
-}
-
-.color-palette-color.color-iris {
-  background-color: #5a61b6;
-}
-
-.color-palette-color.color-punch {
-  background-color: #d33753;
-}
-
-.color-palette-color.color-lime {
-  background-color: #a4d65e;
-}
-
-.color-palette-color.color-american-rose {
-  background-color: #ce2130;
-}
-
-.color-palette-color.color-crimson {
-  background-color: #971b2f;
-}
-
-.color-palette-color.color-cherry-pie {
-  background-color: #df2500;
-}
-
-.color-palette-color.color-royal-indigo {
-  background-color: #342a8b;
-}
-
-.color-palette-color.color-fern {
-  background-color: #358100;
-}
-
 .color-palette.featured-img,
 .map.featured-img {
   margin-bottom: 50px;
   margin-top: 20px;
-}
-
-.designs .accordion {
-  max-width: 230px;
-}
-
-.designs-block ul {
-  color: #58595b;
-  list-style: initial;
-}
-
-.designs-block-text {
-  padding-right: 50px;
-  flex-basis: 50%;
-}
-
-.designs-block .map-img {
-  flex-basis: 50%;
-}
-
-.designs-block-img {
-  flex-basis: 25%;
-  padding: 0 15px;
-}
-
-.designs-block-img img {
-  padding-bottom: 10px;
-}
-
-.designs-block-img p {
-  font-family: "MarkBold", sans-serif;
-}
-
-.designs-block-title {
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-.icons-link {
-  display: inline-block;
-  margin: 20px 0 40px;
-}
-
-.map-img:nth-of-type(2) {
-  padding-left: 20px;
-}
-
-.page-right .mark-fonts-img {
-  border-bottom: 2px solid #898b8e;
-  margin-bottom: 60px;
-}
-
-.page-content .map-link,
-.photos-content a {
-  display: inline-block;
-}
-
-.page-content .map-link {
-  margin-bottom: 40px;
-}
-
-.photos-content p.strong {
-  margin-bottom: 0;
-}
-
-.photo-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.photo-grid-item {
-  flex-basis: 33.3333%;
-  text-align: center;
-}
-
-.photo-grid-item:nth-child(3n + 1) {
-  padding-right: 12px;
-}
-
-.photo-grid-item:nth-child(3n + 2) {
-  padding: 0 6px;
-}
-
-.photo-grid-item:nth-child(3n + 3) {
-  padding-left: 12px;
-}
-
-.photo-categories {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 30px 0;
-}
-
-.photo-category {
-  background-color: #eeeeee;
-  flex-basis: 50%;
-  border: 12px solid #fff;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.page-content .photo-category a {
-  color: #03173e;
-  font-size: 12px;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.secondary-primary {
-  height: 20px;
-  width: 100%;
-}
-
-.typography-subnav .typography-menu-item,
-.colors-subnav .color-menu-item,
-.icons-subnav .icons-menu-item,
-.graphics-subnav .graphics-menu-item,
-.patterns-subnav .patterns-menu-item,
-.photos-subnav .photos-menu-item,
-.maps-subnav .maps-menu-item,
-.digital-designs-subnav .digital-designs-menu-item {
-  color: #00558c;
-}
-
-.designs .page-content h1 {
-  font-size: 32px;
-  color: #03173e;
-}
-
-.seperator {
-  margin: 40px 0;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #d9d9d6;
-}
-
-.font-example {
-  flex-basis: 33.3333%;
-  padding: 0 25px;
-}
-
-.font-example-lg {
-  color: #e05929 !important;
-  font-size: 40px;
-}
-
-.font-example-md {
-  color: #03173e !important;
-  font-size: 20px;
-}
-
-img.color-balance {
-  width: 100%;
-}
-
-.color-contrast-orange,
-.icons-assets {
-  display: flex;
 }
 
 .color-contrast-orange {
@@ -341,82 +250,51 @@ img.color-contrast-single {
   margin-right: 30px;
 }
 
-.icons .hero {
-  flex-direction: column;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  background-image: url("img/icons/icon-hero-01@2x.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border: 1px solid #d9d9d9;
-  padding-left: 60px;
+.designs .page-content h1 {
+  font-size: 32px;
 }
 
-.icons .hero h2 {
-  color: #03173e;
-  font-size: 30px;
-  max-width: 275px;
+.designs .accordion {
+  max-width: 230px;
 }
 
-.icons .hero p {
-  max-width: 275px;
+.designs-block ul {
+  list-style: initial;
 }
 
-.icons-text {
-  padding: 40px 60px;
+.designs-block-text {
+  padding-right: 50px;
 }
 
-.icons-assets {
-  flex-wrap: wrap;
+.designs-block-img {
+  padding: 0 15px;
 }
 
-.icon-asset {
-  flex-basis: 25%;
-  text-align: center;
-  padding: 10px;
+.designs-block-img img {
+  padding-bottom: 10px;
 }
 
-.icon-asset img {
-  width: 100%;
+.designs-block-title {
+  margin-bottom: 15px;
 }
 
-.icon-asset a {
-  color: #54575a;
+.font-example {
+  padding: 0 25px;
 }
 
-.clinical-photo-guidelines {
-  margin-top: 40px;
+.font-example-lg {
+  color: #e05929 !important;
+  font-size: 40px;
 }
 
-.clinical-photo-guideline {
-  flex-basis: 50%;
-  padding-right: 60px;
-}
-
-.clinical-photo-guideline h2 {
-  color: #03173e;
-}
-
-.clinical-photo-guideline ul {
-  padding-left: 20px;
-  list-style: disc;
-}
-
-.patterns .col-two {
-  margin-bottom: 40px;
-}
-
-.patterns-examples {
-  padding-top: 40px;
+.font-example-md {
+  color: #03173e !important;
 }
 
 .graphic-shapes .col-two .graphics-text,
 .photography .col-two .photos-text,
 .digital-designs .col-two .digital-designs-text {
   flex-basis: 55%;
-  padding-right: 40px;
   padding-top: 20px;
 }
 
@@ -426,25 +304,91 @@ img.color-contrast-single {
   flex-basis: 45%;
 }
 
-.pattern-example-item {
-  flex-basis: 25%;
-  padding-right: 40px;
+.guiding-principle-title {
+  font-size: 18px;
+  color: #03173e !important;
+}
+
+img.graphic-shapes-examples {
+  padding: 40px;
+}
+
+.icons-link {
+  margin: 20px 0 40px;
+}
+
+.icons .hero {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  padding-left: 60px;
+}
+
+.icons .hero h2 {
+  font-size: 30px;
+}
+
+.icons-text {
+  padding: 40px 0px;
+}
+
+.icon-asset {
+  padding: 10px;
+}
+
+.icon-asset a {
+  color: #54575a;
+}
+
+.maps-three-col .map-type {
+  padding: 25px;
+}
+
+.map-type img {
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.page-right .mark-fonts-img {
+  border-bottom: 2px solid #898b8e;
+  margin-bottom: 60px;
+}
+
+.patterns-examples {
+  padding-top: 40px;
+}
+
+.photo-categories {
+  margin: 30px 0;
+}
+
+.photo-category {
+  background-color: #eeeeee;
+  border: 12px solid #fff;
+  height: 100px;
+  align-items: center;
+}
+
+.secondary-primary {
+  height: 20px;
+}
+
+.seperator {
+  margin: 40px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d9d9d6;
 }
 
 .pattern-example-item p {
-  font-size: 14px;
   margin-top: 10px;
 }
 
 .patterns .col-two .patterns-text {
   flex-basis: 75%;
-  padding-right: 60px;
   padding-top: 20px;
-}
-
-.patterns-img {
-  flex-basis: 25%;
-  padding-right: 40px;
 }
 
 .patterns .col-two img,
@@ -453,63 +397,34 @@ img.color-contrast-single {
 .photography .col-two img,
 .digital-designs .col-two img {
   max-width: 100%;
-  width: 100%;
   height: auto;
-}
-
-.graphics-text ul {
-  list-style: disc;
-  padding-left: 20px;
-}
-
-img.graphic-shapes-examples {
-  width: 100%;
-  padding: 40px;
-}
-
-.maps-three-col {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.maps-three-col .map-type {
-  flex-basis: 33.3333%;
-  padding: 25px;
-}
-
-.map-type img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.digital-designs-img-caption {
-  font-size: 14px;
-}
-
-.guiding-principles {
-  flex-basis: 50%;
-  padding-right: 40px;
-}
-
-.guiding-principle-title {
-  font-family: "MarkBold", sans-serif;
-  font-size: 18px;
-  color: #03173e !important;
-}
-
-.guiding-principles-container {
-  padding-right: 80px;
 }
 
 @media (min-width: 768px) {
+  .guiding-principles-container {
+    padding-right: 80px;
+  }
+
+  .icons .hero {
+    background-image: url("img/icons/icon-hero-01@2x.png");
+  }
+
+  .icons-text {
+    padding: 40px 60px;
+  }
+
+  .icon-asset {
+    flex-basis: 25%;
+  }
+
+  .maps-three-col .map-type,
+  .photo-category {
+    flex-basis: 33.3333%;
+  }
+
   .designs-block {
     display: flex;
     margin-top: 40px;
-  }
-
-  .photo-category {
-    flex-basis: 33.3333%;
   }
 
   .graphic-shapes .col-two,
@@ -521,10 +436,4 @@ img.graphic-shapes-examples {
     display: flex;
     flex-wrap: wrap;
   }
-}
-
-/* 5/7/20 - Remove accent color style once layout is updated */
-.accent-color-palette .color-palette-color {
-  height: 160px;
-  width: 160px;
 }

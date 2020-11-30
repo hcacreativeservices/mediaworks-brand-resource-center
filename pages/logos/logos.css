@@ -1,5 +1,14 @@
-.logos .logo-download {
+.logos .logo-download,
+.logos-subnav .logo-menu-item {
   color: #00558c;
+}
+
+img.logo-use-example,
+.logo-use-item.col-two img {
+  max-width: 100%;
+}
+
+.logos .logo-download {
   display: inline-block;
   font-size: 14px;
 }
@@ -20,13 +29,8 @@
   margin-bottom: 10px;
 }
 
-.logos-subnav .logo-menu-item {
-  color: #00558c;
-}
-
 img.logo-use-example {
   width: 560px;
-  max-width: 100%;
   margin-top: 20px;
 }
 
@@ -40,26 +44,27 @@ img.logo-use-example {
   flex-wrap: wrap;
 }
 
-.logo-use-item.col-two .logo-use-text {
-  flex-basis: 60%;
-  padding-right: 40px;
-}
-
 .logo-use-item.col-two img {
-  max-width: 100%;
   width: 276px;
   height: 155px;
   margin-top: 40px;
-}
-
-.logo-use-examples {
-  display: flex;
 }
 
 .logo-use-examples img {
   max-width: 250px;
 }
 
-.logo-use-example-r {
-  margin-left: 40px;
+@media (min-width: 768px) {
+  .logo-use-item.col-two .logo-use-text {
+    flex-basis: 60%;
+    padding-right: 40px;
+  }
+
+  .logo-use-examples {
+    display: flex;
+  }
+
+  .logo-use-example-r {
+    margin-left: 40px;
+  }
 }
