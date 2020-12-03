@@ -20,7 +20,7 @@
 }
 
 .brand-essentials.icons .hero {
-  background-image: url("img/icon-hero_Brand\ Essentials@2x.png");
+  background-color: #f2f2f2;
 }
 
 .brand-essentials .home-feature-item {
@@ -33,4 +33,10 @@
   padding: 0;
   background-color: transparent;
   border-radius: 60px;
+}
+
+@media (min-width: 768px) {
+  .brand-essentials.icons .hero {
+    background-image: url("img/icon-hero_Brand\ Essentials@2x.png");
+  }
 }

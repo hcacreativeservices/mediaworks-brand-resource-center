@@ -131,7 +131,7 @@ const designSubNav = `
 
 <div class="nav-item">
 <a
-  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_4077"
+  href="https://hcamediaworks.saepio.com/marketport/marketinghub.xhtml?go=openCategory_4108"
   class="nav-primary"
   >Designer resources</a
 >
@@ -256,13 +256,6 @@ const footerHTML = `
   <img src="../../img/logo.png" alt="HCA Logo" />
 </div>
 `;
-
-// ACTIVATE BELOW BEFORE LAUNCH
-
-// Insert nav items on all pages
-// if(document.getElementById('nav')) {
-//   document.getElementById('nav').innerHTML = navHTML;
-// }
 
 // insert designs sub nav on all designs pages
 if(document.getElementById('designsSubNav')) {
