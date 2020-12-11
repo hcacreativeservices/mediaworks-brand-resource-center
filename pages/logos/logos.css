@@ -13,10 +13,6 @@ img.logo-use-example,
   font-size: 14px;
 }
 
-.logos .section-title {
-  font-size: 20px;
-}
-
 .logos .page-right .our-logo {
   max-width: 225px;
   padding: 20px 0;
@@ -25,7 +21,6 @@ img.logo-use-example,
 
 img.logo-use-example {
   width: 560px;
-  margin-top: 20px;
 }
 
 .logo-use-caption {
@@ -33,15 +28,9 @@ img.logo-use-example {
   margin-top: 10px;
 }
 
-.logo-use-item.col-two {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .logo-use-item.col-two img {
   width: 276px;
   height: 155px;
-  margin-top: 40px;
 }
 
 .logo-use-examples img {

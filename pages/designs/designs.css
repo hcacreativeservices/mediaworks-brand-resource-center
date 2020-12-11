@@ -1,8 +1,3 @@
-.designs-block-img p,
-.guiding-principle-title {
-  font-family: "MarkBold", sans-serif;
-}
-
 .color-palette-details p,
 .page-content .photo-category a {
   font-size: 12px;
@@ -24,10 +19,8 @@
 .graphics-subnav .graphics-menu-item,
 .icons-subnav .icons-menu-item,
 .maps-subnav .maps-menu-item,
-.page-content .link-denim,
 .page-content .map-link,
 .patterns-subnav .patterns-menu-item,
-.photos-content a,
 .photos-subnav .photos-menu-item,
 .typography-subnav .typography-menu-item {
   color: #00558c;
@@ -50,7 +43,6 @@
   height: 150px;
 }
 
-.designs-block-img img,
 .digital-designs .col-two img,
 .graphic-shapes .col-two img,
 .icon-asset img,
@@ -78,49 +70,9 @@ img.graphic-shapes-examples,
   display: inline-block;
 }
 
-.color-contrast-orange,
-.color-palette,
-.color-palette-item,
-.icons-assets,
-.icons .hero,
-.maps-three-col,
-.photo-categories,
-.photo-category,
-.photo-grid {
-  display: flex;
-}
-
-.icons-assets,
-.maps-three-col,
-.photo-categories,
-.photo-grid {
-  flex-wrap: wrap;
-}
-
 .color-palette-item,
 .icons .hero {
   flex-direction: column;
-}
-
-.designs-block-img,
-.neutral-color-palette .color-palette-item,
-.pattern-example-item,
-.patterns-img {
-  flex-basis: 25%;
-}
-
-.font-example,
-.primary-color-palette .color-palette-item {
-  flex-basis: 33.3333%;
-}
-
-.clinical-photo-guideline,
-.designs-block-text,
-.designs-block .map-img,
-.guiding-principles,
-.icon-asset,
-.photo-category {
-  flex-basis: 50%;
 }
 
 .icons .hero,
@@ -131,11 +83,6 @@ img.graphic-shapes-examples,
 .page-content .photo-category a,
 .photos-content p.strong {
   margin-bottom: 0;
-}
-
-.page-content .map-link,
-.patterns .col-two {
-  margin-bottom: 40px;
 }
 
 .clinical-photo-guideline ul,
@@ -168,8 +115,13 @@ img.graphic-shapes-examples,
   list-style: disc;
 }
 
-.clinical-photo-guidelines {
-  margin-top: 40px;
+.digital-designs .col-two img,
+.graphic-shapes .col-two img,
+.patterns .col-two img,
+.pattern-example-item img,
+.photography .col-two img {
+  max-width: 100%;
+  height: auto;
 }
 
 .color-palette {
@@ -183,7 +135,6 @@ img.graphic-shapes-examples,
 
 .color-palette-name {
   font-size: 15px;
-  margin: 20px 0;
 }
 
 .color-palette-details p {
@@ -235,10 +186,8 @@ img.graphic-shapes-examples,
   background-color: #ffc845;
 }
 
-.color-palette.featured-img,
 .map.featured-img {
   margin-bottom: 50px;
-  margin-top: 20px;
 }
 
 .color-contrast-orange {
@@ -295,7 +244,6 @@ img.color-contrast-single {
 .photography .col-two .photos-text,
 .digital-designs .col-two .digital-designs-text {
   flex-basis: 55%;
-  padding-top: 20px;
 }
 
 .graphics-img,
@@ -349,20 +297,6 @@ img.graphic-shapes-examples {
 
 .map-type img {
   height: auto;
-  margin-bottom: 20px;
-}
-
-.page-right .mark-fonts-img {
-  border-bottom: 2px solid #898b8e;
-  margin-bottom: 60px;
-}
-
-.patterns-examples {
-  padding-top: 40px;
-}
-
-.photo-categories {
-  margin: 30px 0;
 }
 
 .photo-category {
@@ -372,35 +306,39 @@ img.graphic-shapes-examples {
   align-items: center;
 }
 
-.secondary-primary {
-  height: 20px;
-}
-
-.seperator {
-  margin: 40px 0;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #d9d9d6;
-}
-
 .pattern-example-item p {
   margin-top: 10px;
 }
 
 .patterns .col-two .patterns-text {
   flex-basis: 75%;
-  padding-top: 20px;
 }
 
-.patterns .col-two img,
-.pattern-example-item img,
-.graphic-shapes .col-two img,
-.photography .col-two img,
-.digital-designs .col-two img {
-  max-width: 100%;
-  height: auto;
+.secondary-primary {
+  height: 20px;
+}
+
+.seperator {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #d9d9d6;
 }
 
 @media (min-width: 768px) {
+  .clinical-photo-guidelines,
+  .digital-designs .col-two,
+  .graphic-shapes .col-two,
+  .photography .col-two,
+  .patterns .col-two,
+  .patterns-examples {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .designs-block {
+    display: flex;
+    margin-top: 40px;
+  }
+
   .guiding-principles-container {
     padding-right: 80px;
   }
@@ -420,20 +358,5 @@ img.graphic-shapes-examples {
   .maps-three-col .map-type,
   .photo-category {
     flex-basis: 33.3333%;
-  }
-
-  .designs-block {
-    display: flex;
-    margin-top: 40px;
-  }
-
-  .graphic-shapes .col-two,
-  .photography .col-two,
-  .patterns .col-two,
-  .digital-designs .col-two,
-  .patterns-examples,
-  .clinical-photo-guidelines {
-    display: flex;
-    flex-wrap: wrap;
   }
 }

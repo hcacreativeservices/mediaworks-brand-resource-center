@@ -1,7 +1,6 @@
 table,
 ul,
 .lexicon-block-title,
-.section-title,
 .talking-brand,
 .talking-to-payers,
 .word-examples {
@@ -57,19 +56,10 @@ li,
   vertical-align: top;
 }
 
-.columns-2,
-.mission-guideline {
-  display: flex;
-}
-
 .lexicon-block-title {
   font-size: 22px;
   margin-bottom: 15px;
   padding-top: 30px;
-}
-
-.mission-guidelines {
-  margin: 20px 0;
 }
 
 .mission-guideline {
@@ -88,11 +78,6 @@ li,
 
 .proof-points {
   color: #707070;
-}
-
-.section-title {
-  font-size: 22px;
-  margin-bottom: 20px;
 }
 
 .sidebar-left {

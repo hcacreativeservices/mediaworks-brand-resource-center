@@ -4,18 +4,12 @@
   color: #00558c;
 }
 
-.toolkit-items,
-.toolkit .hero {
-  display: flex;
-}
-
 .toolkit .hero h2,
 .toolkit .hero p {
   max-width: 275px;
 }
 
 .toolkit-items {
-  flex-wrap: wrap;
   padding-top: 30px;
 }
 

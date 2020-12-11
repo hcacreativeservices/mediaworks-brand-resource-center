@@ -6,21 +6,9 @@
   color: #00558c;
 }
 
-.brand-outcomes-items,
-.outcomes-item-img,
-.cobranding-item,
-.vertical-lockups {
-  display: flex;
-}
-
 .architecture-process-img,
 .cobranding-item-img img {
   max-width: 100%;
-}
-
-.cobranding-item-img img,
-.outcomes-item img {
-  width: 100%;
 }
 
 ul {
@@ -29,10 +17,6 @@ ul {
 
 .architecture-process-img {
   padding: 20px;
-}
-
-.brand-outcomes-items {
-  flex-wrap: wrap;
 }
 
 .cobranding .digital-designs-img {
@@ -49,7 +33,6 @@ ul {
 }
 
 .cobranding-item-img {
-  flex-basis: 25%;
   padding-right: 30px;
 }
 
@@ -69,13 +52,16 @@ ul {
 }
 
 .external-partnerships .designs-block-text img {
-  margin-top: 40px;
   max-width: 330px;
 }
 
 .external-partnerships .featured-text {
   background-color: #f7f7f6;
   padding: 20px 80px;
+}
+
+.external-partner-logo {
+  max-width: 450px;
 }
 
 .outcomes-item {
@@ -99,6 +85,10 @@ ul {
 @media (min-width: 768px) {
   .external-partnerships .designs-block-text {
     width: 50%;
+  }
+
+  .external-partnerships .flex-b-50 {
+    padding-right: 40px;
   }
 
   .outcomes-item {
