@@ -54,6 +54,10 @@ h2 {
   margin: 0;
 }
 
+#nav {
+  display: none;
+}
+
 #nav a,
 .subnav a {
   color: #75767a;
@@ -61,6 +65,7 @@ h2 {
 
 #nav a.active,
 #nav a:hover,
+.navbar-light .navbar-nav .nav-link,
 .page-content .sidebar-category .active-primary,
 .page-content a:hover,
 .page-content a,
@@ -120,7 +125,6 @@ h2 {
 .d-flex,
 .footer,
 .footer-logo,
-#nav,
 #nav ul,
 .subnav {
   display: flex;
@@ -250,6 +254,28 @@ h2 {
   padding-bottom: 15px;
 }
 
+.navbar-brand img {
+  width: 80px;
+}
+
+.navbar-light .navbar-toggler {
+  border: 0;
+}
+
+.bs-override .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(3, 23, 62, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-link {
+  border-bottom: 1px solid #bbbcbc;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #03173e;
+}
+
 .page-content {
   padding: 60px 0;
 }
@@ -299,8 +325,16 @@ h2 {
     top: 0;
   }
 
+  #nav {
+    display: flex;
+  }
+
   #nav .nav-item {
     padding-right: 45px;
+  }
+
+  .navbar {
+    display: none;
   }
 
   .page-content {
