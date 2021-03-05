@@ -65,7 +65,7 @@ h2 {
 
 #nav a.active,
 #nav a:hover,
-.navbar-light .navbar-nav .nav-link,
+.bs-override .navbar-light .navbar-nav .nav-link,
 .page-content .sidebar-category .active-primary,
 .page-content a:hover,
 .page-content a,
@@ -126,12 +126,14 @@ h2 {
 .footer,
 .footer-logo,
 #nav ul,
+.sidebar-left .accordion,
 .subnav {
   display: flex;
 }
 
 .flex-wrap,
 #nav,
+.sidebar-left .accordion,
 .subnav {
   flex-wrap: wrap;
 }
@@ -276,10 +278,6 @@ h2 {
   color: #03173e;
 }
 
-.page-content {
-  padding: 60px 0;
-}
-
 .page-right h1 {
   color: #03173e;
   font-size: 34px;
@@ -301,7 +299,17 @@ h2 {
 
 .sidebar-category {
   border: 0;
-  padding: 6px 0;
+  flex-basis: 50%;
+  padding: 4px 10px;
+}
+
+.sidebar-left {
+  background-color: rgba(217, 217, 214, 0.3);
+  margin-bottom: 20px;
+}
+
+.sidebar-left .accordion {
+  padding: 15px 0;
 }
 
 .sidebar-left li {
@@ -333,19 +341,30 @@ h2 {
     padding-right: 45px;
   }
 
-  .navbar {
+  .bs-override .navbar {
     display: none;
   }
 
   .page-content {
     display: flex;
+    padding: 60px 0;
   }
 
   .page-right {
     width: 75%;
   }
 
+  .sidebar-category {
+    padding: 6px 0;
+  }
+
   .sidebar-left {
+    background-color: #fff;
     width: 25%;
+  }
+
+  .sidebar-left .accordion {
+    display: block;
+    padding: 0;
   }
 }

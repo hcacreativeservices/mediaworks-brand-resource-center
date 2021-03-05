@@ -80,10 +80,6 @@ li,
   color: #707070;
 }
 
-.sidebar-left {
-  padding-right: 40px;
-}
-
 .talking-brand {
   list-style: initial;
   padding-left: 20px;
@@ -132,4 +128,10 @@ li,
 
 .word-suggestions .row-1 td {
   padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .sidebar-left {
+    padding-right: 40px;
+  }
 }
