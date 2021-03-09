@@ -262,9 +262,23 @@ if(document.getElementById('designsSubNav')) {
   document.getElementById('designsSubNav').innerHTML = designSubNav;
 }
 
+if(document.getElementById('designsSubNavMobile')) {
+  document.getElementById('designsSubNavMobile').innerHTML = `
+  <a class="nav-item nav-link close-subnav" href="#">> Return to Main Menu</a>
+  <p>Design System</p>
+  ` + designSubNav;;
+}
+
 // insert templates subnav on all templates pages
 if(document.getElementById('templatesSubNav')) {
   document.getElementById('templatesSubNav').innerHTML = templatesSubNav;
+}
+
+if(document.getElementById('templatesSubNavMobile')) {
+  document.getElementById('templatesSubNavMobile').innerHTML = `
+  <a class="nav-item nav-link close-subnav" href="#">> Return to Main Menu</a>
+  <p>Templates</p>
+  ` + templatesSubNav;;
 }
 
 // insert Brand Architecture subnav on all BA pages
@@ -272,11 +286,37 @@ if(document.getElementById('BrandArchitectureSubNav')) {
   document.getElementById('BrandArchitectureSubNav').innerHTML = BrandArchitectureSubNav;
 }
 
+if(document.getElementById('brandArchitectureSubNavMobile')) {
+  document.getElementById('brandArchitectureSubNavMobile').innerHTML = `
+  <a class="nav-item nav-link close-subnav" href="#">> Return to Main Menu</a>
+  <p>Brand Architecture</p>
+  ` + BrandArchitectureSubNav;;
+}
+
 // insert Brand Essentials subnav on all BE pages
 if(document.getElementById('BrandEssentialsSubNav')) {
   document.getElementById('BrandEssentialsSubNav').innerHTML = brandEssentialsSubNav;
 }
 
+if(document.getElementById('brandEssentialsSubNavMobile')) {
+  document.getElementById('brandEssentialsSubNavMobile').innerHTML = `
+  <a class="nav-item nav-link close-subnav" href="#">> Return to Main Menu</a>
+  <p>Brand Essentials</p>
+  ` + brandEssentialsSubNav;;
+}
+
 //insert footer content on all pages
 document.getElementById('footer').innerHTML = footerHTML;
 
+$(document).ready(function(e) {
+
+  $('.nav-link').click(function() {
+    if($(this).siblings().hasClass('subnav-mobile')) {
+      $(this).siblings().css({'display': 'block'} )
+    }
+
+    if($(this).hasClass('close-subnav')) {
+      $('.subnav-mobile').css('display', 'none');
+    }
+  });
+});
