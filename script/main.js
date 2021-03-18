@@ -302,15 +302,20 @@ if(document.getElementById('brandEssentialsSubNavMobile')) {
   document.getElementById('brandEssentialsSubNavMobile').innerHTML = `
   <a class="nav-item nav-link close-subnav" href="#">> Return to Main Menu</a>
   <p>Brand Essentials</p>
-  ` + brandEssentialsSubNav;;
+  ` + brandEssentialsSubNav;
 }
 
 //insert footer content on all pages
-document.getElementById('footer').innerHTML = footerHTML;
+if(document.getElementById('footer')) {
+  document.getElementById('footer').innerHTML = footerHTML;
+}
+
+// toggle subnav items on click
 
 $(document).ready(function(e) {
 
-  $('.nav-link').click(function() {
+  $(document).on("click", ".nav-link", function(e) {
+    console.log('click');
     if($(this).siblings().hasClass('subnav-mobile')) {
       $(this).siblings().css({'display': 'block'} )
     }
@@ -318,5 +323,5 @@ $(document).ready(function(e) {
     if($(this).hasClass('close-subnav')) {
       $('.subnav-mobile').css('display', 'none');
     }
-  });
+  })
 });
