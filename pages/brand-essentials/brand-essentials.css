@@ -1,14 +1,15 @@
-.brand-training-subnav .brand-training-menu-item {
-  color: #00558c;
-}
-
-.brand-training-text {
-  flex-basis: 35%;
+.brand-training-content {
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
 }
 
 .brand-training-img {
-  flex-basis: 65%;
-  padding-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.brand-training-subnav .brand-training-menu-item {
+  color: #00558c;
 }
 
 .brand-essentials.icons .hero {
@@ -26,5 +27,19 @@
 @media (min-width: 768px) {
   .brand-essentials.icons .hero {
     background-image: url("img/icon-hero_Brand\ Essentials@2x.png");
+  }
+
+  .brand-training-content {
+    flex-direction: row;
+  }
+
+  .brand-training-text {
+    flex-basis: 35%;
+  }
+
+  .brand-training-img {
+    flex-basis: 65%;
+    margin-top: 0;
+    padding-left: 40px;
   }
 }
