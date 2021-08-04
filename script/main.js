@@ -248,7 +248,7 @@ const footerHTML = `
 <div class="footer-content">
   <p>
     Questions? Concerns?
-    <a href="https://hca.my.workfront.com/requests?projectID=5e3c40b6004eeffdfc20ed48ebe73067&path=&activeTab=tab-new-helpRequest">Ask Brand.</a>
+    <a href="https://hcahealthcare.com/askbrand">Ask Brand.</a>
   </p>
 </div>
 
@@ -315,7 +315,6 @@ if(document.getElementById('footer')) {
 $(document).ready(function(e) {
 
   $(document).on("click", ".nav-link", function(e) {
-    console.log('click');
     if($(this).siblings().hasClass('subnav-mobile')) {
       $(this).siblings().css({'display': 'block'} )
     }
