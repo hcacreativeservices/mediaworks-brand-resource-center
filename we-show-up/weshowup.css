@@ -17,3 +17,18 @@
 .we-show-up .hero {
   background-image: url("img/we\ show\ up\ banner\ copy@2x.png");
 }
+
+.we-show-up .d-flex {
+  flex-wrap: wrap;
+}
+
+.we-show-up .d-flex a {
+  background-color: #f5f5f5;
+  color: #03173e;
+  font-family: "MarkHeavy", sans-serif;
+  border-bottom: 20px solid #fff;
+  border-right: 20px solid #fff;
+  padding: 20px;
+  flex-basis: 33.3333%;
+  text-align: center;
+}
