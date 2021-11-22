@@ -1,0 +1,19 @@
+.we-show-up h1 {
+  color: #e05929;
+  font-size: 32px;
+  margin: 40px 0;
+}
+
+.we-show-up h2 {
+  color: #03173e;
+  font-size: 22px;
+}
+
+.we-show-up p {
+  color: #58595b;
+  font-size: 14px;
+}
+
+.we-show-up .hero {
+  background-image: url("img/we\ show\ up\ banner\ copy@2x.png");
+}
