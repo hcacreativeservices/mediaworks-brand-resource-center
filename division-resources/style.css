@@ -42,9 +42,9 @@
     width: 60px;
 }
 
-.resource li {
+.resource li * {
     color: #58595B;
-    font-family: "MarkBold", sans-serif;
+    font-family: "MarkBold", sans-serif !important;
 }
 
 .resource ul {
