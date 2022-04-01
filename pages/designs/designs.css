@@ -181,6 +181,14 @@ img.graphic-shapes-examples,
   background-color: #ffc845;
 }
 
+.color-palette-color.tristar-blue {
+  background-color: #004990;
+}
+
+.color-palette-color.tristar-red {
+  background-color: #EF3E42;
+}
+
 .map.featured-img {
   margin-bottom: 50px;
 }
