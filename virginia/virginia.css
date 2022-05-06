@@ -54,7 +54,7 @@ p {
 }
 
 .mw-750 *{
-    margin: 0 auto;
+    margin: 0 auto !important;
     max-width: 750px;
 }
 

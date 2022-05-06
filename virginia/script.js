@@ -1,92 +1,41 @@
 let ourPeopleBtn = document.querySelector('#ourPeople');
 let ourCareBtn = document.querySelector('#ourCare');
 let ourImpactBtn = document.querySelector('#ourImpact');
-
+let networkBtns = document.querySelectorAll('.network-items .btn');
+let activeBtn = document.querySelectorAll('.network-items .btn.active');
+let activesection = document.querySelectorAll('.network-item.active');
 let ourPeopleSection = document.querySelector('.our-people');
 let ourCareSection = document.querySelector('.our-care');
 let ourImpactSection = document.querySelector('.our-impact');
 
 // Click button
+for (var i=0; i < networkBtns.length; i++) {
+    networkBtns[i].addEventListener('click', function() {
+        // set current active elements
+        activeBtn = document.querySelectorAll('.network-items .btn.active');
+        activesection = document.querySelectorAll('.network-item.active');
 
-ourPeopleBtn.onclick = () => {
-    // if button is not active
-    if(!ourPeopleBtn.classList.contains('active')) {
-        // check other buttons for active and remove
-        if(ourCareBtn.classList.contains('active')) {
-            ourCareBtn.classList.remove('active');
-        } else if(ourImpactBtn.classList.contains('active')) {
-            ourImpactBtn.classList.remove('active');
+        // if this element is not active
+        if(!this.classList.contains('active')) {
+            // remove current active button
+            activeBtn[0].classList.remove('active');
+            // set this as active
+            this.classList.add('active');
+            // remove current active section
+            activesection[0].classList.remove('active');
         }
 
-        // add active class
-        ourPeopleBtn.classList.add('active');
-
-        // remove active class from below section and add to matching section
-        if(!ourPeopleSection.classList.contains('active')) {
-            if(ourCareSection.classList.contains('active')) {
-                ourCareSection.classList.remove('active');
-            } else if(ourImpactSection.classList.contains('active')) {
-                ourImpactSection.classList.remove('active');
-            }
-
+        // set active section to match active button
+        if(ourPeopleBtn.classList.contains('active')) {
             ourPeopleSection.classList.add('active');
         }
-    }
-}
 
-ourCareBtn.onclick = () => {
-    if(!ourCareBtn.classList.contains('active')) {
-
-        // check other buttons for active and remove
-        if(ourPeopleBtn.classList.contains('active')) {
-            ourPeopleBtn.classList.remove('active');
-        } else if(ourImpactBtn.classList.contains('active')) {
-            ourImpactBtn.classList.remove('active');
-        }
-
-        ourCareBtn.classList.add('active');
-
-        // remove active class from below section and add to matching section
-        if(!ourCareSection.classList.contains('active')) {
-            if(ourPeopleSection.classList.contains('active')) {
-                ourPeopleSection.classList.remove('active');
-            } else if(ourImpactSection.classList.contains('active')) {
-                ourImpactSection.classList.remove('active');
-            }
-
+        if(ourCareBtn.classList.contains('active')) {
             ourCareSection.classList.add('active');
         }
-    }
-}
 
-ourImpactBtn.onclick = () => {
-    if(!ourImpactBtn.classList.contains('active')) {
-
-        // check other buttons for active and remove
-        if(ourCareBtn.classList.contains('active')) {
-            ourCareBtn.classList.remove('active');
-        } else if(ourPeopleBtn.classList.contains('active')) {
-            ourPeopleBtn.classList.remove('active');
-        }
-
-        ourImpactBtn.classList.add('active');
-
-        // remove active class from below section and add to matching section
-        if(!ourImpactSection.classList.contains('active')) {
-            if(ourCareSection.classList.contains('active')) {
-                ourCareSection.classList.remove('active');
-            } else if(ourPeopleSection.classList.contains('active')) {
-                ourPeopleSection.classList.remove('active');
-            }
-
+        if(ourImpactBtn.classList.contains('active')) {
             ourImpactSection.classList.add('active');
         }
-    }
+    })
 }
-
-
-// If active, do nothing
-
-// If not active, remove active from other button and add to this one...
-
-// ...then do the same for matching section
