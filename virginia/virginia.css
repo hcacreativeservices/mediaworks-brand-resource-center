@@ -1,6 +1,109 @@
+@font-face {
+    font-family: "MarkBook";
+    src: url("../style/fonts/mark-book.woff");
+  }
+  
+  @font-face {
+    font-family: "MarkBold";
+    src: url("../style/fonts/mark-bold.woff");
+  }
+
+  @font-face {
+    font-family: "MarkHeavy";
+    src: url("fonts/mark-heavy.woff");
+  }
+
+* {
+    font-family: 'MarkBook';
+}
+
+h2,
+a,
+strong,
+.btn p {
+    font-family: 'MarkBold' !important;
+}
+
+.bs-override h2 {
+    color: #082340;
+    font-size: 28px;
+    padding-bottom: 15px;
+}
+
+p {
+    color: #58595B;
+    padding: 15px 0;
+}
+
+.bs-override .bg-light {
+    background-color: #f7f7f7 !important;
+}
+
+.btn p {
+    color: #082340;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
 .hero {
     background-image: url(./img/VAInternalPageHeader.jpg);
     min-height: 400px;
     background-position: center;
     background-size: cover;
+}
+
+.mw-750 *{
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.network-item {
+    display: none;
+}
+
+.network-item.active {
+    display: block;
+}
+
+.network-items {
+    justify-content: center;
+}
+
+.network-items .btn {
+    border: 3px solid #082340;
+    border-radius: 1px;
+    margin: 0 20px;
+    max-width: 200px;
+    transition: all .3s ease-in-out;
+}
+
+.network-items .btn:hover {
+    background-color: #082340;
+}
+
+.network-items .btn:hover p {
+    color: #fff;
+}
+
+.network-items .btn.active {
+    background-color: #082340;
+}
+
+.network-items .btn.active p {
+    color: #fff;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+@media (min-width: 992px) {
+    .commitment {
+        flex-direction: row-reverse;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
 }
