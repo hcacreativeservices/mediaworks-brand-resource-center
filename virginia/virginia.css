@@ -10,7 +10,7 @@
 
   @font-face {
     font-family: "MarkHeavy";
-    src: url("fonts/mark-heavy.woff");
+    src: url("../style/fonts/mark-heavy.woff");
   }
 
 * {
@@ -24,13 +24,22 @@ strong,
     font-family: 'MarkBold' !important;
 }
 
+.number {
+    font-family: 'MarkHeavy';
+}
+
+.bs-override a {
+    color: #E65925;
+}
+
 .bs-override h2 {
     color: #082340;
     font-size: 28px;
     padding-bottom: 15px;
 }
 
-p {
+p,
+li {
     color: #58595B;
     padding: 15px 0;
 }
@@ -46,11 +55,25 @@ p {
     padding: 0;
 }
 
+.bg-gradient {
+    background: rgb(40,111,183);
+    background: linear-gradient(270deg, rgba(40,111,183,1) 0%, rgba(40,111,183,1) 0%, rgba(8,35,64,1) 100%);
+}
+
+.bg-gradient h2 {
+    color: #fff;
+}
+
 .hero {
     background-image: url(./img/VAInternalPageHeader.jpg);
     min-height: 400px;
     background-position: center;
     background-size: cover;
+}
+
+.map-img {
+    max-width: 1000px !important;
+    padding: 40px;
 }
 
 .mw-750 *{
@@ -92,6 +115,12 @@ p {
 
 .network-items .btn.active p {
     color: #fff;
+}
+
+.number {
+    color: #E65925;
+    font-size: 32px;
+    padding: 10px 0 0;
 }
 
 .section {
