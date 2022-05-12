@@ -66,13 +66,13 @@ li {
 
 .hero {
     background-image: url(./img/VAInternalPageHeader.jpg);
-    min-height: 400px;
+    min-height: 260px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .map-img {
-    max-width: 1000px !important;
     padding: 40px;
 }
 
@@ -87,6 +87,14 @@ li {
 
 .network-item.active {
     display: block;
+}
+
+.network-item p {
+    padding: 0;
+}
+
+.network-item .col-6 {
+    padding-bottom: 40px;
 }
 
 .network-items {
@@ -120,11 +128,18 @@ li {
 .number {
     color: #E65925;
     font-size: 32px;
-    padding: 10px 0 0;
+    padding: 10px 0 5px;
 }
 
 .section {
     padding: 40px 0;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        min-height: 400px;
+        background-size: cover;
+    }
 }
 
 @media (min-width: 992px) {
@@ -134,5 +149,11 @@ li {
 
     .section {
         padding: 60px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .map-img {
+        max-width: 1000px !important;
     }
 }
