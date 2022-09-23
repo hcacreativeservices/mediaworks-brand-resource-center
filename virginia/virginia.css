@@ -131,6 +131,10 @@ li {
     padding: 10px 0 5px;
 }
 
+.row.commitment {
+    padding: 0 15px;
+}
+
 .section {
     padding: 40px 0;
 }
