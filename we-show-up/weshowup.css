@@ -14,8 +14,12 @@
   font-size: 14px;
 }
 
+.we-show-up p a {
+  color: #03173e;
+}
+
 .we-show-up .hero {
-  background-image: url("./img/nurse_huddle.png");
+  background-image: url("./img/Reputation-WeShowUp-MediaWorks-2000x684.jpg");
   height: 342px;
 }
 
