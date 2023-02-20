@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "MarkBold";
+    src: url("fonts/mark-bold.woff");
+}
+
+@font-face {
+    font-family: "MarkBook";
+    src: url("fonts/mark-book.woff");
+}
+
+h1,
+.btn a {
+    font-family: "MarkBold", sans-serif;
+}
+
+a,
+p {
+    font-family: "MarkBook", sans-serif;
+}
+
+a {
+    color: #00558C;
+}
+
+p {
+    color: #515969;
+}
+
+.btn {
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    border: 3px solid #03173e;
+}
+
+.btn-primary a {
+    color: #03173e;
+}
+
+.btn-secondary {
+    border: 3px solid #E45831;
+}
+
+.btn-secondary a {
+    color: #E45831;
+}
+
+.faq-link {
+    font-size: 14px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.faq-link p {
+    margin-bottom: 0;
+}
+
+.header h1 {
+    color: #03173e;
+    font-size: 55px;
+}
+
+.header,
+.top-links {
+    align-items: center;
+}
