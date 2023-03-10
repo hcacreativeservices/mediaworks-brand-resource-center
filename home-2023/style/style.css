@@ -110,14 +110,22 @@ h2 {
     align-items: center;
     background-color: #fff;
     border: 10px solid rgba(217, 217, 214, 0.3);
-    padding: 40px;
     align-content: center;
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+}
+
+.brand a {
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 .brand img {
-    margin-bottom: 20px;
+    padding: 15px;
     width: 100%;
 }
 
