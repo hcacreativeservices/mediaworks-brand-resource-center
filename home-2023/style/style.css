@@ -60,6 +60,10 @@ h2 {
     padding: 20px;
 }
 
+.border-right {
+    display: none;
+}
+
 .btn {
     background-color: #fff;
     margin: 0 10px;
@@ -308,6 +312,27 @@ h2 {
 @media (min-width: 768px) {
     .additional-resource p {
         font-size: 14px;
+    }
+
+    .border-right {
+        display: block;
+        position: absolute;
+        width: 100%;
+        border-bottom: 2px solid #BBBCBC;
+        bottom: 25px;
+        z-index: 1;
+    }
+
+    .col {
+        position: relative;
+    }
+
+    .col h2 {
+        display: inline-block;
+        background-color: #fff;
+        z-index: 2;
+        position: relative;
+        padding-right: 15px;
     }
 
     .header h1 {
