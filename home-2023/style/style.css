@@ -16,7 +16,8 @@
 h1,
 h2,
 .btn a,
-.category .cat-title p {
+.category .cat-title p,
+.additional-resource a {
     font-family: "MarkBold", sans-serif;
 }
 
@@ -35,6 +36,28 @@ p {
 
 h2 {
     color: #03173e;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.additional-resources {
+    margin-bottom: 40px;
+}
+
+.additional-resource {
+    padding: 20px;
+    text-align: center;
+}
+
+.additional-resource a {
+    color: #00558C;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.additional-resource img {
+    padding: 20px;
 }
 
 .btn {
@@ -157,7 +180,7 @@ h2 {
 }
 
 .cat-title p {
-    color: #515969;
+    color: #03173e;
     font-size: 18px;
     line-height: 1.3;
     margin-bottom: 0;
@@ -213,8 +236,8 @@ h2 {
 
 .faq-link {
     font-size: 14px;
-    margin-right: 10px;
     text-align: right;
+    padding-top: 10px;
 }
 
 .faq-link p {
@@ -243,12 +266,20 @@ h2 {
     min-height: 60px;
 }
 
+.main-categories {
+    margin-bottom: 40px;
+}
+
 .main-categories .cat-title {
     border: 3px solid #E45831;
 }
 
 .main-categories h2 {
     margin-bottom: 20px;
+}
+
+.mw-graphic {
+    max-width: 400px;
 }
 
 .secondary-categories {
@@ -266,16 +297,32 @@ h2 {
     background-color: #03173e;
 }
 
-.top-links .btn {
-    border: 3px solid #515969;
+.title-container {
+    padding-bottom: 20px;
 }
 
-.top-links .btn:hover {
-    background-color: #515969;
+.top-links {
+    padding-top: 20px;
 }
 
 @media (min-width: 768px) {
+    .additional-resource p {
+        font-size: 14px;
+    }
+
     .header h1 {
         text-align: left;
+    }
+
+    .intro-content {
+        padding-right: 60px;
+    }
+
+    .templates-img {
+        padding: 20px 40px 45px !important;
+    }
+
+    .division-asset-img {
+        padding: 20px 60px !important;
     }
 }
