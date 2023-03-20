@@ -17,7 +17,7 @@ h1,
 h2,
 .btn a,
 .category .cat-title p,
-.additional-resource a {
+.additional-resource a p {
     font-family: "MarkBold", sans-serif;
 }
 
@@ -50,10 +50,13 @@ h2 {
 }
 
 .additional-resource a {
+    text-decoration: none;
+}
+
+.additional-resource a p {
     color: #00558C;
     font-size: 18px;
     margin-bottom: 20px;
-    text-decoration: none;
 }
 
 .additional-resource img {
@@ -275,7 +278,9 @@ h2 {
 }
 
 .main-categories .cat-title {
-    border: 3px solid #E45831;
+    border: 3px solid #fff;
+    background-color: rgba(217, 217, 214, 0.2);
+    border-radius: 6px;
 }
 
 .main-categories h2 {
