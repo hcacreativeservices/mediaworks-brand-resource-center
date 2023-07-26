@@ -17,12 +17,17 @@ h1,
 h2,
 .btn a,
 .category .cat-title p,
-.additional-resource a p {
+.additional-resource a p,
+.surgery-ventures h2,
+.surgery-ventures .emphasis,
+.surgery-ventures .cat-title .title {
     font-family: "MarkBold", sans-serif;
 }
 
 a,
-p {
+p,
+.surgery-ventures h1,
+.surgery-ventures .cat-title p {
     font-family: "MarkBook", sans-serif;
 }
 
@@ -314,6 +319,64 @@ h2 {
     padding-top: 20px;
 }
 
+/* SURGERY VENTURES */
+
+.surgery-ventures h1,
+.surgery-ventures .intro-content p {
+    color: #fff;
+}
+
+.surgery-ventures h1,
+.surgery-ventures h2 {
+    font-size: 36px;
+}
+
+.surgery-ventures h2 {
+    color: #1480C0;
+    background: none !important;
+}
+
+.surgery-ventures .intro-content {
+    background-color: #03173E;
+    padding: 40px 60px 40px 20px;
+}
+
+.surgery-ventures .intro-content p {
+    font-size: 14px;
+}
+
+.surgery-ventures .intro-content p.emphasis {
+    font-size: 16px;
+}
+
+.surgery-ventures .cat-title p {
+    color: #595A5C;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.surgery-ventures .cat-title .title,
+.surgery-ventures .category a:hover .title {
+    color: #03173E;
+}
+
+.surgery-ventures .category a:hover .cat-title {
+    background-color: rgba(217, 217, 214, 0.2) !important;
+}
+
+.surgery-ventures .category a:hover p {
+    color: #595A5C;
+}
+
+.surgery-ventures .header h1 {
+    text-align: left;
+}
+
+.surgery-ventures .mw-graphic {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .additional-resource p {
         font-size: 14px;
@@ -354,5 +417,16 @@ h2 {
 
     .division-asset-img {
         padding: 20px 60px !important;
+    }
+
+    /* SURGERY VENTURES */
+
+    .surgery-ventures .mw-graphic {
+        max-width: 350px;
+        margin-left: -50px;
+    }
+
+    .surgery-ventures .mw-graphic {
+        display: block;
     }
 }
