@@ -159,6 +159,10 @@ h2 {
     width: 100%;
 }
 
+.brand.col-md-3 a {
+    padding: 15px;
+}
+
 .brand img {
     padding: 15px;
     width: 100%;
