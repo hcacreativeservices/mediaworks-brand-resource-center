@@ -381,6 +381,14 @@ h2 {
     display: none;
 }
 
+.top-callout {
+    color: #03173e;
+    font-family: "MarkBold", sans-serif;
+    max-width: 800px;
+    margin: 0;
+    padding: 20px;
+}
+
 @media (min-width: 768px) {
     .additional-resource p {
         font-size: 14px;
