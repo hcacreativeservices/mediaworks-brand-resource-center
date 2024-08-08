@@ -18,14 +18,14 @@
   color: #03173e;
 }
 
-.show-love-hero {
-    background-image: url("./img/showloveimg.jpg");
-    height: 342px;
-}
-
 .we-show-up .hero {
   background-image: url("./img/23HCAC085_CorporateReputation_MWHeader_1990x680_Wheelchair.png");
   height: 342px;
+}
+
+.show-love-hero {
+    background-image: url("./img/showloveimg.jpg") !important;
+    height: 342px;
 }
 
 .we-show-up .d-flex {
