@@ -315,6 +315,12 @@ h2 {
     background-color: #03173e;
 }
 
+.support-troubleshoot-link {
+    color: #03173e;
+    margin-top: 10px;
+    font-style: italic;
+}
+
 .title-container {
     padding-bottom: 20px;
 }
