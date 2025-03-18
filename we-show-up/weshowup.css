@@ -43,3 +43,10 @@
   flex-basis: 33.3333%;
   text-align: center;
 }
+
+.row img {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+}
