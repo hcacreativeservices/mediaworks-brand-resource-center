@@ -1,3 +1,8 @@
+.bs-override .container {
+    max-width: 1028px;
+    margin: 0 auto;
+  }
+
 .we-show-up h1 {
   color: #e05929;
   font-size: 32px;
